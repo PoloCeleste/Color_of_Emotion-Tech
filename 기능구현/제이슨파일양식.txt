@@ -1,0 +1,51 @@
+{
+            "adult": false,
+            "backdrop_path": "/1wP1phHo2CROOqzv7Azs0MT5esU.jpg",
+            "genre_ids": [
+                16,
+                35,
+                10751,
+                12,
+                28
+            ],
+            "id": 748783,
+            "original_language": "en",
+            "original_title": "The Garfield Movie",
+            "overview": "세상귀찮 집냥이, 바쁘고 험난한 세상에 던져졌다! 집사 ‘존’과 반려견 ‘오디’를 기르며 평화로운 나날을 보내던 집냥이 ‘가필드’. 어느 날, 험악한 길냥이 무리에게 납치당해 냉혹한 거리로 던져진다. 돌봐주는 집사가 없는 집 밖 세상은 너무나도 정신없게 돌아가고 길에서 우연히 다시 만난 아빠 길냥이 ‘빅’은 오히려 ‘가필드’를 위기에 빠지게 하는데… 험난한 세상, 살아남아야 한다!",
+            "popularity": 305.247,
+            "poster_path": "/57g3pHYi3p0JNVO1LkcyYbeMDBf.jpg",
+            "release_date": "2024-04-30",
+            "title": "가필드 더 무비",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 1079
+
+        }
+
+{
+	"title": "가필드 더 무비",
+	"original_title": "The Garfield Movie",
+  	"release_date": "2024-04-30",
+	"original_language": "en",
+	스트리밍 사이트 
+	"id": 748783,
+	"genre_ids": [
+                16,
+                35,
+                10751,
+                12,
+                28
+         ],
+	"overview": "세상귀찮 집냥이, 바쁘고 험난한 세상에 던져졌다! 
+    집사 ‘존’과 반려견 ‘오디’를 기르며 평화로운 나날을 보내던 집냥이 
+    ‘가필드’. 어느 날, 험악한 길냥이 무리에게 납치당해 냉혹한 거리로 던져진다. 
+    돌봐주는 집사가 없는 집 밖 세상은 너무나도 정신없게 돌아가고 길에서 우연히 
+    다시 만난 아빠 길냥이 ‘빅’은 오히려 ‘가필드’를 위기에 빠지게 하는데… 
+    험난한 세상, 살아남아야 한다!",
+
+	
+
+	
+}
+
+]
