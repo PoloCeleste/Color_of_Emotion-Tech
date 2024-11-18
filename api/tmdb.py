@@ -8,8 +8,7 @@ headers = {
     "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMzdmZmQwODVkMjk5Y2NkOTQ3MmRkOWQ5N2NlZjFiNCIsIm5iZiI6MTczMTkxMDY4My4wMTkwMDk2LCJzdWIiOiI2NzJhMzNhZjE0ZDRhMzk5NzIwMzU2MDgiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.N8hx1t0qh5wZtGn7HktjxlYMbpk_pRso_AH603WrH1k"
 }
 
-url = "https://api.themoviedb.org/3/discover/movie"
-
+popular_url = "https://api.themoviedb.org/3/discover/movie"
 
 
 for i in range(1, 51):
@@ -23,6 +22,9 @@ for i in range(1, 51):
         'vote_count.gte':300,
     }
 
-results += requests.get(url, headers=headers, params=params).json()['results']
+    responses = requests.get(popular_url, headers=headers, params=params).json()['results']
+
+    for response in responses:
+        pass
 
 pprint(results)
