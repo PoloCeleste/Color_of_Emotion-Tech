@@ -21,7 +21,112 @@ Kuhbandner and Pekrun (2013)의 연구3:
 이는 향후 추가 연구가 필요한 영역입니다. 또한, 색상과 감정의 연관성은 문화적 차이와 
 개인적 경험에 따라 달라질 수 있음을 유의해야 합니다2.
 '''
+import matplotlib.pyplot as plt
+import numpy as np
 
+# RGB값 두 배열 사이의 유클리드 거리를 계산하는 함수
+def calculate_distance(color1, color2):
+    return np.sqrt(sum((c1 - c2) ** 2 for c1, c2 in zip(color1, color2)))
+
+# RGB 값을 HEX 코드로 변환하는 함수
+def rgb_to_hex(rgb):
+    return '#{:02x}{:02x}{:02x}'.format(rgb[0], rgb[1], rgb[2])
+
+# 제공된 색상 팔레트와 해당 감정
+color_palette = {
+    'Joy': (255, 255, 0),
+    'Sadness': (0, 0, 139),
+    'Anger': (255, 0, 0),
+    'Embarrassment': (255, 165, 0),
+    'Anxiety': (128, 0, 128),
+    'Pain': (165, 42, 42),
+    'Joy + Sadness': (0, 255, 255),
+    'Joy + Anger': (255, 165, 0),
+    'Joy + Embarrassment': (255, 218, 185),
+    'Joy + Anxiety': (144, 238, 144),
+    'Joy + Pain': (255, 182, 193),
+    'Sadness + Anger': (128, 0, 128),
+    'Sadness + Embarrassment': (128, 128, 128),
+    'Sadness + Anxiety': (0, 0, 128),
+    'Sadness + Pain': (75, 0, 130),
+    'Anger + Embarrassment': (255, 69, 0),
+    'Anger + Anxiety': (139, 0, 0),
+    'Anger + Pain': (165, 42, 42),
+    'Embarrassment + Anxiety': (216, 191, 216),
+    'Embarrassment + Pain': (210, 180, 140),
+    'Anxiety + Pain': (139, 0, 139),
+    'Joy + Sadness + Anger': (85, 107, 47),
+    'Joy + Sadness + Embarrassment': (175, 238, 238),
+    'Joy + Sadness + Anxiety': (112, 128, 144),
+    'Joy + Sadness + Pain': (230, 230, 250),
+    'Joy + Anger + Embarrassment': (255, 127, 80),
+    'Joy + Anger + Anxiety': (255, 0, 255),
+    'Joy + Anger + Pain': (250, 128, 114),
+    'Joy + Embarrassment + Anxiety': (255, 255, 224),
+    'Joy + Embarrassment + Pain': (255, 218, 185),
+    'Joy + Anxiety + Pain': (154, 205, 50),
+    'Sadness + Anger + Embarrassment': (139, 0, 139),
+    'Sadness + Anger + Anxiety': (0, 0, 103),
+    'Sadness + Anger + Pain': (128, 0, 32),
+    'Sadness + Embarrassment + Anxiety': (112, 128, 144),
+    'Sadness + Embarrassment + Pain': (105, 105, 105),
+    'Sadness + Anxiety + Pain': (25, 25, 112),
+    'Anger + Embarrassment + Anxiety': (255, 140, 0),
+    'Anger + Embarrassment + Pain': (205, 92, 92),
+    'Anger + Anxiety + Pain': (128, 0 ,0 ),
+    'Embarrassment + Anxiety + Pain' : (101 ,0 ,11)
+}
+
+# 사용자로부터 RGB 값 입력 받기
+try:
+    r = int(input("R 값을 입력하세요(0-255): "))
+    g = int(input("G 값을 입력하세요(0-255): "))
+    b = int(input("B 값을 입력하세요(0-255): "))
+except ValueError:
+    print("올바른 숫자를 입력하세요.")
+else:
+    
+    user_rgb = (r,g,b)
+
+    # 모든 팔레트 색상에 대해 유사도 계산
+    similarities = [(emotion ,calculate_distance(user_rgb ,color),color) for emotion ,color in color_palette.items()]
+
+    #유사도 순으로 정렬 
+    sorted_similarities = sorted(similarities ,key=lambda x:x[1])
+
+    #모든 팔레트의 컬러 출력
+
+    fig ,ax = plt.subplots(figsize=(10 ,6))
+    for i,(emotion,color) in enumerate(color_palette.items()):
+        rect = plt.Rectangle((0,i),1 ,1,color=[c/255. for c in color])
+        ax.add_patch(rect)
+        ax.text(1.1,i+ .5,f'{emotion}:{color}',va='center',fontsize=10)
+
+    ax.set_xlim(0 ,2)
+    ax.set_ylim(0,len(color_palette))
+    ax.set_axis_off()
+    plt.title('Color Palette with Emotions')
+    plt.show()
+
+    #가장 유사한 상위 다섯 감정 추출 및 시각화
+
+    top_5_similar_colors = sorted_similarities[:5]
+
+    fig ,axes = plt.subplots(1,len(top_5_similar_colors),figsize=(15 ,3))
+    fig.subplots_adjust(wspace=.5)
+
+    for i,(emotion,distance,color) in enumerate(top_5_similar_colors):
+        color_image = np.zeros((100 ,100 ,3),dtype=np.uint8)
+        color_image[:] = color
+
+        axes[i].imshow(color_image)
+        axes[i].set_title(f"{emotion}\nRGB:{color}\n유사도:{distance:.2f}",fontsize=10)
+        axes[i].axis('off')
+
+    plt.show()
+    
+    
+    
 # import matplotlib.pyplot as plt
 # import numpy as np
 
@@ -215,106 +320,4 @@ Kuhbandner and Pekrun (2013)의 연구3:
 # sns.palplot(palette)
 # plt.show()
 
-import matplotlib.pyplot as plt
-import numpy as np
 
-# RGB값 두 배열 사이의 유클리드 거리를 계산하는 함수
-def calculate_distance(color1, color2):
-    return np.sqrt(sum((c1 - c2) ** 2 for c1, c2 in zip(color1, color2)))
-
-# RGB 값을 HEX 코드로 변환하는 함수
-def rgb_to_hex(rgb):
-    return '#{:02x}{:02x}{:02x}'.format(rgb[0], rgb[1], rgb[2])
-
-# 제공된 색상 팔레트와 해당 감정
-color_palette = {
-    'Joy': (255, 255, 0),
-    'Sadness': (0, 0, 139),
-    'Anger': (255, 0, 0),
-    'Embarrassment': (255, 165, 0),
-    'Anxiety': (128, 0, 128),
-    'Pain': (165, 42, 42),
-    'Joy + Sadness': (0, 255, 255),
-    'Joy + Anger': (255, 165, 0),
-    'Joy + Embarrassment': (255, 218, 185),
-    'Joy + Anxiety': (144, 238, 144),
-    'Joy + Pain': (255, 182, 193),
-    'Sadness + Anger': (128, 0, 128),
-    'Sadness + Embarrassment': (128, 128, 128),
-    'Sadness + Anxiety': (0, 0, 128),
-    'Sadness + Pain': (75, 0, 130),
-    'Anger + Embarrassment': (255, 69, 0),
-    'Anger + Anxiety': (139, 0, 0),
-    'Anger + Pain': (165, 42, 42),
-    'Embarrassment + Anxiety': (216, 191, 216),
-    'Embarrassment + Pain': (210, 180, 140),
-    'Anxiety + Pain': (139, 0, 139),
-    'Joy + Sadness + Anger': (85, 107, 47),
-    'Joy + Sadness + Embarrassment': (175, 238, 238),
-    'Joy + Sadness + Anxiety': (112, 128, 144),
-    'Joy + Sadness + Pain': (230, 230, 250),
-    'Joy + Anger + Embarrassment': (255, 127, 80),
-    'Joy + Anger + Anxiety': (255, 0, 255),
-    'Joy + Anger + Pain': (250, 128, 114),
-    'Joy + Embarrassment + Anxiety': (255, 255, 224),
-    'Joy + Embarrassment + Pain': (255, 218, 185),
-    'Joy + Anxiety + Pain': (154, 205, 50),
-    'Sadness + Anger + Embarrassment': (139, 0, 139),
-    'Sadness + Anger + Anxiety': (0, 0, 103),
-    'Sadness + Anger + Pain': (128, 0, 32),
-    'Sadness + Embarrassment + Anxiety': (112, 128, 144),
-    'Sadness + Embarrassment + Pain': (105, 105, 105),
-    'Sadness + Anxiety + Pain': (25, 25, 112),
-    'Anger + Embarrassment + Anxiety': (255, 140, 0),
-    'Anger + Embarrassment + Pain': (205, 92, 92),
-    'Anger + Anxiety + Pain': (128, 0 ,0 ),
-    'Embarrassment + Anxiety + Pain' : (101 ,0 ,11)
-}
-
-# 사용자로부터 RGB 값 입력 받기
-try:
-    r = int(input("R 값을 입력하세요(0-255): "))
-    g = int(input("G 값을 입력하세요(0-255): "))
-    b = int(input("B 값을 입력하세요(0-255): "))
-except ValueError:
-    print("올바른 숫자를 입력하세요.")
-else:
-    
-    user_rgb = (r,g,b)
-
-    # 모든 팔레트 색상에 대해 유사도 계산
-    similarities = [(emotion ,calculate_distance(user_rgb ,color),color) for emotion ,color in color_palette.items()]
-
-    #유사도 순으로 정렬 
-    sorted_similarities = sorted(similarities ,key=lambda x:x[1])
-
-    #모든 팔레트의 컬러 출력
-
-    fig ,ax = plt.subplots(figsize=(10 ,6))
-    for i,(emotion,color) in enumerate(color_palette.items()):
-        rect = plt.Rectangle((0,i),1 ,1,color=[c/255. for c in color])
-        ax.add_patch(rect)
-        ax.text(1.1,i+ .5,f'{emotion}:{color}',va='center',fontsize=10)
-
-    ax.set_xlim(0 ,2)
-    ax.set_ylim(0,len(color_palette))
-    ax.set_axis_off()
-    plt.title('Color Palette with Emotions')
-    plt.show()
-
-    #가장 유사한 상위 다섯 감정 추출 및 시각화
-
-    top_5_similar_colors = sorted_similarities[:5]
-
-    fig ,axes = plt.subplots(1,len(top_5_similar_colors),figsize=(15 ,3))
-    fig.subplots_adjust(wspace=.5)
-
-    for i,(emotion,distance,color) in enumerate(top_5_similar_colors):
-        color_image = np.zeros((100 ,100 ,3),dtype=np.uint8)
-        color_image[:] = color
-
-        axes[i].imshow(color_image)
-        axes[i].set_title(f"{emotion}\nRGB:{color}\n유사도:{distance:.2f}",fontsize=10)
-        axes[i].axis('off')
-
-    plt.show()
