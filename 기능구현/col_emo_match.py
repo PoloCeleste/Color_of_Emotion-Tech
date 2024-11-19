@@ -60,21 +60,11 @@ color_palette = {
     'Joy + Sadness + Anxiety': (112, 128, 144),
     'Joy + Sadness + Pain': (230, 230, 250),
     'Joy + Anger + Embarrassment': (255, 127, 80),
-    'Joy + Anger + Anxiety': (255, 0, 255),
-    'Joy + Anger + Pain': (250, 128, 114),
-    'Joy + Embarrassment + Anxiety': (255, 255, 224),
-    'Joy + Embarrassment + Pain': (255, 218, 185),
-    'Joy + Anxiety + Pain': (154, 205, 50),
-    'Sadness + Anger + Embarrassment': (139, 0, 139),
-    'Sadness + Anger + Anxiety': (0, 0, 103),
-    'Sadness + Anger + Pain': (128, 0, 32),
-    'Sadness + Embarrassment + Anxiety': (112, 128, 144),
-    'Sadness + Embarrassment + Pain': (105, 105, 105),
-    'Sadness + Anxiety + Pain': (25, 25, 112),
-    'Anger + Embarrassment + Anxiety': (255, 140, 0),
-    'Anger + Embarrassment + Pain': (205, 92, 92),
-    'Anger + Anxiety + Pain': (128, 0 ,0 ),
-    'Embarrassment + Anxiety + Pain' : (101 ,0 ,11)
+    'Joy + Anger + Anxiety': (255, 0 ,255 ),
+    'Joy + Anger + Pain': (250 ,128 ,114 ),
+    'Joy + Embarrassment + Anxiety' :(255 ,255 ,224 ),
+    'Joy + Embarrassment + Pain' :(255 ,218 ,185 ),
+    'Joy+ Anxiety+Pain' :(154 ,205 ,50 ),
 }
 
 # 사용자로부터 RGB 값 입력 받기
@@ -85,17 +75,16 @@ try:
 except ValueError:
     print("올바른 숫자를 입력하세요.")
 else:
-    
+
     user_rgb = (r,g,b)
 
     # 모든 팔레트 색상에 대해 유사도 계산
     similarities = [(emotion ,calculate_distance(user_rgb ,color),color) for emotion ,color in color_palette.items()]
 
-    #유사도 순으로 정렬 
+    # 유사도 순으로 정렬 
     sorted_similarities = sorted(similarities ,key=lambda x:x[1])
 
-    #모든 팔레트의 컬러 출력
-
+    # 모든 팔레트의 컬러 출력
     fig ,ax = plt.subplots(figsize=(10 ,6))
     for i,(emotion,color) in enumerate(color_palette.items()):
         rect = plt.Rectangle((0,i),1 ,1,color=[c/255. for c in color])
@@ -108,25 +97,36 @@ else:
     plt.title('Color Palette with Emotions')
     plt.show()
 
-    #가장 유사한 상위 다섯 감정 추출 및 시각화
-
+    # 가장 유사한 상위 다섯 감정 추출 및 시각화
     top_5_similar_colors = sorted_similarities[:5]
 
-    fig ,axes = plt.subplots(1,len(top_5_similar_colors),figsize=(15 ,3))
+    # 유저의 색상 추가하여 총 여섯 개 출력
+    fig ,axes = plt.subplots(1,len(top_5_similar_colors)+1 ,figsize=(15 ,3))
     fig.subplots_adjust(wspace=.5)
 
-    for i,(emotion,distance,color) in enumerate(top_5_similar_colors):
+    # 유저의 색상 먼저 출력
+    user_color_image = np.zeros((100 ,100 ,3),dtype=np.uint8)
+    user_color_image[:] = user_rgb
+
+    axes[0].imshow(user_color_image)
+    axes[0].set_title(f"Your Color\nRGB:{user_rgb}",fontsize=10)
+    axes[0].axis('off')
+
+    # 유사한 상위 다섯 색상 출력
+    for i,(emotion,distance,color) in enumerate(top_5_similar_colors,start=1):
         color_image = np.zeros((100 ,100 ,3),dtype=np.uint8)
         color_image[:] = color
 
         axes[i].imshow(color_image)
-        axes[i].set_title(f"{emotion}\nRGB:{color}\n유사도:{distance:.2f}",fontsize=10)
+        axes[i].set_title(f"{emotion}\nRGB:{color}\nSimilarity:{distance:.2f}",fontsize=10)
         axes[i].axis('off')
 
     plt.show()
     
-    
-    
+plt.rcParams['font.family'] = "Malgun Gothic"
+plt.rcParams['axes.unicode_minus'] = False
+
+
 # import matplotlib.pyplot as plt
 # import numpy as np
 
