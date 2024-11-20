@@ -4,11 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.safari.options import Options as SOptions
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
+import requests
 
 
 options = Options()
@@ -60,43 +60,29 @@ sleep(1)
 
 contents_url = dr.current_url+'/comments'
 
-gal_name = wait.until(EC.visibility_of_element_located((By.XPATH, "//h2[text()='갤러리']/following-sibling")))
-gal = WebDriverWait(gal_name, 5).until(EC.visibility_of_element_located((By.XPATH, '..child::section')))
-dr.execute_script("arguments[0].scrollIntoView({block : 'center'});", gal)
-sleep(0.5)
-btn=WebDriverWait(gal, 2).until(EC.element_to_be_clickable((By.XPATH, "./button[@title='right']")))
+gal = wait.until(EC.visibility_of_element_located((By.XPATH, "//h2[text()='갤러리']//..//..")))
+btn = WebDriverWait(gal, 5).until(EC.presence_of_element_located((By.TAG_NAME, 'button')))
 
 while True:
     try:
-        btn.click()
+        btn.send_keys(Keys.ENTER)
         sleep(0.1)
-        print(1)
-    except:
-        print('end')
-        break
+    except:break
 
 galleries = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'MfhUSmJK')))
 
+picture=[]
 for gallery in galleries:
     pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
     pstyle = pic.get_attribute('style')
-    print(pstyle)
-
-
-sleep(1)
+    picture.append(pstyle.split('"')[-2])
 
 try:
-    videotag = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "g9zBSzqQ")))
-    dr.execute_script("arguments[0].scrollIntoView({block : 'center'});", videotag)
-    sleep(0.5)
-    video=WebDriverWait(videotag, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
-    vstyle=video.get_attribute('style')
-    vid=vstyle.split(';')[-2].split('/')[-2]
-    print()
-except:print("None video")
-
-
-
+    video_url = []
+    videotag = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "OEje6csz")))
+    for video in videotag:
+        video_url.append(requests.get(video.get_attribute('href')).url)
+except:print(movie_name, "None video")
 
 sleep(1)
 
