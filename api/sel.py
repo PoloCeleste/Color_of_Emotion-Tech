@@ -12,10 +12,9 @@ import requests
 
 
 options = Options()
-# options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
-# options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
+options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
+options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
 options.add_argument("log-level=3")
-# options.add_argument('--blink-settings=imagesEnabled=false')
 options.add_argument("lang=ko_KR")
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Whale/3.27.254.15 Safari/537.36")
 options.add_argument("--window-size=1920,1080")
@@ -27,7 +26,6 @@ service = Service(ChromeDriverManager().install())
 url = 'https://pedia.watcha.com/ko-KR'
 
 dr = webdriver.Chrome(service=service, options=options)
-# dr = webdriver.Safari(options=options)
 dr.get(url)
 wait = WebDriverWait(dr, 5)
 act = ActionChains(dr)
@@ -40,53 +38,59 @@ try:
 except:pass
 
 dr.implicitly_wait(5)
-
-search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
-
 movie_name = "글래디에이터"
 movie_year = '2000'
-search_box.send_keys(movie_name)
-search_box.send_keys(Keys.ENTER)
+for i in range(2):
+    search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
 
-dr.implicitly_wait(10)
+    search_box.send_keys(movie_name)
+    search_box.send_keys(Keys.ENTER)
 
-movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
-movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
+    sleep(1)
 
-movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year})]")))
-movie.click()
+    movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+    movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
 
-sleep(1)
+    movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year})]")))
+    movie.click()
 
-contents_url = dr.current_url+'/comments'
+    sleep(1)
 
-gal = wait.until(EC.visibility_of_element_located((By.XPATH, "//h2[text()='갤러리']//..//..")))
-btn = WebDriverWait(gal, 5).until(EC.presence_of_element_located((By.TAG_NAME, 'button')))
+    contents_url = dr.current_url+'/comments'
 
-while True:
+    gal = wait.until(EC.visibility_of_element_located((By.XPATH, "//h2[text()='갤러리']//..//..")))
+    btn = WebDriverWait(gal, 5).until(EC.presence_of_element_located((By.TAG_NAME, 'button')))
+
+    while True:
+        try:
+            btn.send_keys(Keys.ENTER)
+            sleep(0.1)
+        except:break
+
+    galleries = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'MfhUSmJK')))
+
+    picture=[]
+    for gallery in galleries:
+        pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
+        pstyle = pic.get_attribute('style')
+        picture.append(pstyle.split('"')[-2])
+
     try:
-        btn.send_keys(Keys.ENTER)
-        sleep(0.1)
-    except:break
+        video_url = []
+        videotag = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "OEje6csz")))
+        for video in videotag:
+            video_url.append(requests.get(video.get_attribute('href')).url)
+    except:print(movie_name, "None video")
 
-galleries = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'MfhUSmJK')))
+    dr.get(contents_url)
+    sleep(1)
+    reviews=[]
+    comments = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'eqSewv3p')))
+    for comment in comments:reviews.append(comment.text)
 
-picture=[]
-for gallery in galleries:
-    pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
-    pstyle = pic.get_attribute('style')
-    picture.append(pstyle.split('"')[-2])
-
-try:
-    video_url = []
-    videotag = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "OEje6csz")))
-    for video in videotag:
-        video_url.append(requests.get(video.get_attribute('href')).url)
-except:print(movie_name, "None video")
-
-sleep(1)
-
-dr.get(contents_url)
-
-sleep(3)
+    print(video_url)
+    print(picture)
+    print(reviews)
+    movie_name = "위키드"
+    movie_year = '2024'
 dr.quit()
