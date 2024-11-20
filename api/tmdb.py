@@ -74,7 +74,8 @@ set_provider=(8,119,337,356,97,350)
 
 def selenium_data(movie_name, movie_year):
     search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
-
+    search_box.send_keys(Keys.CONTROL + "a")
+    search_box.send_keys(Keys.DELETE)
     search_box.send_keys(movie_name)
     search_box.send_keys(Keys.ENTER)
 
@@ -83,12 +84,19 @@ def selenium_data(movie_name, movie_year):
     movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
     movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
 
-    movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year})]")))
+    try:
+        movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
+    except:
+        movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
     movie.click()
 
     sleep(1)
-
-    contents_url = dr.current_url+'/comments'
+    content_url = dr.current_url
+    contents_url = content_url+'/comments'
+    
+    body=dr.find_element(By.TAG_NAME, 'body')
+    body.send_keys(Keys.END)
+    sleep(0.5)
 
     picture=[]
     try:
@@ -98,22 +106,25 @@ def selenium_data(movie_name, movie_year):
         while True:
             try:
                 btn.send_keys(Keys.ENTER)
-                sleep(0.1)
+                sleep(0.2)
             except:break
 
         galleries = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'MfhUSmJK')))
 
         for gallery in galleries:
-            pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
-            pstyle = pic.get_attribute('style')
-            picture.append(pstyle.split('"')[-2])
+            try:
+                pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
+                pstyle = pic.get_attribute('style')
+                picture.append(pstyle.split('"')[-2])
+            except:continue
     except:print(movie_name, "None Picture")
     
     video_url = []
     try:
         videotag = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "OEje6csz")))
         for video in videotag:
-            video_url.append(requests.get(video.get_attribute('href')).url)
+            try:video_url.append(requests.get(video.get_attribute('href')).url)
+            except:continue
     except:print(movie_name, "None Video")
 
     dr.get(contents_url)
@@ -121,10 +132,13 @@ def selenium_data(movie_name, movie_year):
     reviews=[]
     try:
         comments = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'eqSewv3p')))
-        for comment in comments:reviews.append(comment.text)
+        for comment in comments:
+            try: 
+                if comment.text: reviews.append(comment.text)
+            except:continue
     except:print(movie_name, "None Reviews")
     
-    return picture, video_url, reviews
+    return picture, video_url, reviews, content_url
 
 
 # 공급자 데이터
@@ -150,13 +164,13 @@ def genre_data():
 # 영화 데이터
 def movie_data():
     global movie_results
-    for i in range(1, 2):
+    for i in range(1, 51):
         movie_params = {
             'sort_by':'popularity.desc',
             'include_adult':False,
             'include_video':False,
             'language':'ko-KR',
-            'page':1,
+            'page':i,
             'vote_average.gte':6,
             'vote_count.gte':150,
             'watch_region':'KR',
@@ -195,11 +209,17 @@ def movie_data():
             if p: response['watch_providers']=list(p)
             del response['id']
             
-            picture_url, video_url, reviews=selenium_data(response['title'], response['release_date'].split('-')[0])
             
-            response['picture_url'] = picture_url if picture_url else 'null'
-            response['video_url']=video_url if video_url else 'null'
-            response['reviews']=reviews if reviews else 'null'
+            # 와챠피디아 크롤링
+            try:
+                picture_url, video_url, reviews, content_url=selenium_data(response['title'], response['release_date'].split('-')[0])
+                
+                response['picture_url'] = picture_url if picture_url else 'null'
+                response['video_url']=video_url if video_url else 'null'
+                response['reviews']=reviews if reviews else 'null'
+                response['watchapedia'] = content_url
+            except:print("can't get watcha detail ", response['title'], ' | ', movie_id, ' | ', response['release_date'])
+            
             
             # 포스터 색감 추출하기
             palette = extract_colors(image_url=response['poster_path'])
@@ -219,6 +239,6 @@ def file_out(dataname, data):
 
 
 if __name__=='__main__':
-    provider_data()
-    genre_data()
+    # provider_data()
+    # genre_data()
     movie_data()
