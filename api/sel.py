@@ -60,12 +60,14 @@ sleep(1)
 
 contents_url = dr.current_url+'/comments'
 
-gallery_btn=wait.until(EC.visibility_of_element_located((By.CLASS_NAME, 'ee82r1OJ')))
-dr.execute_script("arguments[0].scrollIntoView({block : 'center'});", gallery_btn)
+gal_name = wait.until(EC.visibility_of_element_located((By.XPATH, "//h2[text()='갤러리']/following-sibling")))
+gal = WebDriverWait(gal_name, 5).until(EC.visibility_of_element_located((By.XPATH, '..child::section')))
+dr.execute_script("arguments[0].scrollIntoView({block : 'center'});", gal)
+sleep(0.5)
+btn=WebDriverWait(gal, 2).until(EC.element_to_be_clickable((By.XPATH, "./button[@title='right']")))
 
 while True:
     try:
-        btn=WebDriverWait(gallery_btn, 5).until(EC.visibility_of_element_located((By.XPATH, "//[@title='right']")))
         btn.click()
         sleep(0.1)
         print(1)
@@ -85,6 +87,8 @@ sleep(1)
 
 try:
     videotag = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "g9zBSzqQ")))
+    dr.execute_script("arguments[0].scrollIntoView({block : 'center'});", videotag)
+    sleep(0.5)
     video=WebDriverWait(videotag, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
     vstyle=video.get_attribute('style')
     vid=vstyle.split(';')[-2].split('/')[-2]

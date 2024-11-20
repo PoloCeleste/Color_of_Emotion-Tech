@@ -1,0 +1,32 @@
+[
+	{
+		"provider_id": 8,
+		"provider_name": "Netflix",
+		"logo_path": "https://image.tmdb.org/t/p/original/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+	},
+	{
+		"provider_id": 119,
+		"provider_name": "Amazon Prime Video",
+		"logo_path": "https://image.tmdb.org/t/p/original/dQeAar5H991VYporEjUspolDarG.jpg"
+	},
+	{
+		"provider_id": 337,
+		"provider_name": "Disney Plus",
+		"logo_path": "https://image.tmdb.org/t/p/original/97yvRBw1GzX7fXprcF80er19ot.jpg"
+	},
+	{
+		"provider_id": 356,
+		"provider_name": "wavve",
+		"logo_path": "https://image.tmdb.org/t/p/original/hPcjSaWfMwEqXaCMu7Fkb529Dkc.jpg"
+	},
+	{
+		"provider_id": 97,
+		"provider_name": "Watcha",
+		"logo_path": "https://image.tmdb.org/t/p/original/5gmEivxOGPdq4Afpq1f8ktLtEW1.jpg"
+	},
+	{
+		"provider_id": 350,
+		"provider_name": "Apple TV Plus",
+		"logo_path": "https://image.tmdb.org/t/p/original/2E03IAZsX4ZaUqM7tXlctEPMGWS.jpg"
+	}
+]
