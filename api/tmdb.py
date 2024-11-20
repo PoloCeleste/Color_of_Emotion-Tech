@@ -106,22 +106,25 @@ def selenium_data(movie_name, movie_year):
         while True:
             try:
                 btn.send_keys(Keys.ENTER)
-                sleep(0.1)
+                sleep(0.2)
             except:break
 
         galleries = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'MfhUSmJK')))
 
         for gallery in galleries:
-            pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
-            pstyle = pic.get_attribute('style')
-            picture.append(pstyle.split('"')[-2])
+            try:
+                pic = WebDriverWait(gallery, 5).until(EC.visibility_of_element_located((By.TAG_NAME, "div")))
+                pstyle = pic.get_attribute('style')
+                picture.append(pstyle.split('"')[-2])
+            except:continue
     except:print(movie_name, "None Picture")
     
     video_url = []
     try:
         videotag = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "OEje6csz")))
         for video in videotag:
-            video_url.append(requests.get(video.get_attribute('href')).url)
+            try:video_url.append(requests.get(video.get_attribute('href')).url)
+            except:continue
     except:print(movie_name, "None Video")
 
     dr.get(contents_url)
@@ -130,7 +133,9 @@ def selenium_data(movie_name, movie_year):
     try:
         comments = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'eqSewv3p')))
         for comment in comments:
-            if comment.text: reviews.append(comment.text)
+            try: 
+                if comment.text: reviews.append(comment.text)
+            except:continue
     except:print(movie_name, "None Reviews")
     
     return picture, video_url, reviews, content_url
