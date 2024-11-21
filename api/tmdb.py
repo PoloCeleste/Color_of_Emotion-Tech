@@ -84,6 +84,7 @@ def selenium_data(movie_name, movie_year):
     if '엠 아이 오케이?' == movie_name:movie_year = '2022'
     if '킬 빌: 1부' == movie_name:movie_name = '킬 빌'
     if '밀레니엄: 제1부 여자를 증오한 남자들' == movie_name:movie_name = '밀레니엄 1 : 여자를 증오한 남자들'
+    if '애니 2015' == movie_name:movie_name = '애니'
     
     
     search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
@@ -92,24 +93,25 @@ def selenium_data(movie_name, movie_year):
     search_box.send_keys(movie_name)
     search_box.send_keys(Keys.ENTER)
 
-    sleep(1)
-
-    movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
-    movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
+    sleep(0.5)
 
     try:
-        try: movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
-        except: 
-            if ":" in movie_name: movie_name=movie_name.split(":")[1]
-            elif '2' in movie_name or '3' in movie_name: movie_name=movie_name.replace('2','').replace('3','')
-            search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
-            search_box.send_keys(Keys.CONTROL + "a")
-            search_box.send_keys(Keys.DELETE)
-            search_box.send_keys(movie_name)
-            search_box.send_keys(Keys.ENTER)
-            movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
-            movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
-            movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
+        movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+    except: 
+        if ":" in movie_name: movie_name=movie_name.split(":")[1]
+        elif '2' in movie_name or '3' in movie_name: movie_name=movie_name.replace('2','').replace('3','')
+        search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
+        search_box.send_keys(Keys.CONTROL + "a")
+        search_box.send_keys(Keys.DELETE)
+        search_box.send_keys(movie_name)
+        print(movie_name)
+        search_box.send_keys(Keys.ENTER)
+        sleep(0.5)
+        movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+    
+    movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
+    try:
+        movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
     except:
         movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
     movie.click()
@@ -197,7 +199,7 @@ def movie_data():
             'language':'ko-KR',
             'page':i,
             'vote_average.gte':6,
-            'vote_count.gte':150,
+            'vote_count.gte':200,
             'watch_region':'KR',
             'with_watch_providers':'8|119|337|356|97|350',
             #Netflix | Amazon Prime Video | Disney Plus | wavve | Watcha | Apple TV Plus
@@ -243,18 +245,26 @@ def movie_data():
             try:
                 picture_url, video_url, reviews, content_url=selenium_data(response['title'], response['release_date'].split('-')[0])
                 
-                response['picture_url'] = picture_url if picture_url else 'null'
-                response['video_url']=video_url if video_url else 'null'
-                response['reviews']=reviews if reviews else 'null'
+                response['picture_url'] = picture_url if picture_url else None
+                response['video_url']=video_url if video_url else None
+                response['reviews']=reviews if reviews else None
                 response['watchapedia'] = content_url
-            except:print("can't get watcha detail ", response['title'], ' | ', movie_id, ' | ', response['release_date'])
+            except:
+                response['picture_url'] =None
+                response['video_url']=None
+                response['reviews']=None
+                response['watchapedia'] = None
+                print("can't get watcha detail ", response['title'], ' | ', movie_id, ' | ', response['release_date'])
             
             
             # 포스터 색감 추출하기
-            palette = extract_colors(image_url=response['poster_path'])
-            poster_palette = list(map(lambda x:[x.rgb[0], x.rgb[1], x.rgb[2], x.freq], palette))
-            response['poster_palette']=poster_palette
-        
+            try:
+                palette = extract_colors(image_url=response['poster_path'])
+                poster_palette = list(map(lambda x:[x.rgb[0], x.rgb[1], x.rgb[2], x.freq], palette))
+                response['poster_palette']=poster_palette
+            except:
+                response['poster_palette']=None
+                print("\ncolor extract error : \n response['poster_path'] \n ", response['title'], ' | ', movie_id, '\n')
         # 처리 완료된 페이지 내용 결과에 추가
         movie_results+=responses
     file_out('movies', movie_results)
@@ -272,3 +282,30 @@ if __name__=='__main__':
     # provider_data()
     # genre_data()
     movie_data()
+    # selenium_data('더그의 일상: 칼의 데이트', '2023')
+    # movie=[
+    #     # ('칼의 데이트', '2023'),
+    #     # ('미라큘러스 월드: 파리, 셰이디버그와 블랙클로', '2023'),
+    #     # ('스루 마이 윈도: 너에게 머무는 시선','2024'),
+    #     # ('스타워즈: 라스트 제다이', '2017'),
+    #     # ('존 윅 - 리로드','2017'),
+    #     # ('터미네이터 2', '1991'),
+    #     # ('애니','2014'),
+    #     ('스타워즈: 라이즈 오브 스카이워커','2019'),
+    # ]
+    # result=[]
+    # for name, year in movie:
+    #     response={}
+    #     try:
+    #         picture_url, video_url, reviews, content_url=selenium_data(name, year)
+            
+    #         response['picture_url'] = picture_url if picture_url else None
+    #         response['video_url']=video_url if video_url else None
+    #         response['reviews']=reviews if reviews else None
+    #         response['watchapedia'] = content_url
+    #     except:print("can't get watcha detail ", name, '|', year)
+    #     if response:result.append(response)
+    
+    # file_out('extrasa', result)
+    # testdata=[{'name':None, 'test':'hello'}]
+    # file_out('test', testdata)
