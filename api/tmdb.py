@@ -73,6 +73,19 @@ set_provider=(8,119,337,356,97,350)
 
 
 def selenium_data(movie_name, movie_year):
+    
+    if "'" in movie_name:movie_name=movie_name.split("'")[1]
+    if '블랙펄' in movie_name:movie_name = movie_name.replace('블랙펄', '블랙 펄')
+    if '크레용' in movie_name:movie_name = movie_name.replace('보라색', '마법')
+    if '번개도둑' in movie_name:movie_name = movie_name.replace('번개도둑', '번개 도둑')
+    if '엔젤 해즈 폴른' == movie_name:movie_name = '앤젤 해즈 폴른'
+    if '블레어 위치' == movie_name:movie_name = '블레어 윗치'
+    if '장난감이 살아있다' == movie_name:movie_year = '2016'
+    if '엠 아이 오케이?' == movie_name:movie_year = '2022'
+    if '킬 빌: 1부' == movie_name:movie_name = '킬 빌'
+    if '밀레니엄: 제1부 여자를 증오한 남자들' == movie_name:movie_name = '밀레니엄 1 : 여자를 증오한 남자들'
+    
+    
     search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
     search_box.send_keys(Keys.CONTROL + "a")
     search_box.send_keys(Keys.DELETE)
@@ -85,7 +98,18 @@ def selenium_data(movie_name, movie_year):
     movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
 
     try:
-        movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
+        try: movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
+        except: 
+            if ":" in movie_name: movie_name=movie_name.split(":")[1]
+            elif '2' in movie_name or '3' in movie_name: movie_name=movie_name.replace('2','').replace('3','')
+            search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
+            search_box.send_keys(Keys.CONTROL + "a")
+            search_box.send_keys(Keys.DELETE)
+            search_box.send_keys(movie_name)
+            search_box.send_keys(Keys.ENTER)
+            movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+            movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
+            movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
     except:
         movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
     movie.click()
@@ -161,6 +185,7 @@ def genre_data():
     genre_results = requests.get(genres_url, headers=headers).json()['genres']
     file_out('genres', genre_results)
 
+
 # 영화 데이터
 def movie_data():
     global movie_results
@@ -188,13 +213,16 @@ def movie_data():
             for d in de:
                 del response[d]
             
+            
             # 포스터 url 채우기
             response['poster_path'] = image_url+response['poster_path']
+            
             
             # TMDB 상 평점 저장
             tmdb_vote_average=response['vote_average']
             del response['vote_average']
             response['tmdb_vote_average']=tmdb_vote_average
+            
             
             # 콘텐츠 제공사업자 목록 가져오기
             movie_id = response['id']
@@ -206,8 +234,9 @@ def movie_data():
                 for v in value:
                     pid=v['provider_id']
                     if pid in set_provider: p.add(pid)
-            if p: response['watch_providers']=list(p)
+            if p: response['watch_providers']=list(p)            
             del response['id']
+            response['movie_id']=movie_id
             
             
             # 와챠피디아 크롤링
@@ -230,6 +259,7 @@ def movie_data():
         movie_results+=responses
     file_out('movies', movie_results)
     dr.quit()
+
 
 # 완성된 데이터 json으로 저장
 def file_out(dataname, data):
