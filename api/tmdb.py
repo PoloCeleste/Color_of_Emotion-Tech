@@ -149,7 +149,7 @@ def selenium_data(movie_name, movie_year):
     try:
         videotag = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "OEje6csz")))
         for video in videotag:
-            try:video_url.append(requests.get(video.get_attribute('href')).url)
+            try:video_url.append(requests.get(video.get_attribute('href')).url.replace('watch?v=', 'embed/'))
             except:continue
     except:print(movie_name, "None Video")
 
@@ -268,6 +268,7 @@ def movie_data():
         # 처리 완료된 페이지 내용 결과에 추가
         # movie_results+=responses
         file_out(f'movies_{str(i).zfill(2)}', responses)
+        print(f'\n\nmovies_{str(i).zfill(2)}\n\n')
         # movie_results=[]
     dr.quit()
 
