@@ -462,14 +462,43 @@ emotion_color_dict.update({
     ]
 })
 
+
+emotions=[
+    {'id':1, 'name':'Joy'},
+    {'id':2, 'name':'Sadness'},
+    {'id':3, 'name':'Anger'},
+    {'id':4, 'name':'Embarrassment'},
+    {'id':5, 'name':'Anxiety'},
+    {'id':6, 'name':'Pain'},
+    {'id':7, 'name':'Neutral'},
+]
+emotion={
+    'Joy':1,
+    'Sadness':2,
+    'Anger':3,
+    'Embarrassment':4,
+    'Anxiety':5,
+    'Pain':6,
+    'Neutral':7,
+}
+
+
 emotion_color = []
 i=0
 for key, value in emotion_color_dict.items():
     i+=1
-    emotion_color.append({
-        'color_id':i,
-        'emotions_name':key,
-        'emotions_color':value,
-    })
+    col={}
+    col['color_id']=i
+    e_id=[]
+    if ',' in key:
+        emotion_name=key.split(', ')
+        for e in emotion_name:
+            e_id.append(emotion[e])
+        col['emotion_id']=e_id
+    else:
+        col['emotion_id']=[emotion[key]]
+    col['emotions_color']=value
+    emotion_color.append(col)
 
+file_out('emotions', emotions)
 file_out('emotion_color', emotion_color)
