@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Joy"
+	},
+	{
+		"id": 2,
+		"name": "Sadness"
+	},
+	{
+		"id": 3,
+		"name": "Anger"
+	},
+	{
+		"id": 4,
+		"name": "Embarrassment"
+	},
+	{
+		"id": 5,
+		"name": "Anxiety"
+	},
+	{
+		"id": 6,
+		"name": "Pain"
+	},
+	{
+		"id": 7,
+		"name": "Neutral"
+	}
+]
