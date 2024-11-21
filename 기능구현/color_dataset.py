@@ -462,14 +462,134 @@ emotion_color_dict.update({
     ]
 })
 
+
+emotions=[
+    {'id':1, 'name':'Joy'},
+    {'id':2, 'name':'Sadness'},
+    {'id':3, 'name':'Anger'},
+    {'id':4, 'name':'Embarrassment'},
+    {'id':5, 'name':'Anxiety'},
+    {'id':6, 'name':'Pain'},
+    {'id':7, 'name':'Neutral'},
+]
+emotion={
+    'Joy':1,
+    'Sadness':2,
+    'Anger':3,
+    'Embarrassment':4,
+    'Anxiety':5,
+    'Pain':6,
+    'Neutral':7,
+}
+
+gen=[
+	{"id": 28,"name": "액션"},
+	{"id": 12,"name": "모험"},
+	{"id": 16,"name": "애니메이션"},
+	{"id": 35,"name": "코미디"},
+	{"id": 80,"name": "범죄"},
+	{"id": 99,"name": "다큐멘터리"},
+	{"id": 18,"name": "드라마"},
+	{"id": 10751,"name": "가족"},
+	{"id": 14,"name": "판타지"},
+	{"id": 36,"name": "역사"},
+	{"id": 27,"name": "공포"},
+	{"id": 10402,"name": "음악"},
+	{"id": 9648,"name": "미스터리"},
+	{"id": 10749,"name": "로맨스"},
+	{"id": 878,"name": "SF"},
+	{"id": 53,"name": "스릴러"},
+	{"id": 10752,"name": "전쟁"},
+	{"id": 37,"name": "서부"}
+]
+
+genres={}
+for g in gen:
+    genres[g["name"]]=g["id"]
+
+
+emotion_genre_mapping = {
+    ["Joy"]: ["코미디", "애니메이션", "음악"],
+    ["Sadness"]: ["드라마", "역사"],
+    ["Anger"]: ["액션", "전쟁", "범죄"],
+    ["Embarrassment"]: ["로맨스"],
+    ["Anxiety"]: ["스릴러", "공포", "미스터리"],
+    ["Pain"]: ["전쟁"],
+    ["Neutral"]: ["다큐멘터리", "서부"],
+    ["Joy", "Sadness"]: ["드라마"],
+    ["Joy", "Anger"]: ["액션"],
+    ["Joy", "Embarrassment"]: ["로맨스"],
+    ["Joy", "Anxiety"]: ["스릴러", "판타지"],
+    ["Joy", "Pain"]: ["전쟁"],
+    ["Joy", "Neutral"]: ["다큐멘터리"],
+    ["Sadness", "Anger"]: ["범죄", "드라마"],
+    ["Sadness", "Embarrassment"]: ["로맨스","드라마"],
+    ["Sadness", "Anxiety"]: ["미스터리"],
+    ["Sadness", "Pain"]: ["전쟁", "드라마"],
+    ["Sadness", "Neutral"]: ["다큐멘터리"],
+    ["Anger", "Embarrassment"]: ["액션", "로맨스"],
+    ["Anger", "Anxiety"]: ["스릴러"],
+    ["Anger", "Pain"]: ["전쟁", "액션"],
+    ["Anger", "Neutral"]: ["다큐멘터리"],
+    ["Embarrassment", "Anxiety"]: ["로맨스", "스릴러"],
+    ["Embarrassment", "Pain"]: ["로맨스", "드라마"],
+    ["Embarrassment", "Neutral"]: ["가족"],
+    ["Anxiety", "Pain"]: ["공포"],
+    ["Anxiety", "Neutral"]: ["SF"],
+    ["Pain", "Neutral"]: ["전쟁", "다큐멘터리"],
+    ["Joy", "Sadness", "Anger"]: ["드라마"],
+    ["Joy", "Sadness", "Embarrassment"]: ["로맨스","드라마"],
+    ["Joy", "Sadness", "Anxiety"]: ["판타지"],
+    ["Joy", "Sadness", "Pain"]: ["전쟁","드라마"],
+    ["Joy", "Sadness", "Neutral"]: ["다큐멘터리"],
+    ["Joy", "Anger", "Embarrassment"]: ["액션","로맨스"],
+    ["Joy", "Anger", "Anxiety"]: ["스릴러"],
+    ["Joy", "Anger", "Pain"]: ["전쟁","액션"],
+    ["Joy", "Anger", "Neutral"]: ["다큐멘터리"],
+    ["Joy", "Embarrassment", "Anxiety"]: ["로맨스","스릴러"],
+    ["Joy", "Embarrassment", "Pain"]: ["로맨스","드라마"],
+    ["Joy", "Embarrassment", "Neutral"]: ["가족"],
+    ["Joy", "Anxiety", "Pain"]: ["공포"],
+    ["Joy", "Anxiety", "Neutral"]: ["SF"],
+    ["Joy", "Pain", "Neutral"]: ["전쟁","다큐멘터리"],
+    ["Sadness", "Anger", "Embarrassment"]: ["범죄","로맨스"],
+    ["Sadness", "Anger", "Anxiety"]: ["범죄","스릴러"],
+    ["Sadness", "Anger", "Pain"]: ["전쟁","드라마"],
+    ["Sadness", "Anger", "Neutral"]: ["다큐멘터리"],
+    ["Sadness", "Embarrassment", "Anxiety"]: ["미스터리"],
+    ["Sadness", "Embarrassment", "Pain"]: ["드라마"],
+    ["Sadness", "Embarrassment", "Neutral"]: ["가족"],
+    ["Sadness", "Anxiety", "Pain"]: ["공포"],
+    ["Sadness", "Anxiety", "Neutral"]: ["SF"],
+    ["Sadness", "Pain", "Neutral"]: ["전쟁","다큐멘터리"],
+    ["Anger", "Embarrassment", "Anxiety"]: ["스릴러"],
+    ["Anger", "Embarrassment", "Pain"]: ["액션","드라마"],
+    ["Anger", "Embarrassment", "Neutral"]: ["다큐멘터리"],
+    ["Anger", "Anxiety", "Pain"]: ["전쟁","스릴러"],
+    ["Anger", "Anxiety", "Neutral"]: ["SF","액션"],
+    ["Anger", "Pain", "Neutral"]: ["전쟁","다큐멘터리"],
+    ["Embarrassment", "Anxiety", "Pain"]: ["로맨스","스릴러"],
+    ["Embarrassment", "Anxiety", "Neutral"]: ["가족"],
+    ["Embarrassment", "Pain", "Neutral"]: ["드라마"],
+    ["Anxiety", "Pain", "Neutral"]: ["SF","미스터리"]
+}
+
 emotion_color = []
 i=0
 for key, value in emotion_color_dict.items():
     i+=1
-    emotion_color.append({
-        'color_id':i,
-        'emotions_name':key,
-        'emotions_color':value,
-    })
+    col={}
+    col['color_id']=i
+    if ',' in key:
+        e_id=[]
+        emotion_name=key.split(', ')
+        for e in emotion_name:
+            e_id.append(emotion[e])
+        col['emotion_id']=e_id
+    else:
+        col['emotion_id']=[emotion[key]]
+    col['emotions_color']=value
+    emotion_color.append(col)
 
+file_out('emotions', emotions)
 file_out('emotion_color', emotion_color)
