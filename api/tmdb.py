@@ -190,7 +190,7 @@ def genre_data():
 
 # 영화 데이터
 def movie_data():
-    global movie_results
+    # global movie_results
     for i in range(1, 51):
         movie_params = {
             'sort_by':'popularity.desc',
@@ -266,8 +266,9 @@ def movie_data():
                 response['poster_palette']=None
                 print("\ncolor extract error : \n response['poster_path'] \n ", response['title'], ' | ', movie_id, '\n')
         # 처리 완료된 페이지 내용 결과에 추가
-        movie_results+=responses
-    file_out('movies', movie_results)
+        # movie_results+=responses
+        file_out(f'movies_{str(i).zfill(2)}', responses)
+        # movie_results=[]
     dr.quit()
 
 
