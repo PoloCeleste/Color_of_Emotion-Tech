@@ -279,21 +279,30 @@ def file_out(dataname, data):
         json.dump(data, f, ensure_ascii=False, indent="\t", cls=NpEncoder)
     print(len(data))
 
+def file_set():
+    result=[]
+    for i in range(1,51):
+        with open(f'movies/movies_{str(i).zfill(2)}.json', 'r', encoding='utf-8') as file:
+            result += json.load(file)
+    file_out("movies", result)
 
 if __name__=='__main__':
     # provider_data()
     # genre_data()
-    movie_data()
+    # movie_data()
+    file_set()
     # selenium_data('더그의 일상: 칼의 데이트', '2023')
     # movie=[
-    #     # ('칼의 데이트', '2023'),
-    #     # ('미라큘러스 월드: 파리, 셰이디버그와 블랙클로', '2023'),
-    #     # ('스루 마이 윈도: 너에게 머무는 시선','2024'),
-    #     # ('스타워즈: 라스트 제다이', '2017'),
-    #     # ('존 윅 - 리로드','2017'),
-    #     # ('터미네이터 2', '1991'),
-    #     # ('애니','2014'),
-    #     ('스타워즈: 라이즈 오브 스카이워커','2019'),
+        # ('칼의 데이트', '2023'),
+        # ('미라큘러스 월드: 파리, 셰이디버그와 블랙클로', '2023'),
+        # ('스루 마이 윈도: 너에게 머무는 시선','2024'),
+        # ('스타워즈: 라스트 제다이', '2017'),
+        # ('존 윅 - 리로드','2017'),
+        # ('터미네이터 2', '1991'),
+        # ('애니','2014'),
+        # ('스타워즈: 라이즈 오브 스카이워커','2019'),
+    #     ('터미네이터 3','2003'),
+    #     ('패스터','2010'),
     # ]
     # result=[]
     # for name, year in movie:
