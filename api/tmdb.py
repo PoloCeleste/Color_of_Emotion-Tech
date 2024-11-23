@@ -189,9 +189,9 @@ def genre_data():
 
 
 # 영화 데이터
-def movie_data():
+def movie_data(start_page = 1, end_page = 50):
     # global movie_results
-    for i in range(1, 51):
+    for i in range(start_page, end_page+1):
         movie_params = {
             'sort_by':'popularity.desc',
             'include_adult':False,
@@ -289,8 +289,8 @@ def file_set():
 if __name__=='__main__':
     # provider_data()
     # genre_data()
-    # movie_data()
-    file_set()
+    movie_data(51,100)
+    # file_set()
     # selenium_data('더그의 일상: 칼의 데이트', '2023')
     # movie=[
         # ('칼의 데이트', '2023'),
