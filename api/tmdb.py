@@ -272,7 +272,7 @@ def movie_data(start_page = 1, end_page = 50):
                 response['video_url']=None
                 response['reviews']=None
                 response['watchapedia'] = None
-                print("can't get watcha detail ", response['title'], ' | ', movie_id, ' | ', response['release_date'])
+                print("can't get watcha detail ", response['title'], ' | ', movie_id, ' | ', response['release_date'], ' | index: ', index)
                 cannot.append({response['title']:{'page':i, 'index':index, 'year':response['release_date'].split('-')[0]}})
             
             # 포스터 색감 추출하기
