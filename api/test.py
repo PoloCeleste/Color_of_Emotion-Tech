@@ -1,3 +1,3 @@
-﻿a={'a':12, 'dd':1}
-
-print('dfdf', a)
+﻿import os
+if not os.path.exists('movie'):
+    os.makedirs('movie')

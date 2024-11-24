@@ -14,33 +14,34 @@ from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 import requests, sys
 
-options = Options()
-# options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
-# options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
-options.add_argument("log-level=3")
-options.add_argument("lang=ko_KR")
-options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Whale/3.27.254.15 Safari/537.36")
-options.add_argument("--window-size=1920,1080")
-options.add_argument('--disable-blink-features=AutomationControlled')
-options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
-options.add_experimental_option("useAutomationExtension", False)
-service = Service(ChromeDriverManager().install())
+if len(sys.argv) > 1 and sys.argv[1] in ('movie', 'selenium'):
+    options = Options()
+    # options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
+    options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
+    options.add_argument("log-level=3")
+    options.add_argument("lang=ko_KR")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Whale/3.27.254.15 Safari/537.36")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument('--disable-blink-features=AutomationControlled')
+    options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
+    options.add_experimental_option("useAutomationExtension", False)
+    service = Service(ChromeDriverManager().install())
 
-url = 'https://pedia.watcha.com/ko-KR'
+    url = 'https://pedia.watcha.com/ko-KR'
 
-dr = webdriver.Chrome(service=service, options=options)
-dr.get(url)
-wait = WebDriverWait(dr, 5)
-act = ActionChains(dr)
+    dr = webdriver.Chrome(service=service, options=options)
+    dr.get(url)
+    wait = WebDriverWait(dr, 5)
+    act = ActionChains(dr)
 
-dr.implicitly_wait(5)
+    dr.implicitly_wait(5)
 
-try:
-    bt = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"button.hsDVweTz")))
-    bt.click()
-except:pass
+    try:
+        bt = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"button.hsDVweTz")))
+        bt.click()
+    except:pass
 
-dr.implicitly_wait(5)
+    dr.implicitly_wait(5)
 
 load_dotenv(find_dotenv())
 TMDB = os.getenv('tmdb')
@@ -292,6 +293,7 @@ def movie_data(start_page = 1, end_page = 50):
 
 # 완성된 데이터 json으로 저장
 def file_out(dataname, data):
+    if not os.path.exists('movies_data'): os.makedirs('movies_data')
     with open(f'movies_data/{dataname}.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent="\t", cls=NpEncoder)
     f.close
@@ -301,12 +303,15 @@ def file_out(dataname, data):
 
 # 저장된 json 합치기
 def file_set(start_page = 1, end_page = 50):
-    result=[]
-    for i in range(start_page, end_page+1):
-        with open(f'movies_data/movies_{str(i).zfill(2)}.json', 'r', encoding='utf-8') as file:
-            result += json.load(file)
-        file.close
-    file_out("movies", result)
+    try:
+        result=[]
+        for i in range(start_page, end_page+1):
+            with open(f'movies_data/movies_{str(i).zfill(2)}.json', 'r', encoding='utf-8') as file:
+                result += json.load(file)
+            file.close
+        file_out("movies", result)
+    except:
+        print('파일 또는 경로 없는듯.')
 
 
 
@@ -376,8 +381,11 @@ if __name__=='__main__':
             except: print('페이지는 숫자로만 입력해주세요.')
         else: 
             try:
-                print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 가져옵니다.")
-                movie_data(int(sys.argv[2]), int(sys.argv[3]))
+                if int(sys.argv[2]) > int(sys.argv[3]):
+                    print("종료페이지가 시작페이지보다 작습니다.")
+                else:
+                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 가져옵니다.")
+                    movie_data(int(sys.argv[2]), int(sys.argv[3]))
             except: print('페이지는 숫자로만 입력해주세요.')
     
     elif sys.argv[1]=='provider': 
@@ -399,8 +407,11 @@ if __name__=='__main__':
             except: print('페이지는 숫자로만 입력해주세요.')
         else: 
             try:
-                print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 병합합니다.")
-                file_set(int(sys.argv[2]), int(sys.argv[3]))
+                if int(sys.argv[2]) > int(sys.argv[3]):
+                    print("종료페이지가 시작페이지보다 작습니다.")
+                else:
+                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 병합합니다.")
+                    file_set(int(sys.argv[2]), int(sys.argv[3]))
             except: print('페이지는 숫자로만 입력해주세요.')
 
     elif sys.argv[1]=='selenium':
