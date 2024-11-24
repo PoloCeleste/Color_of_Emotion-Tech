@@ -16,7 +16,7 @@ import requests, sys
 
 if len(sys.argv) > 1 and sys.argv[1] in ('movie', 'selenium'):
     options = Options()
-    # options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
+    options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
     options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
     options.add_argument("log-level=3")
     options.add_argument("lang=ko_KR")
@@ -73,7 +73,7 @@ de=['adult', 'backdrop_path', 'video', 'popularity', 'vote_count']
 set_provider=(8,119,337,356,97,350)
 
 
-def selenium_data(movie_name, movie_year, movie_url):
+def selenium_data(movie_name, movie_year, movie_url=None):
     
     # if '블랙펄' in movie_name:movie_name = movie_name.replace('블랙펄', '블랙 펄')
     # if '크레용' in movie_name:movie_name = movie_name.replace('보라색', '마법')
@@ -372,11 +372,11 @@ if __name__=='__main__':
 
     elif sys.argv[1]=='movie':
         if len(sys.argv)==2:
-            print("기본 값 1페이지부터 기본 값 50페이지까지 가져옵니다.")
+            print("기본 값 1페이지부터 기본 값 50페이지까지 가져옵니다.\n")
             movie_data()
         elif len(sys.argv)==3:
             try: 
-                print(f"기본 값 1페이지부터 입력 값 {int(sys.argv[2])}페이지까지 가져옵니다.")
+                print(f"기본 값 1페이지부터 입력 값 {int(sys.argv[2])}페이지까지 가져옵니다.\n")
                 movie_data(end_page=int(sys.argv[2]))
             except: print('페이지는 숫자로만 입력해주세요.')
         else: 
@@ -384,25 +384,25 @@ if __name__=='__main__':
                 if int(sys.argv[2]) > int(sys.argv[3]):
                     print("종료페이지가 시작페이지보다 작습니다.")
                 else:
-                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 가져옵니다.")
+                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 가져옵니다.\n")
                     movie_data(int(sys.argv[2]), int(sys.argv[3]))
             except: print('페이지는 숫자로만 입력해주세요.')
     
     elif sys.argv[1]=='provider': 
-        print("영화 공급자를 가져옵니다.")
+        print("영화 공급자를 가져옵니다.\n")
         provider_data()
 
     elif sys.argv[1]=='genre':
-        print("영화 장르 목록을 가져옵니다.")
+        print("영화 장르 목록을 가져옵니다.\n")
         genre_data()
         
     elif sys.argv[1]=='file':
         if len(sys.argv)==2:
-            print("기본 값 1페이지부터 기본 값 50페이지까지 병합합니다.")
+            print("기본 값 1페이지부터 기본 값 50페이지까지 병합합니다.\n")
             file_set()
         elif len(sys.argv)==3:
             try: 
-                print(f"기본 값 1페이지부터 입력 값 {int(sys.argv[2])}페이지까지 병합합니다.")
+                print(f"기본 값 1페이지부터 입력 값 {int(sys.argv[2])}페이지까지 병합합니다.\n")
                 file_set(end_page=int(sys.argv[2]))
             except: print('페이지는 숫자로만 입력해주세요.')
         else: 
@@ -410,12 +410,12 @@ if __name__=='__main__':
                 if int(sys.argv[2]) > int(sys.argv[3]):
                     print("종료페이지가 시작페이지보다 작습니다.")
                 else:
-                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 병합합니다.")
+                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 병합합니다.\n")
                     file_set(int(sys.argv[2]), int(sys.argv[3]))
             except: print('페이지는 숫자로만 입력해주세요.')
 
     elif sys.argv[1]=='selenium':
-        print('크롤링 실패한 영화들을 다시 시도합니다.')
+        print('크롤링 실패한 영화들을 다시 시도합니다.\n')
         try:try_selenium(int(sys.argv[2]), int(sys.argv[3]))
         except: print('cannot.json 파일 명에 포함된 시작페이지와 종료페이지는 필수 입력입니다.')
         
