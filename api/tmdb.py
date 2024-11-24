@@ -12,35 +12,36 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
-import requests
+import requests, sys
 
-options = Options()
-# options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
-# options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
-options.add_argument("log-level=3")
-options.add_argument("lang=ko_KR")
-options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Whale/3.27.254.15 Safari/537.36")
-options.add_argument("--window-size=1920,1080")
-options.add_argument('--disable-blink-features=AutomationControlled')
-options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
-options.add_experimental_option("useAutomationExtension", False)
-service = Service(ChromeDriverManager().install())
+if len(sys.argv) > 1 and sys.argv[1] in ('movie', 'selenium'):
+    options = Options()
+    options.add_argument("--headless")  # 129버전에선 --headless=old로 흰창 날릴 순 있으나 다른버전에서 문제 생길 수 있으므로 저 멀리 날려버림
+    options.add_argument("--window-position=-15400,-15400")  # 창이 뜨는 위치 변경. 4k나 8k에선 보일수도?
+    options.add_argument("log-level=3")
+    options.add_argument("lang=ko_KR")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Whale/3.27.254.15 Safari/537.36")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument('--disable-blink-features=AutomationControlled')
+    options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
+    options.add_experimental_option("useAutomationExtension", False)
+    service = Service(ChromeDriverManager().install())
 
-url = 'https://pedia.watcha.com/ko-KR'
+    url = 'https://pedia.watcha.com/ko-KR'
 
-dr = webdriver.Chrome(service=service, options=options)
-dr.get(url)
-wait = WebDriverWait(dr, 5)
-act = ActionChains(dr)
+    dr = webdriver.Chrome(service=service, options=options)
+    dr.get(url)
+    wait = WebDriverWait(dr, 5)
+    act = ActionChains(dr)
 
-dr.implicitly_wait(5)
+    dr.implicitly_wait(5)
 
-try:
-    bt = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"button.hsDVweTz")))
-    bt.click()
-except:pass
+    try:
+        bt = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"button.hsDVweTz")))
+        bt.click()
+    except:pass
 
-dr.implicitly_wait(5)
+    dr.implicitly_wait(5)
 
 load_dotenv(find_dotenv())
 TMDB = os.getenv('tmdb')
@@ -72,49 +73,64 @@ de=['adult', 'backdrop_path', 'video', 'popularity', 'vote_count']
 set_provider=(8,119,337,356,97,350)
 
 
-def selenium_data(movie_name, movie_year):
+def selenium_data(movie_name, movie_year, movie_url=None):
     
-    if "'" in movie_name:movie_name=movie_name.split("'")[1]
-    if '블랙펄' in movie_name:movie_name = movie_name.replace('블랙펄', '블랙 펄')
-    if '크레용' in movie_name:movie_name = movie_name.replace('보라색', '마법')
-    if '번개도둑' in movie_name:movie_name = movie_name.replace('번개도둑', '번개 도둑')
-    if '엔젤 해즈 폴른' == movie_name:movie_name = '앤젤 해즈 폴른'
-    if '블레어 위치' == movie_name:movie_name = '블레어 윗치'
-    if '장난감이 살아있다' == movie_name:movie_year = '2016'
-    if '엠 아이 오케이?' == movie_name:movie_year = '2022'
-    if '킬 빌: 1부' == movie_name:movie_name = '킬 빌'
-    if '밀레니엄: 제1부 여자를 증오한 남자들' == movie_name:movie_name = '밀레니엄 1 : 여자를 증오한 남자들'
-    if '애니 2015' == movie_name:movie_name = '애니'
+    # if '블랙펄' in movie_name:movie_name = movie_name.replace('블랙펄', '블랙 펄')
+    # if '크레용' in movie_name:movie_name = movie_name.replace('보라색', '마법')
+    # if '번개도둑' in movie_name:movie_name = movie_name.replace('번개도둑', '번개 도둑')
+    # if '엔젤 해즈 폴른' == movie_name:movie_name = '앤젤 해즈 폴른'
+    # if '블레어 위치' == movie_name:movie_name = '블레어 윗치'
+    # if '장난감이 살아있다' == movie_name:movie_year = '2016'
+    # if '엠 아이 오케이?' == movie_name:movie_year = '2022'
+    # if '킬 빌: 1부' == movie_name:movie_name = '킬 빌'
+    # if '밀레니엄: 제1부 여자를 증오한 남자들' == movie_name:movie_name = '밀레니엄 1 : 여자를 증오한 남자들'
+    # if '애니 2015' == movie_name:movie_name = '애니'
     
-    
-    search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
-    search_box.send_keys(Keys.CONTROL + "a")
-    search_box.send_keys(Keys.DELETE)
-    search_box.send_keys(movie_name)
-    search_box.send_keys(Keys.ENTER)
-
-    sleep(0.5)
-
-    try:
-        movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
-    except: 
-        if ":" in movie_name: movie_name=movie_name.split(":")[1]
-        elif '2' in movie_name or '3' in movie_name: movie_name=movie_name.replace('2','').replace('3','')
+    if movie_url==None:
         search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
         search_box.send_keys(Keys.CONTROL + "a")
         search_box.send_keys(Keys.DELETE)
         search_box.send_keys(movie_name)
-        print(movie_name)
         search_box.send_keys(Keys.ENTER)
+
         sleep(0.5)
-        movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
-    
-    movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
-    try:
-        movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
-    except:
-        movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
-    movie.click()
+
+        try:
+            movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+        except: 
+            try:
+                if ":" in movie_name:
+                    elmovie=movie_name.split(":")[0]
+                    movie_name=movie_name.split(":")[1]
+                elif '2' in movie_name or '3' in movie_name: movie_name=movie_name.replace('2','').replace('3','')
+                search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
+                search_box.send_keys(Keys.CONTROL + "a")
+                search_box.send_keys(Keys.DELETE)
+                search_box.send_keys(movie_name)
+                print(movie_name)
+                search_box.send_keys(Keys.ENTER)
+                sleep(0.5)
+                movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+            except:
+                movie_name=elmovie
+                search_box = wait.until(EC.visibility_of_element_located((By.NAME, "searchKeyword")))
+                search_box.send_keys(Keys.CONTROL + "a")
+                search_box.send_keys(Keys.DELETE)
+                search_box.send_keys(movie_name)
+                print(movie_name)
+                search_box.send_keys(Keys.ENTER)
+                sleep(0.5)
+                movie_box = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "v1F9TlrZ")))
+        movie_list = WebDriverWait(movie_box, 5).until(EC.visibility_of_element_located((By.CLASS_NAME, "listWrapper")))
+        try:
+            movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a[@title='{movie_name}']//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
+        except:
+            movie = WebDriverWait(movie_list, 5).until(EC.visibility_of_element_located((By.XPATH, f"//a//div[contains(text(), {movie_year}) or contains(text(), {str(int(movie_year)+1)}) or contains(text(), {str(int(movie_year)-1)})]")))
+        movie.click()
+
+        
+    else:
+        dr.get(movie_url)
 
     sleep(1)
     content_url = dr.current_url
@@ -190,7 +206,7 @@ def genre_data():
 
 # 영화 데이터
 def movie_data(start_page = 1, end_page = 50):
-    # global movie_results
+    cannot=[]
     for i in range(start_page, end_page+1):
         movie_params = {
             'sort_by':'popularity.desc',
@@ -210,11 +226,13 @@ def movie_data(start_page = 1, end_page = 50):
         responses = requests.get(popular_url, headers=headers, params=movie_params).json()['results']
 
         # 불러온 데이터 커스텀
-        for response in responses:
+        for index,response in enumerate(responses):
             # 필요 없는 항목 삭제
             for d in de:
                 del response[d]
             
+            # 영화 제목이 '한글제목' - 영어제목 인 경우 한글제목만 나오도록 수정
+            if "'" in response['title']: response['title']= response['title'].split("'")[1]
             
             # 포스터 url 채우기
             response['poster_path'] = image_url+response['poster_path']
@@ -255,7 +273,7 @@ def movie_data(start_page = 1, end_page = 50):
                 response['reviews']=None
                 response['watchapedia'] = None
                 print("can't get watcha detail ", response['title'], ' | ', movie_id, ' | ', response['release_date'])
-            
+                cannot.append({response['title']:{'page':i, 'index':index, 'year':response['release_date'].split('-')[0]}})
             
             # 포스터 색감 추출하기
             try:
@@ -265,58 +283,143 @@ def movie_data(start_page = 1, end_page = 50):
             except:
                 response['poster_palette']=None
                 print("\ncolor extract error : \n response['poster_path'] \n ", response['title'], ' | ', movie_id, '\n')
-        # 처리 완료된 페이지 내용 결과에 추가
-        # movie_results+=responses
         file_out(f'movies_{str(i).zfill(2)}', responses)
-        print(f'\n\nmovies_{str(i).zfill(2)}\n\n')
-        # movie_results=[]
+        print()
+    file_out(f'movies_cannot_{str(start_page).zfill(2)}_to_{str(end_page).zfill(2)}', cannot)
+    print()
     dr.quit()
+
 
 
 # 완성된 데이터 json으로 저장
 def file_out(dataname, data):
-    with open(f'{dataname}.json', 'w', encoding='utf-8') as f:
+    if not os.path.exists('movies_data'): os.makedirs('movies_data')
+    with open(f'movies_data/{dataname}.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent="\t", cls=NpEncoder)
-    print(len(data))
+    f.close
+    print(f'\nmovies_data/{dataname}.json에 {len(data)}개 데이터 저장 완료.')
 
-def file_set():
-    result=[]
-    for i in range(1,51):
-        with open(f'movies/movies_{str(i).zfill(2)}.json', 'r', encoding='utf-8') as file:
-            result += json.load(file)
-    file_out("movies", result)
+
+
+# 저장된 json 합치기
+def file_set(start_page = 1, end_page = 50):
+    try:
+        result=[]
+        for i in range(start_page, end_page+1):
+            with open(f'movies_data/movies_{str(i).zfill(2)}.json', 'r', encoding='utf-8') as file:
+                result += json.load(file)
+            file.close
+        file_out("movies", result)
+    except:
+        print('파일 또는 경로 없는듯.')
+
+
+
+# selenium 크롤링 재시도
+def try_selenium(start_page, end_page):
+    cannots=[]
+    with open(f'movies_data/movies_cannot_{str(start_page).zfill(2)}_to_{str(end_page).zfill(2)}.json', 'r', encoding='utf-8') as file:
+        cannots += json.load(file)
+    for cannot in cannots:
+        for movie_name, data in cannot.items():
+            try:
+                result=[]
+                with open(f'movies_data/movies_{str(data["page"]).zfill(2)}.json', 'r', encoding='utf-8') as file:
+                    result+=json.load(file)
+                file.close
+                movie_url=None
+                
+                if 'movie_url' in data:movie_url=data['movie_url']
+                
+                picture_url, video_url, reviews, content_url=selenium_data(movie_name, data['year'], movie_url)                
+                result[data['index']]['title'] = movie_name
+                result[data['index']]['picture_url'] = picture_url if picture_url else None
+                result[data['index']]['video_url']=video_url if video_url else None
+                result[data['index']]['reviews']=reviews if reviews else None
+                result[data['index']]['watchapedia'] = content_url
+                
+                file_out(f'movies_{str(data["page"]).zfill(2)}', result)
+            except:print("can't get watcha detail ", movie_name, '|', data['year'])
+
+
+
+# 프로그램 사용법 출력
+def help():
+    print("\n인자 사용법")
+    print("\nmovie <시작페이지> <종료페이지> (구분자 공백)")
+    print('\t: TMDB 상 인기 순 <시작페이지>부터 <종료페이지>까지 가져오기')
+    print('\t: 한 페이지만 입력할 경우 1페이지부터 입력페이지까지 가져옵니다.')
+    print("\nprovider")
+    print("\t: 영화 공급자 목록 가져오기")
+    print("\ngenre")
+    print("\t: 영화 장르 목록 가져오기")
+    print('\nfile <시작페이지> <종료페이지> (구분자 공백)')
+    print('\t: 만들어진 movie 데이터 <시작페이지>부터 <종료페이지>까지 파일 병합')
+    print('\t: 한 페이지만 입력할 경우 1페이지부터 입력페이지까지 가져옵니다.')
+    print('\nselenium <시작페이지> <종료페이지> (구분자 공백)')
+    print('\t: Watchapedia 추가 크롤링 시도하기')
+    print('\t: movie 데이터 생성 시 생성 된 cannot.json 파일 "수정" 후 실행.')
+    print('\t: cannot.json 파일 명에 포함된 시작페이지와 종료페이지 필수 입력.')
+    print('\t: 숫자로만 입력합니다. (앞에 0이 붙어있는 경우 떼고 작성)')
+    print()
+
+
 
 if __name__=='__main__':
-    # provider_data()
-    # genre_data()
-    movie_data(51,100)
-    # file_set()
-    # selenium_data('더그의 일상: 칼의 데이트', '2023')
-    # movie=[
-        # ('칼의 데이트', '2023'),
-        # ('미라큘러스 월드: 파리, 셰이디버그와 블랙클로', '2023'),
-        # ('스루 마이 윈도: 너에게 머무는 시선','2024'),
-        # ('스타워즈: 라스트 제다이', '2017'),
-        # ('존 윅 - 리로드','2017'),
-        # ('터미네이터 2', '1991'),
-        # ('애니','2014'),
-        # ('스타워즈: 라이즈 오브 스카이워커','2019'),
-    #     ('터미네이터 3','2003'),
-    #     ('패스터','2010'),
-    # ]
-    # result=[]
-    # for name, year in movie:
-    #     response={}
-    #     try:
-    #         picture_url, video_url, reviews, content_url=selenium_data(name, year)
-            
-    #         response['picture_url'] = picture_url if picture_url else None
-    #         response['video_url']=video_url if video_url else None
-    #         response['reviews']=reviews if reviews else None
-    #         response['watchapedia'] = content_url
-    #     except:print("can't get watcha detail ", name, '|', year)
-    #     if response:result.append(response)
+    print()
+    if len(sys.argv)==1:
+        help()
+
+    elif sys.argv[1]=='movie':
+        if len(sys.argv)==2:
+            print("기본 값 1페이지부터 기본 값 50페이지까지 가져옵니다.\n")
+            movie_data()
+        elif len(sys.argv)==3:
+            try: 
+                print(f"기본 값 1페이지부터 입력 값 {int(sys.argv[2])}페이지까지 가져옵니다.\n")
+                movie_data(end_page=int(sys.argv[2]))
+            except: print('페이지는 숫자로만 입력해주세요.')
+        else: 
+            try:
+                if int(sys.argv[2]) > int(sys.argv[3]):
+                    print("종료페이지가 시작페이지보다 작습니다.")
+                else:
+                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 가져옵니다.\n")
+                    movie_data(int(sys.argv[2]), int(sys.argv[3]))
+            except: print('페이지는 숫자로만 입력해주세요.')
     
-    # file_out('extrasa', result)
-    # testdata=[{'name':None, 'test':'hello'}]
-    # file_out('test', testdata)
+    elif sys.argv[1]=='provider': 
+        print("영화 공급자를 가져옵니다.\n")
+        provider_data()
+
+    elif sys.argv[1]=='genre':
+        print("영화 장르 목록을 가져옵니다.\n")
+        genre_data()
+        
+    elif sys.argv[1]=='file':
+        if len(sys.argv)==2:
+            print("기본 값 1페이지부터 기본 값 50페이지까지 병합합니다.\n")
+            file_set()
+        elif len(sys.argv)==3:
+            try: 
+                print(f"기본 값 1페이지부터 입력 값 {int(sys.argv[2])}페이지까지 병합합니다.\n")
+                file_set(end_page=int(sys.argv[2]))
+            except: print('페이지는 숫자로만 입력해주세요.')
+        else: 
+            try:
+                if int(sys.argv[2]) > int(sys.argv[3]):
+                    print("종료페이지가 시작페이지보다 작습니다.")
+                else:
+                    print(f"입력 값 {int(sys.argv[2])}페이지부터 입력 값 {int(sys.argv[3])}페이지까지 병합합니다.\n")
+                    file_set(int(sys.argv[2]), int(sys.argv[3]))
+            except: print('페이지는 숫자로만 입력해주세요.')
+
+    elif sys.argv[1]=='selenium':
+        print('크롤링 실패한 영화들을 다시 시도합니다.\n')
+        try:try_selenium(int(sys.argv[2]), int(sys.argv[3]))
+        except: print('cannot.json 파일 명에 포함된 시작페이지와 종료페이지는 필수 입력입니다.')
+        
+    elif sys.argv[1]=='help':help()
+    else:
+        print('사용법을 확인해주세요.')
+        help()
