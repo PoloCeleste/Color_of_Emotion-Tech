@@ -1,0 +1,1452 @@
+[
+	{
+		"genre_ids": [
+			10749,
+			878,
+			18,
+			14
+		],
+		"original_language": "en",
+		"original_title": "Upside Down",
+		"overview": "어긋난 우주불변의 법칙에 따라 자신이 속한 세상을 절대 벗어날 수 없는 아담과 에덴.  남다른 천재성을 지닌 아담은 사랑하는 그녀를 만나기 위해 상부 세계로 넘어갈 수 있는 특별한 물질을 개발하는데 성공한다. 그에게 주어진 시간은 단 1시간, 체온이 높아져 몸이 타버리기 전에 빠져 나와야만 한다. 드디어 아담과 에덴이 서로 마주하게 된 운명의 순간, 그러나 국경수비대로 하여금 발각되어 추격을 당하기 시작하는데…",
+		"poster_path": "https://image.tmdb.org/t/p/original/4W2ODGH4vcSWZEPMMAfDw9Lsbn6.jpg",
+		"release_date": "2012-09-27",
+		"title": "업사이드 다운",
+		"tmdb_vote_average": 6.274,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 58244,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/O9CeTKGV99S6IUQWhwAiaA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE0ySW4wLkdTdk5fUzZhdEZRMFlBY1hNZDU2RU5WOUhJaEN4Tm1zSEc5c1liWkw3Vmc",
+			"https://an2-img.amz.wtchn.net/image/v2/9Nkb53wPBs6Z46yNB3HqWQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE0xSW4wLmpzVjIySFJqNXR5ZlMwWlJGYk9EREhjd0I4VnB4WUVscWxwM0hpUkN0czA",
+			"https://an2-img.amz.wtchn.net/image/v2/fqBew_El4uSbsJJrpchOJA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE0wSW4wLi1iT3BQMWRDTUZIdlJRREhDX3pyOUhxaThtSDJrNUhQM0NLZHBXakJmTlU",
+			"https://an2-img.amz.wtchn.net/image/v2/aG0zLkQBYJqVQQTTxNRlkQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE16SW4wLjN6RG5yNkpTNFlCOFgzZmNsU09mMHJqRkYwZExFYW9pTDNJSk9RVld2c2c",
+			"https://an2-img.amz.wtchn.net/image/v2/L94-g7ci_N3ffHX0ByXp9g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE15SW4wLjFNRW9aelMwaW5kLU8zZzhaSzdfMFdrYmdWS2l6S1NMSDgtN0l4Rm5DTlU",
+			"https://an2-img.amz.wtchn.net/image/v2/_rapF0sXnhnhBfQPdZAGBA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE14SW4wLkcyRFJjQ3dyQkNFR1RRVVJFajFxQ1B6YTFsZGw5RlIwZjU0TFQwSDVKQW8",
+			"https://an2-img.amz.wtchn.net/image/v2/hJ3FwNlPvfS4y-R436aLsQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjEzZG04eVp5MDNPVE13SW4wLkxaR3N0NUlfM2t0bmFnM1lZQ2g4S1ZtSXE3UElKODVDc3VKWkhJWUcwc2c"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/fRp16DJtUuU"
+		],
+		"reviews": [
+			"소재랑 영상미가 아까울 지경이다.",
+			"참신한 소재를 따라가기엔 너무 벅차버린 진부한 스토리라인.",
+			"와우 어마어마하게 예쁜 쓰레기",
+			"멍청이들만 사는 세상. 두 세계의 물질이 합치면 무한 발열인데 겨우 하는 짓은 주름개선 화장품따위나 만드는.",
+			"그래픽이 확실한데.. 그 몽환적인 스크린에.. 홀려버렸다. 순수한 배우들의 아름다운 이야기, 혁신을 거듭하며 쌓아가는 만남. 그리고 사회의 모순을 뛰어넘는 사랑. 이 모든 것이 다 마음에 든다. 우와.... ㅎㅎ",
+			"세계관이 참신한데\n딱 거기에서 멈춰버린듯한 설정\n판만 만들어놓고 고민이 없으니 화장품이나 만들고있지",
+			"참치회를 기대했는데 동원참치를 줬어..",
+			"밍밍한 결말 외엔 다 좋다.",
+			"정말 다 좋은데 왜, 왜 연애만? 진짜 너무 아쉬운 영화. 엄청난 2탄으로 왔으면."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWwMpXd",
+		"poster_palette": [
+			[
+				12,
+				12,
+				14,
+				0.267578125
+			],
+			[
+				248,
+				238,
+				191,
+				0.2231597900390625
+			],
+			[
+				67,
+				56,
+				48,
+				0.189361572265625
+			],
+			[
+				210,
+				175,
+				123,
+				0.17352294921875
+			],
+			[
+				139,
+				110,
+				86,
+				0.1463775634765625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			10749,
+			18
+		],
+		"original_language": "en",
+		"original_title": "Along for the Ride",
+		"overview": "대학 입학을 앞둔 여름, 미스터리한 소년 일라이를 만난 모범생 오든. 밤마다 일라이와 함께 이곳저곳을 누비며 그동안 경험하지 못했던 자유분방한 10대의 삶을 맛본다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/d5spmLeGR9kxBRQ6qxCFad1ljvT.jpg",
+		"release_date": "2022-05-06",
+		"title": "여름밤을 달려 봐",
+		"tmdb_vote_average": 6.695,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 778106,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"영화란 참 무섭다\n저 내일 바다가는 버스 끊었음요",
+			"오든 너무 총명하고 지성미 있게 아름다운 얼굴이고 패션도 예쁘고… 오든 엄마와 하이디도 너무 스타일리시하고…. 연출과 음악이 개인적으로 굉장히 취향이라 너무 좋았네 한번도 겪어본 적 없는 여름이 또 생겼다\n영화의 톤이 잔잔하고 차분해서 매력적이다",
+			"약빤 하이틴들을 속에서 진짜 하이틴을 본 기분이었음. 마지막 결말까지 완벽, 그리고 하이틴은 원래 허술한 재미 ㅠㅠ 우정, 사랑, 성장이 다 있는 좋은 영화를 발견해서 절로 행복해졌다",
+			"🎬 220516\n\n- 개연성과 함께 손발도 날려버린,, 근데 나 왜 웃고있어,,?\n\n- 친엄마 왜 저래 > 아웅 그러셨구나 생각이 너무 깊으시다\n새엄마 나중에 오든 미워하는 거 아냐? > 뭐야 진짜 천사아님? 정말 정 많고 착하신 분이다\n메기야 오해야 미워하지마 > 응 길게 할 생각없었음\n으이구 애비야 > 으이구 애비야\n\n- 사람은 입체적이니까 주인공들 감정이 이해가 안 가다가도 무슨 마음인 줄은 알겠어서 어느정도 공감은 됐었는데 아빠는 진짜 그러기도 싫었음\n\n- 너어무 현실적이라 더 거슬리고 빡침 후반부에 오든이 한번 뒤집어 엎을 줄 알았는데 미적지근하게 해결 아닌 해결하고 넘어가는 것도 너무나 현실인 것,,\n\n- \" 인생은 길어 오든, 계속 한 모습으로만 살아야 하면 너무 지루하지 않을까? \" ㅡ 인생의 짧음을 강조하는 영화들만 보다가 오랜만에 새로웠던 대목. 오든과 함께 용기를 얻었다",
+			"푸드파이트가 진짜 푸드로 파이트인줄 몰랐지",
+			"어느덧 반스 운동화를 고르고 있는 나를 발견…",
+			"전체적으로 루즈하고 감정선이 부족해 힘이 약하다.. 그러나 중간중간의 어떤 장면들은 딱 청춘영화같이 청량해서 사진찍듯 영원히 간직하고 싶어진다.",
+			"2022.6.11\nAlong for the ride\n이 조명 온도 습도 그 자체임\n뻔하지만 기분 좋아서 4점준다",
+			"인생은 퀘스트!!"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5x1knE",
+		"poster_palette": [
+			[
+				27,
+				16,
+				12,
+				0.4230499267578125
+			],
+			[
+				77,
+				44,
+				29,
+				0.2230377197265625
+			],
+			[
+				136,
+				83,
+				53,
+				0.180633544921875
+			],
+			[
+				178,
+				120,
+				79,
+				0.1498565673828125
+			],
+			[
+				233,
+				232,
+				231,
+				0.0234222412109375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			27
+		],
+		"original_language": "en",
+		"original_title": "Eraserhead",
+		"overview": "젊은 헨리 스펜서는 산업화된 도시의 황폐한 아파트에 살고 있다. 그의 여자 친구 메리 X는 임신한 상태이다. 그는 아파트를 나와 여자 친구와 그녀의 부모를 만나러 간다. 그녀의 아버지는 화학 식품에 집착하는 병적으로 활동적인 사람이고 그녀의 어머니는 딸의 성적 매력 때문에 극도로 불안해하는 사람이다. 할머니는 부엌에 앉아있는데 아마 죽은 것으로 보인다. 메리는 헨리와 함께 들어와 그들의 아기를 돌보는데, 그 아기는 형태가 완전하지 않고 티슈 덩어리나 껍질을 벗긴 양 같이 보인다. 메리는 아파트 밖으로 나가고 헨리만 아기와 함께 남는다. 우연한 비극적인 사건 이후, 헨리는 영화가 시작될 때부터 그의 현실 세계의 경계선에 존재하고 있던 악몽 속으로 던져진다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/3TVPg89dZIbmDjS3Wo0YGupc1c.jpg",
+		"release_date": "1977-09-28",
+		"title": "이레이저 헤드",
+		"tmdb_vote_average": 7.351,
+		"watch_providers": [
+			356
+		],
+		"movie_id": 985,
+		"picture_url": null,
+		"video_url": [
+			"https://www.youtube.com/embed/dU7OqGCIcak"
+		],
+		"reviews": [
+			"영화는 고정된 행성과 떠도는 헨리의 머리를 보여주며 시작된다. 행성으로 보이는 것은 주인공 헨리의 고환으로 보이는데, 고환은 리비도로 고정되어 있는 반면, 머리는 그 주위를 떠다니고 있다. 그리고 등장하는 한 남자(man in the planet). 그의 몸에는 두드러기가 퍼져있는데, 이것은 (섹스에 대한 불안감으로 가득차 있는 이 영화의 분위기로 미루어 볼 때)매독(성병)으로 추측할 수 있다. 그리고 이어지는 장면에서 남자는 레바를 당기는데, 그 때 헨리의 입에서 정자로 보이는 것이 나와 앞으로 돌진한다. 그리고 더러운 우물로 곧장 처박히는데 이것은 섹스다. 우물처럼 보이는 것은 당연히 여성의 음부일 것이다. 그리고 그 정자는 수정되어 출산된다. 그러니깐, 오프닝은 헨리가 좋지 못한 성관계를 가지고 아기를 출산했다는 것을 보여주는 것이다.\n그리고 헨리의 모습이 보이는데, 헨리는 여성의 가슴처럼 보이는 언덕을 밟고 지나간다. 이것은 헨리가 여성을 건드렸다는 것을 의미하는 것일 것이다. 그리고 웅덩이에 발이 빠지는데 이것 또한 헨리가 실수로 성관계를 가졌다는 것을 보여준다. \n그리고, 헨리는 길을 걸어 모텔로 추정되는 곳에 도착하는데, 이 곳에서 영화의 첫 대사가 등장한다. \"당신이 헨리인가요?\"\n헨리는 앞방에 사는 매춘부로부터 자신의 여자 친구 메리가 자신을 집으로 초대한다는 소식을 듣게된다. \n그리고 방으로 들어와 실수로 웅덩이에 빠졌던 발의 젖은 양말을 벚어 라디에이터에 올려놓는다. 젖은 양말은 콘돔으로 앞전의 것과 같은 의미를 갖는다.\n그리고 헨리는 메리의 집을 향해 나서는데 이상한 기류가 흐르는 그녀의 집에서 헨리는 메리의 어머니로부터 메리의 임신, 출산 소식을 듣게된다. 그리고 그는 쇼크로 인해 코피를 흘리게 된다. (이것은 아마 헨리가 아이의 아버지가 될 준비가 전혀 안됬다는 사실을 말하는 것일 것이다)\n그리고, 메리가 출산한 아기(baby)의 모습이 보여지는데, 이 아기는 남녀간의 사랑을 통해 태어난 정상적인 아기가 아니라, 성욕으로 인해 배출된, 오프닝에서 앞으로 돌진해 우물로 처박혔던 정자가 그대로 그 모습을 하고 태어난 것처럼 보인다. \n아기는 메리가 주는 밥을 거부하고, 온종일 울어댄다. 메리는 결국 지쳐 헨리와 다투고 가방을 챙겨 친정으로 가버린다. \n헨리는 라디에이터에서 환상을 꿈꾸고, 무대위에 환상 속 라디에이터 걸이 등장하게 되는데, 조금 뒤 무대 위에서 정자들이 떨어지기 시작하고 여자는 그것을 밟아 으깨기 시작한다.\n이것은 이 여자가 성관계를 거부하고, 원하지 않는 것을 의미하는데 헨리가 환상 속 라디에이터 걸을 가지기 위해서는 성관계를 가지지 말아야 한다는 것을 의미한다.\n(그리고 후에 헨리가 메리의 몸에서 나온 정자들을 벽으로 던져 터트려버리는데 이것은 라디에이터 걸이 정자를 밟아 으깨는 것과 정확하게 동일한 것으로 볼 수 있다)\n헨리와 매춘부는 섹스를 하며, 우물(음부)로 빠져든다.\n(그 후, 헨리는 매춘부가 다른 남자와 방으로 들어가게 되는 것을 목격하는데, 그 남자의 볼에는 헨리의 환상 속 라디에이터걸과 같은 모양의 흉터가 있다. 그러니깐, 이것은 아마 헨리의 환상 속 모습일 것이다.)\n그리고 끝내 그는 아기의 붕대를 가른다. 이것은 거세다.\n(이후에 등장하는 연필은 남성의 성기를 의미하는 것으로 보인다. 연필로 그어진 줄은 헨리의 아기, 혹은 리비도로 인해 배출된 정자다.)",
+			"양심상 이해한척 하고 싶진 않다.",
+			"살면서 본 영화 중 제일 이상함. 정말 오래 살고 볼 일이야. 영화 이것저것 보다 보니 이런 것까지 보게 되고, 왓챠는 갑자기 나에게 용돈을 주고; 정말 이래저래 기분 이상한 하루네. 치킨이나 사먹어야지...\n.\n아 히밤 꿈에 나왔어",
+			"자식의 존재에 대한 공포가 주인공의 성적 충동을 억누르는데, 그로 인해 발생하는 정신적 고통은 결국 자식을 머릿속에서 지우는 선택으로 이어지며 불편한 해방감을 낳는다. 나름의 유머를 동원해도 완충재가 되지 못하는 연출자의 그 내밀한 악몽이 인상깊다.",
+			"이해하지 못하더라도 \n강렬한 영화가있다",
+			"지워버리고 싶은 현실과 도피하고 싶은 꿈 사이에서 탄생한 극심하고 어두운 편두통의 세계.",
+			"괴물을 잉태하거나, 괴물이 잉태되었다고 생각하거나",
+			"다 보고 한말..\n(아..끝나서 다행이다)",
+			"이랬던 분이 환갑이 넘어서도 자식을..."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOgBRaW",
+		"poster_palette": [
+			[
+				2,
+				2,
+				2,
+				0.630828857421875
+			],
+			[
+				249,
+				249,
+				249,
+				0.191009521484375
+			],
+			[
+				46,
+				42,
+				50,
+				0.07415771484375
+			],
+			[
+				109,
+				110,
+				113,
+				0.0536651611328125
+			],
+			[
+				181,
+				181,
+				182,
+				0.0503387451171875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			80
+		],
+		"original_language": "en",
+		"original_title": "Bad Lieutenant: Port of Call - New Orleans",
+		"overview": "뉴올리언즈 형사 테렌스 맥도나는 허리케인 카트리나가 불어 닥친 와중에 탈옥범을 구하려다 불의의 사고로 허리를 다치게 되고 이후 진통제에 의지해 고통을 달래는 신세가 된다. 약물 중독자가 된 그는 필요한 약을 구하기 위해 온갖 불법을 서슴지 않으며 악질적인 부패 경찰의 길로 빠져든다. 그러던 중, 과잉수사로 인한 상원의원의 보복과 비리 경찰의 존재를 의심하는 내사과의 집요한 추적을 받게 되고, 도박 빚으로 연루된 악당들에게까지 목숨을 위협당하게 되며 법과 정의로 비호 받던 그의 일상은 돌이킬 수 없는 파국을 향해 치닫게 된다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/77gSZqihdDol584Dh8HXTVpayQY.jpg",
+		"release_date": "2009-09-11",
+		"title": "악질경찰",
+		"tmdb_vote_average": 6.2,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 11699,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/R5yrW-5evE0rZs2bp7ZDig.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFxYm5CemJDMDRNVEUxSW4wLkRoQkhyNS14N2FWaXBIWV9uNmlZampUcERkbHluaDMxaHpTVGZMTXVfRkU",
+			"https://an2-img.amz.wtchn.net/image/v2/3hXJKMW5EgaW1pCz1W_0RA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFxYm5CemJDMDRNVEl3SW4wLkdhNjJvWDFFdGZIWk5ITk43aUI4dkFJZWNEdmxQMUplLXVmbjEyTFg5M28",
+			"https://an2-img.amz.wtchn.net/image/v2/z8xMFUfeAdwCl_D01Ano0g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFxYm5CemJDMDRNVEU1SW4wLndtek95V1FRancwNXdJZEpWTWkxejZJc2pIbHlWalltRF9KT21wVkdQZ2M",
+			"https://an2-img.amz.wtchn.net/image/v2/kIiHVYMEMY5Ujne_n5ea4A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFxYm5CemJDMDRNVEU0SW4wLk5lZWlfM01pbTdpZ1dQX3RkdDd6bTYzczhhc1lJRG1rd3ZsRElyOGE2bkU",
+			"https://an2-img.amz.wtchn.net/image/v2/t6qtM_EExGimTIkbg5XF9w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFxYm5CemJDMDRNVEUzSW4wLm5oczA1WkpzdjB0QkhRZU16TTUySXV6R0lJQ2ZIN1JDd0xXa3kxVk1lc00",
+			"https://an2-img.amz.wtchn.net/image/v2/VTwWHh8ze-Sz-EgIZ18Wbw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFxYm5CemJDMDRNVEUySW4wLjhjWU1YX0djaEJpT2p2dTFRTVp6S0ZUV2JsSjlnZUpIOWx4UUdHelQtYnc"
+		],
+		"video_url": null,
+		"reviews": [
+			"도대체 이 영화는 뭐 하자는 것일까의 의문이 도대체 저 동네는 뭐 하자는 동네인지의 의문에 닿게끔 할 수 있다면 감독 특유의 괴상한 해학과 풍자를 즐길 수 있다. 실제 같은 니콜라스 케이지의 중독자 연기, 성난 도마뱀, 춤추는 영혼이 모인 이 영화의 광경이 웃기다.",
+			"인간의 양면성을 표현하려던건진 몰라도\n정의롭다가 맛탱이 갔다가 오락가락.\n영화끝나기 십여분쯤 남겨진 시점에\n일이 술술 잘 풀리는건 좀 어이가 없었다.\n영화 시간 맞추려고 급하게 마무리하듯이\n갑자기 이거저거 죄다 만사 해결.\n마지막 아쿠아리움같은 대형 수족관앞에서\n멍하니 담소를 나누는 장면이 생각난다.\n아직은 완전 부패하지 않았구나라고.\n하지만 재미는 없었어...",
+			"마약 하는 부패 경찰이 주인공인 것을 빼면 아벨 페라라, 하비 케이틀의 '악질경찰'과는 별개의 영화라 봐도 좋다. 카트리나 직후 뉴올리언스의 막장스런 분위기는 잘 살렸다.",
+			"부조리하며 무의미하다. 종국에는 모든 것이 올바르게 돌아오는 듯 하지만, Old lost John의 멜로디만이 모두를 조롱하듯 머릿속에 끊임없이 울려퍼질 것이다. Hee-haw!",
+			"선과 악이 아니다. 오로지 '악'이다.",
+			"나름대로 천사와 악마의 내면갈등을 열심히 표현하고자 노력했으나 케이지옹 수준급 약물연기만 눈에 들어옴;;",
+			"\"어떻게든 풀린다\" 의 미학",
+			"도마뱀처럼 자생력이 강한 사회악질을 바라보는 차가운 시선.",
+			"베르너 헤어조크 영화 중 악질."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5ZbPR5",
+		"poster_palette": [
+			[
+				9,
+				8,
+				8,
+				0.4890899658203125
+			],
+			[
+				66,
+				49,
+				47,
+				0.21234130859375
+			],
+			[
+				116,
+				108,
+				106,
+				0.1117401123046875
+			],
+			[
+				179,
+				172,
+				169,
+				0.1042938232421875
+			],
+			[
+				230,
+				227,
+				226,
+				0.0825347900390625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			37,
+			18,
+			53
+		],
+		"original_language": "en",
+		"original_title": "Slow West",
+		"overview": "19세기 서부개척시대의 현상금 사냥꾼 사일러스(마이클 패스벤더)는 숲에서 미국 원주민을 사냥하는 북부군으로부터 16살짜리 소년 제이(코디 스밋-맥피)를 구해준다. 제이는 아버지와 함께 서부로 떠난 여자친구 로즈(카렌 피스토리우스)를 만나기 위해 스코틀랜드에서부터 미 중서부인 콜로라도까지 머나먼 길을 혼자 찾아가던 중이다. 사일러스는 제이에게 돈을 좀 주면 여자친구에게 무사히 데려다 주겠다고 약속한다. 그러나 사실은 로즈와 그녀의 아버지에게 엄청난 현상금이 걸려 있고, 사일러스는 현상금을 차지하기 위해 제이를 이용하려고 하는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/gO3YM0aUcPQEc0Dd8UZEer8SHVV.jpg",
+		"release_date": "2015-05-15",
+		"title": "슬로우 웨스트",
+		"tmdb_vote_average": 6.692,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 223485,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/FmkqWAT2Vsbrkg3whlSPRg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnBuYld0NWMyTjZiR056T0hwb2VEaDROWFpxSW4wLnVSbXBEREdtTDJfQVo5ek9YVGxySk52aVQtalRrd00zVjJBT3FlVWd0Y1U",
+			"https://an2-img.amz.wtchn.net/image/v2/6fpDMi7gcJEIWrcjM7ABsg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2gyTTIxMFkyNTBhMlZqYzNNellUQndPV2wwSW4wLnJYWC12dG85UHZuY3Q4akhfNXZ6T3RGZkNFbmhNajBxS0VmeFozcXJ1NGs",
+			"https://an2-img.amz.wtchn.net/image/v2/ppra2DsbS-66Pr388GK_9g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjU0TTJoMmFUSXllbWR3YWpNeWEzWmlNWGR4SW4wLjNxdk05ZW1BWWlTZ0M1enk2WVF2enhYeWpLS3owVlQ4d2xEdjlNWjF3dW8",
+			"https://an2-img.amz.wtchn.net/image/v2/roPooZF61P5cRz-wMRIUcA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnd4YTJ0cmJUVjRkR1JoWVhGbE5URnBjMkZ0SW4wLlhWbDc2WU1sWFJWeEtWY0dONHlmVTZXTUcwUGFvV2ZnaTdRUVJkN1R6cVE",
+			"https://an2-img.amz.wtchn.net/image/v2/UlEZJ73KM1Mda28Izadnog.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM040WVdOaVpXWmxkMkpoYURKNWVtVjZlSEkxSW4wLm93N1lfYlkxYl9fZkFld3BKNC10Z2dBQ3ZQUDVFUS1DUFRneHY4S1VPREU",
+			"https://an2-img.amz.wtchn.net/image/v2/R8AwNxv5F1UimpCErfmqug.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM0o0Ylc1a2RXbDRZMlY1Wld4d2RHaDFibVIxSW4wLjNXeDZXN2ZwR2ZhckstcGE3dmR0Qm92ay1NU3Y1bEN4TjhSRkM2bmFLZ2c",
+			"https://an2-img.amz.wtchn.net/image/v2/ZcH3TeT-LGkmkkB5XWdyVw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM0pzT0RCNVpuaDZOSGxsTVdvMGFYTjNPVzVxSW4wLktBYU96M3pjdEROaGw2WVdNQmhCMndGODhqd1V2bC1PN0ZRTlRkblJHQW8",
+			"https://an2-img.amz.wtchn.net/image/v2/TvzCL5wZDXiwcfchpbRzVA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMkZqZVhwNGQyNTZhSHBpYTNGclpXcDZiekJpSW4wLjViV0Yzb2Nhb2ZwUHhzS29ib0djRUFrcVZJSWFQS05UZ1B5dGk3NzNDU1E",
+			"https://an2-img.amz.wtchn.net/image/v2/fvRHqDs-mY31QMbnG12ffw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMk53ZEhSemNuQnliakp1ZFd4bGQyWm1lWFl3SW4wLjRPa1ZFVzlWX1Bia0x0UlBCRVEyQUJRaVRfMjJjVUxncVpjd0hYNDM5Ym8",
+			"https://an2-img.amz.wtchn.net/image/v2/Aq--r7cj11UMMiBuxs9bYQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1oxWm1KMFoyWnRablI1YzJ0NWEyTnFjams0SW4wLl91Nkh1akZYNFlPMzdHWV9rQWt6M3ctZG1HaUxyWFhMd0p2NWV6dFRqTFk",
+			"https://an2-img.amz.wtchn.net/image/v2/jcTUzBsLGjjxsUBdQme7Xg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMkpsTTNGeWRXTm9PRzFoZFdObU9XNDBkSFI0SW4wLm5WeTBBak4yZV9sSm9DdnJraXVwVGd4ZGU5MnpqWEQ2bkh3NHJldnZYTnM",
+			"https://an2-img.amz.wtchn.net/image/v2/wQobGyjMmscHtwTzES6usQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMkZ0Ym5nMWFHRnVkR1ZrWTJack4yTnBaWEp4SW4wLmNQSDBzdnluMUxfSm9pbTJEd2NlbmY3YzRrV3RaY2lvTEpsZVNCUEJpY28",
+			"https://an2-img.amz.wtchn.net/image/v2/EdMgFbzxI0MDLGruIFK_-Q.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2d4YVhOelpuazNZM2xsTkhKck1ISnFkVzh6SW4wLk5iWGJfNUpUbklsN20ySDJpa3ZIWU5PczdOZE5TcWkySnpyeXRUUTFmZkU",
+			"https://an2-img.amz.wtchn.net/image/v2/azTdrP_Z1SRTqgOiL6L7mQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnRwTkdGdWJYUnJhVEp6YUcxellqQjVjWEp0SW4wLjRwZTZ2YjlxVFZ2SkF6RzJNSHhwSzIxaW1BVTlmeHc5dWVNN1VIMU01SXc",
+			"https://an2-img.amz.wtchn.net/image/v2/IPiGNqCV_fElAmfilY9OSA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjluZDI0NGJXMTBNalI1TkdSemJXWm9Zblk1SW4wLlZHMTJlOWdOR0paOXRPYVRyWUNhQ0dyQ0czbWR3S0QxZVkxVHVCT2h2czQ",
+			"https://an2-img.amz.wtchn.net/image/v2/umpx8qOJu-b3x0esNd3vqg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnBvZW1kbGVIaHBNV05sTTI1cmVXbHROMjUwSW4wLmZqYm94LVFrMFlYMzB2dmN0S292OVVXRl9NMmpNSkZFUVBhdlNBTXJrOTQ",
+			"https://an2-img.amz.wtchn.net/image/v2/2GVzhyvbIhcMpcn2sEoMkQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjlqY0hsc2MycHplbU5wZURodU1XRjRhSE5tSW4wLlR2aXdkdnhVX3J3V3lUcmVLckVHMS1ZakN1YU84dlMxVVpqbzJiUU51MVk",
+			"https://an2-img.amz.wtchn.net/image/v2/xftA02wl4zsiXhl5vMjwqQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1JoZDJwbloybHBkWFZyWVdka2JuTjJkbXB6SW4wLm9JRU01VWhpNkhqU1VKYkJDT0xfcWtQWmhMQW5YMmg4MXBoajUtSWlmMG8",
+			"https://an2-img.amz.wtchn.net/image/v2/O2Kx_qklz9k_6_hO1qKS2A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFsWlhwemQzQnVZM0ZqTVdSa2FEQmpiVEptSW4wLkR6Ym5NRjlNTk5JR1N2NzNYZWFTQjVnUWtvaE1RSGNyWnQ2ems4MjBMa2c",
+			"https://an2-img.amz.wtchn.net/image/v2/0dMKDfSHXoBUFkOxogY0qA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2w2YVhGNmNHa3lkRFowTTNCM2JtSm5ibTl3SW4wLjFUX3JZbDBsWHVuR2IwNmRaSWFmTEg1Y1FDSnA4UklKOVNKOVY1elRueHc"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/fTYZEUBP5pg"
+		],
+		"reviews": [
+			"살의와 냉소로 가득한 서부를 선명하게 가로지르는 동화.",
+			"웨스턴판 <어린 왕자>. 올해 최고의 엔딩 후보",
+			"악인도 영웅도 없다 화려한 총솜씨도 없다. 느닷없이 날아오는 낯선 이의 은원없는 총탄처럼 엇갈리는 인생들만 있을 뿐",
+			"2천불로 저평가 된 명사수 로즈 너란 여자..",
+			"자신을 동생처럼 여겼던 여자를 사랑함은 갈겨진 살갗에 소금을 뿌리는 아픔이었으리라.",
+			"사랑은죽음처럼보편적인것이죠",
+			"하드보일드적 공간인 서부와 사랑을 찾아가는 소년, 동화같은 배경과 연속되는 죽음. 대비되는 장치들 속에서 유지되는 건조함. \n코엔형제의 더 브레이브와 이어보면 좋을 영화.",
+			"'낭만주의 웨스턴' 을 개척하다. 감독의 다음 행보가 기대된다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdRLbKv",
+		"poster_palette": [
+			[
+				23,
+				77,
+				121,
+				0.3415069580078125
+			],
+			[
+				22,
+				36,
+				51,
+				0.256866455078125
+			],
+			[
+				73,
+				125,
+				159,
+				0.2233734130859375
+			],
+			[
+				132,
+				117,
+				83,
+				0.1085205078125
+			],
+			[
+				232,
+				234,
+				235,
+				0.069732666015625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			10749
+		],
+		"original_language": "en",
+		"original_title": "Far from the Madding Crowd",
+		"overview": "1870년 런던 외곽의 도시, 독립적인 여성 바스셰바 에버딘(캐리 멀리건)은 성실한 양치기 가브리엘(마티아스 쇼에나에츠)의 청혼을 거절한다. 그 후 삼촌의 웨더버리 농장을 유산으로 물려받은 바스셰바는 직접 농장을 관리하고, 양치기 개들의 실수로 파산한 가브리엘은 그녀의 농장에 양치기로 고용된다. 어느 날, 바스셰바는 장난 삼아 보낸 카드 때문에 부유한 농장주 볼드우드(마이클 쉰)의 구애를 받게 된다. 가브리엘은 그녀가 볼드우드의 마음을 농락했다면서 언짢아한다. 화가 난 바스셰바는 가브리엘을 해고하지만, 곧 그의 도움이 필요해진다. 이후 가브리엘을 믿고 의지하며 지내던 바스셰바는 미남 군인 트로이(톰 스터리지)의 저돌적인 공세에 굴복하여 결혼식을 올린다. 그런데 트로이 앞에 한때 결혼을 약속했던 파니(주노 템플)가 임신한 몸으로 나타나는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/cr4cctBPv9qHDtjDps4wi0kqI7h.jpg",
+		"release_date": "2015-04-23",
+		"title": "성난 군중으로부터 멀리",
+		"tmdb_vote_average": 7.0,
+		"watch_providers": [
+			356
+		],
+		"movie_id": 250734,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/6NJHbeFPV9Hyt0nhIB08JA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFsTm5CaFpDMHhNRFV4T0RBaWZRLlg1ZmFJbUI2TUJHdnp2dWY0WkR1ZElWMXNtT084dV9HUkhua2w2a19rSnc",
+			"https://an2-img.amz.wtchn.net/image/v2/ZXjiXJhhIG0Z5yL86pBp3A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFsTm5CaFpDMHhNRFV4TnpjaWZRLmN2VlpDcXgxTUQ5SWs1RG8wOGM4X0Zma2VMMUVPSkFFNDRBdWIwWDVSdFU",
+			"https://an2-img.amz.wtchn.net/image/v2/t7uBOksycsjLrQ-04YOZFw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFsTm5CaFpDMHhNRFV4TnpZaWZRLktscGVOX2ZWYUlQXzhqdHdBRFRTVHVCWGZIS3RMWlZyWXNmdkpNTE9PMEU"
+		],
+		"video_url": null,
+		"reviews": [
+			"덴마크 감독의 다소 아쉬웠던 영문학고전의 해석. 캐릭터에 대한 묘사가 과하게 잘려나감으로써 전체적인 스토리도 힘을 잃었다. \n벨기에의 말론 브란도 마티아스 쇼에나에츠를 비롯한 배우들의 연기와 토마스 하디의 공간 웨섹스를 보는 것은 만족스러웠다.",
+			"사랑에 대한 다른 방식을 보여주는 세명의 남자. 남성의 언어로 강요하지 않고 곁에 있어주는 사람의 소중함을 말하는 아름다운 작품.",
+			"1800년대 영국의 풍경은 아름다웠고 캐리 멀리건의 노래도 정말 좋았지만...\n전개가 뜬금없다고 생각될 정도로 캐릭터 심리를 단편적으로 보여주는 데만 그쳐서 아쉬웠던",
+			"Far from the madding 'audience' 영화 5분만에 맺어질 인연을 이렇게 뺑뺑이 돌리다니. 그런데도 감질나게 두근거려서 더 화난다.",
+			"감방에 간 남자가 젤 불쌍함",
+			"문학 작품을 영화로 만들 때, 단순히 요약만 하면 이 영화 같은 전개를 가진다. 그와중에 문학과 달리 영화만 가지는 시각적 요소들은 잘 챙겼다.",
+			"영상이 너무 아름다워 볼 만하고, 캐리 멀리건은 여전히 예쁘고... 내용은 솔직히 판타지 영화잖아? 세 남자에게 사랑받는 여자라..\n마지막 오분은 명장면이군.",
+			"농장이든 어장이든 관리하나는 끝내주내",
+			"마지막 5분을 위해\n멀리도 돌아왔다\n그래도 사랑스러우니까 괜찮아"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5nQ32V",
+		"poster_palette": [
+			[
+				31,
+				27,
+				22,
+				0.344024658203125
+			],
+			[
+				57,
+				38,
+				28,
+				0.2849578857421875
+			],
+			[
+				85,
+				58,
+				32,
+				0.209747314453125
+			],
+			[
+				114,
+				87,
+				49,
+				0.1219482421875
+			],
+			[
+				177,
+				141,
+				103,
+				0.0393218994140625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			35,
+			10751
+		],
+		"original_language": "en",
+		"original_title": "Diary of a Wimpy Kid: Dog Days",
+		"overview": "여름방학을 맞이한 그렉(재커리 고든)의 목표는 방학 내내 비디오 게임을 하는 것과 짝사랑하는 홀리와 가까워지는 것이다. 그런데 하루 종일 게임만 하다가 아빠(스티브 잔)에게 발각되어 게임 금지 조치를 당하고 만다. 어쩔 수 없이 아빠의 취미활동과 엄마의 북클럽에 참여하면서 악몽 같은 시간을 보내던 그렉은 롤리의 초대로 컨트리클럽에 놀러갔다가 그곳 회원인 홀리와 만나게 된다. 이에 그렉은 인턴 자리를 제안하는 아빠에게 아르바이트를 구했다며 거짓말을 하고는 롤리와 함께 컨트리클럽에서 즐겁게 논다. 그러다가 형 로드릭(데본 보스틱)에게 비밀이 들통난 그렉은, 협박하는 형을 컨트리클럽에 몰래 입장시키기 위해 자꾸 거짓말을 하다가 롤리의 아버지에게 발각된다. 그렉에게 실망한 아빠는 규율이 엄격한 사립학교로 전학시키기로 하는데…",
+		"poster_path": "https://image.tmdb.org/t/p/original/7pTvjELxw0f0E6sUPGtPEl4WD0S.jpg",
+		"release_date": "2012-08-02",
+		"title": "윔피 키드 3",
+		"tmdb_vote_average": 6.3,
+		"watch_providers": [
+			337,
+			356
+		],
+		"movie_id": 82650,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"사고뭉치지만 솔직함으로 무장한 그렉, 폭발한다. 부자애, 형제애, 그리고 연애라는 것이. \n2019년 2월 16일에 봄 ",
+			"캐릭터도 배우도 사춘기가 되며 3부작으로 끝?",
+			"그래도 원작의 답없음만은 잘 살려냈다",
+			"나의 순수한 감정이 살아나는 영화",
+			"난 그렉이 안 컸으면 좋겠어ㅠㅠ 윔피키드1에서의 상콤한 목소리가 그립다.",
+			"데본이 연기하는 로드릭 평생 보고 살고 싶은데\n벌써 마지막이래 심장 쪼개짐",
+			"데릭의 맞은 여름방학의 소동 이야기다\n아빠와 탐사단\n홀리에게 잘보이기 등등",
+			"앙 넘모 재밌다 진짜 뭔가 아쉬움ㅠㅠ\n로드릭의 베이비~베이비~는 못잊겠다........ㅋㅋㅋㅋㅋ",
+			"그렉이 암유발자가 되면서 시리즈는 종남"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOgmGN5",
+		"poster_palette": [
+			[
+				253,
+				253,
+				252,
+				0.60302734375
+			],
+			[
+				162,
+				127,
+				113,
+				0.1195831298828125
+			],
+			[
+				215,
+				193,
+				178,
+				0.1168365478515625
+			],
+			[
+				48,
+				42,
+				41,
+				0.0991363525390625
+			],
+			[
+				168,
+				42,
+				38,
+				0.0614166259765625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			28,
+			12,
+			35
+		],
+		"original_language": "en",
+		"original_title": "Smokey and the Bandit",
+		"overview": "길 위의 제왕이라 불리는 트럭 운전사 보 다빌은 사상 초유의 제의를 받아들여 노상의 무법자 밴디트가 된다. 그의 임무는 주류 판매가 허용되는 주경계 지역인 텍사카나에서 트럭 가득 쿠어스 맥주를 싣고 48시간 내에 애틀랜타로 가는 것. 보상금의 액수는 8만 달러라는 거액인데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/w4RqNZtVHB5Uzlnl6zQlMHft7QI.jpg",
+		"release_date": "1977-05-26",
+		"title": "스모키 밴디트",
+		"tmdb_vote_average": 7.0,
+		"watch_providers": [
+			356
+		],
+		"movie_id": 11006,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"텍사카나에서 애틀랜타까지 달리던 와중에 도망가던 신부를 태우면서 벌어지는 추격전. 버트 레이놀즈와 샐리 필드의 젊은 시절이 반갑고 제리 리드(스노우맨 역)의 곡 East Bound and Down가 흥겹다.",
+			"액션코미디",
+			"6.9점"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5maVB5",
+		"poster_palette": [
+			[
+				7,
+				106,
+				202,
+				0.2878570556640625
+			],
+			[
+				175,
+				189,
+				197,
+				0.2408447265625
+			],
+			[
+				55,
+				51,
+				44,
+				0.2139129638671875
+			],
+			[
+				117,
+				109,
+				97,
+				0.2041778564453125
+			],
+			[
+				169,
+				12,
+				9,
+				0.0532073974609375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			12,
+			14,
+			10749
+		],
+		"original_language": "en",
+		"original_title": "The Secret of Moonacre",
+		"overview": "아버지의 죽음 이후 ‘마리아’(다코타 블루 리차드)는 비밀로 가득한 문에이커 저택에 살게 된다. 그 곳에서 우연히 신비한 마법으로 가득한 달빛 세상으로 들어가게 된 그녀는 5천 번째 달이 뜨는 밤, 세상을 파멸로부터 구할 ‘문프린세스’의 전설에 대해 알게 된다.  그리고 마침내 예언의 5천 번째 달이 뜨는 밤이 찾아오고, ‘마리아’는 세상의 멸망을 막기 위해선 ‘달의 진주’를 찾아야 한다는 것을 알게 된다. 과연 그녀는 ‘블랙 맨’들의 추적을 피해 무사히 ‘달의 진주’를 찾아낼 수 있을 것인가?",
+		"poster_path": "https://image.tmdb.org/t/p/original/5xEObHKESPUIYtJRZkMze9SofH5.jpg",
+		"release_date": "2009-02-06",
+		"title": "문프린세스: 문에이커의 비밀",
+		"tmdb_vote_average": 6.5,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 18032,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/sle8OgjcdYtSOYte6CSKUQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRjd01UUTFNVGN3TWpnaWZRLjFjbjZVdEg3ZHBWQ1VRdzBKSVVOM19pUWxqa0Vpa2VrSDRBSGNVbnJzOGM",
+			"https://an2-img.amz.wtchn.net/image/v2/46IZVxoTVU8dW9WM1bNdTw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRjd01UTXhPRGc0TnpVaWZRLlN0cXc2dUViWW81RWNtWHlBSTlIcmV4UDRtMTdpT2dQOUczcTV6bVVwbHc",
+			"https://an2-img.amz.wtchn.net/image/v2/Qd64v7MbAwjWFvvFe187XQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRZMk5UQXpOVEUyTmpBaWZRLkFwX19aTXV6c1c0NjRxWEszR1pIU0JSR0ZJaEZ1N05rTnQzQzgxOVZjUjQ",
+			"https://an2-img.amz.wtchn.net/image/v2/NGrzIOYWSuY6H9OBw1dCSQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRVNE1USXpOREF3TmpJaWZRLkwwaS1HV2tISjBaUzZ5SlVPU09RRTVXdHZIcWU0Z1lWSHk2bVhXT1RpWm8",
+			"https://an2-img.amz.wtchn.net/image/v2/qkHng-pQR-ePGtreprwTvg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRVek5qTTNNamMzT0RNaWZRLm9LSklNU3VESEFwSmdPY0F2T1NXNjM1dkd6ZUF4X1UySVNiMGxiTnVBcDA",
+			"https://an2-img.amz.wtchn.net/image/v2/ctSEd3BpnGhGaXntLT8Jbw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRVeU5ERXdPVGszTmpJaWZRLm5qYXV1ZUFucm9VXzNybkUzVmtqb3U3elpFUVRjR0w2cHV2UDJPWU1SWEU",
+			"https://an2-img.amz.wtchn.net/image/v2/4nS9ee5gJYcOfJBRy-lF0g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRVd09UUTROREkxTVRBaWZRLlFJeWdsazFmOTVVQ2dxb25sdWt6ZnlHc0Jua2RUTEtRQVNQNmhCcGNWMEU",
+			"https://an2-img.amz.wtchn.net/image/v2/rVEUMZuMJx5d1sZ2ADYP2A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRVd09EYzJNRE0yTVRBaWZRLkJDS19vQlZZNmdCS3RFUlpXTE5JUTFBQXRMTkd4cmVULU5EdnZrQm5YRXc",
+			"https://an2-img.amz.wtchn.net/image/v2/wpeFUJmkgmUmFO_npw7ghQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRRME16ZzVNRGcwT0RZaWZRLmZzekFzS2NObDdnWW12cWdjcVdQdjJPNmFuVVNlaVdCV041TFhvYUo4VlU",
+			"https://an2-img.amz.wtchn.net/image/v2/ZpjhUy89rlaU604DJ2YGsw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRRd056Y3lNelUxTnpFaWZRLmM2NGdvUktQOWFXRmstNWRXWEk5UV81eF9nT2xrWS1iME45cWhOQ181OUk",
+			"https://an2-img.amz.wtchn.net/image/v2/8SLxxGeUDLm8oKow14oiRA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRRd09EWTFPVEl5TkRjaWZRLlpzRDZIc21HTmpkakJvVlhDVVZYV2pJNTB4NlAtUzd5SEJYcjQwRldibEk",
+			"https://an2-img.amz.wtchn.net/image/v2/3XqAs2Sv-87F-inlE5NPgQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRNek56TTNNekEwTVRraWZRLkxtdWpaS0d1ZWJoMk1VVlRDOHhmQ2RoVlB3c0dKV0JDSTl6VFJlOE9YRVE",
+			"https://an2-img.amz.wtchn.net/image/v2/RF5ZFNC2GWYUnU-gjo6-5g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRNek16azFNamt6T0RNaWZRLnZiTWdGbXliZGlUdlZIb2RWOF8yU3IzeTBqV2EzeV9xMDkwQTFkcEhZTUU",
+			"https://an2-img.amz.wtchn.net/image/v2/E_aECR0g95-Yz7mtBGoYjQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRNek1qUXlOREF6T0RjaWZRLjV3TGdKNFZRejdrYUNFNFIzcFlweUkxbFVGemdUc0p2VnQwcDVuWnZ1MVE",
+			"https://an2-img.amz.wtchn.net/image/v2/wSBYS1o_nGR4gkl22fgjKw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRJM09UTTNNVGcxTmpFaWZRLlEtLTh3RU1kQ3FFRVRWTHVtTElLbGVaOGRnNjhCdGtEVUV3eDFXbHlfTkU",
+			"https://an2-img.amz.wtchn.net/image/v2/7VKZzA-gtyK796njsTPNcg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRJM09URTROREF6TkRJaWZRLm5rbFNBTmlLVHZTdDJtZ21qWmhjYkh0ck1HTmd4N1lDN0JPV2tyazJZY3c",
+			"https://an2-img.amz.wtchn.net/image/v2/aCVMKuSYmDO69TVLrO_7vQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRFNU9UVTVOVFExT0RraWZRLkJncGktc3ZpWC01MjJKaEFJOTg3bWM5TUFMT1R1dG5xQnlXNTVCMk9PQ3c",
+			"https://an2-img.amz.wtchn.net/image/v2/nllgrN1_fTbXLQcB3pzZ1A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRFNU9UWXhPVEF5T1RjaWZRLmRtTUZVRWszbk1FNzVmTkt6TWFOcWdnYWxIODBhdjZEaTJ5NWJ0LTNnb1E",
+			"https://an2-img.amz.wtchn.net/image/v2/BoPvtZFeTGLHnnMscZzqDQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRJd01qSTRNREU1TmpNaWZRLndZM05VVE1jUk1OYUJNRnlPOVZ6d1RkbE9VRjNRLUdacC1fbFg2cmNVWlE",
+			"https://an2-img.amz.wtchn.net/image/v2/q9XcbAXUdqmfGSXu4D3S8A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRFek9UTTVOREEyTmpNaWZRLlFOZVJFWm9NYlBhcUxzUDF1V1V0MVRGaU1yNWQzbmpvUVhQcms5ZC1feXM",
+			"https://an2-img.amz.wtchn.net/image/v2/c9VpIihHkfAAbIQf784pSA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qYzFORGcxTlRFek9ETTNNVEUyTWpjaWZRLjA5amEwc25qeVZCYXl0UXBaVHJiV2poX0lWNXVXNmQ4bjFMem5QcjNyLVk"
+		],
+		"video_url": null,
+		"reviews": [
+			"어릴때 몇번이고 읽은 책, 작은 백마. 조앤K롤링의 상상력의 근간이라고도하는 이 이야기를 이렇게 망쳐놓다니 혼구녕을 내주고싶다",
+			"배경도 의상도 미술도 다 맘에 드는데 이야기는 왜 그렇죠?! (하아",
+			"시각적효과는 이쁨",
+			"평점을 높게 주는 이유는 단지 어렸었고\n그 땐 공주만 나오면 다 재밌었음",
+			"달이 차가는 과정을 모두 보여줄 필요는 없는데",
+			"꼭대기방을 제외하고는 모두 허접하다.",
+			"내용보다는 옷 배경 궁전에 눈길이 더 많이 간 영화",
+			"왜 봤을까.",
+			"의상 보는 맛으로.."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5YlR3d",
+		"poster_palette": [
+			[
+				18,
+				28,
+				23,
+				0.340911865234375
+			],
+			[
+				63,
+				69,
+				58,
+				0.195159912109375
+			],
+			[
+				217,
+				229,
+				218,
+				0.1690521240234375
+			],
+			[
+				110,
+				121,
+				110,
+				0.153045654296875
+			],
+			[
+				165,
+				180,
+				165,
+				0.1418304443359375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			9648
+		],
+		"original_language": "en",
+		"original_title": "Proof",
+		"overview": "천재 수학자 로버트 르웰린은 젊은 나이에 학계가 깜짝 놀랄 수학적 업적을 남겼지만 정신분열증 증세와 정신적인 불안장애로 말년에는 혼란의 시간을 보내야 했던 인물이다. 촉망받는 수학도였던 그의 딸 캐서린은 이런 아버지를 돌보기 위해서 학업도 포기하고, 젊은 시절을 다 보낸다. 캐서린은 아버지의 간병인이자, 더불어 그가 죽기 전까지 매달렸던 새로운 수학적 증명을 함께 연구할 조력자이기도 했다. 마침내 캐서린은 아버지의 죽음을 맞이하게 되고, 그녀는 자기 자신도 아버지의 정신병을 물려 받을지 모른다는 두려움에 극도의 신경 불안 증세를 보인다. 그러던 중 아버지의 대학 시절 제자 할이 그녀를 찾아와서 아버지가 남긴 연구 노트를 검증해도 되겠냐고 제안한다. 할은 아버지가 비록 정신분열증을 앓았지만 그의 천재성에 비추어 볼 때 새로운 수학적 증명을 남겼을 가능성이 크다고 말한다. 그러나 할의 제안에 대해서 캐서린은 아버지의 증명을 검증하겠다는 빌미로 결국 아버지의 업적을 자신의 연구에 이용하려는 속셈이라며, 그의 말을 믿어주지 않는다. 그러나 결국 캐서린은 할의 솔직하고 순수한 모습에 아버지가 죽기 전에 남긴 연구 노트들을 그에게 보여 주게 되는데..",
+		"poster_path": "https://image.tmdb.org/t/p/original/6K6P5uEBQ3a5uncF9OJSZvLKT8y.jpg",
+		"release_date": "2005-09-05",
+		"title": "프루프",
+		"tmdb_vote_average": 6.326,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 9777,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"은퇴한 교수 아버지, 아버지와 함께 시간을 보낸 캐서린, 아버지를 보살피며 시간을 보내고 ... 그러던 어느날 아버지가 돌아가시고 장례를 치르는 시간, 그곳에 온 모든 사람들이 가식적이었다. 언니마저도, 그도안 한번도 안보이다가 장례식때 나타난 역겨운 그들.\n짐을 정리하며 나타난 공책! 공책의 공식은 지상최고의 발견이지만, 모두 아버지의 업적이라 한다. ..캐서린은 너무 억울하다. .내껀데...\n중반의 반전을 기점으로 펼쳐지는 캐서린의 고뇌, 전반부의 아버지의 고뇌와 조금 달라보인다.  글씨체도 비슷하고 공책도 아버지것과 동일한데... 모두 아버지 것이란다.\n생각보다 놀라운 일이었고, 발견이 된 영화같다. 수학이란 이름을 사용하는게 중반부 부터인데... 갑자기 집중도가 확 올라가는 시간이었다.\n#20.5.25 (1360)",
+			"천재의 DNA를 물려받은  기네스 팰트로 증명에 나서다. 굳이 증명을 해야 믿을 수 있는 일.\n소재도 좋고, 단조로운듯하나 흥미롭다.\n기네스 팰트로와 제이크 질렌할의 조합도 나쁘지 않다. 개인적으로 기네스 팰트로의 패션을 눈여겨본다\n내스타일~ 이것도 증명해야 할까?",
+			"천재가 미지를 증명하고.. 인간이 조우한다..",
+			"일어나지 않은 미래를 증명할 수는 없다.",
+			"사람과 믿음에 관한 귀납적 증명. \n \n연역적 추론으로 사람을 재단하는 캐서린의 주변인과 세상 사람들을 향해 전방위 비판을 날린다. 그 비판은 당연히 유효하다. 다만 무조건적 믿음은 종교에나 있는 것, 귀납적 증명이라면서 제한적 사례와 얕은 경험으로 답을 강구하니 풀릴리 만무하다. 영화 속에서의 증명은 돌아돌아 성공한 것으로 보이나 관람자를 설득하는 데에는 실패한 듯 하다. \n2018년 5월 5일에 봄 ",
+			"미쳐버린 아버지도, 똑같이 미쳐버릴까 두려운 캐서린도, 이 영화를 본 사람도, 보지 않은 사람도 누구나 매 순간 증명이란걸 하며 살아가지.\n증명한다는건 참 힘든 일이야.",
+			"괜찮은 각본인데 연출이 별로다 에이 아니다 수포자인 내가 뭘 알겠어...",
+			"수학 문제 증명을 찾다가 스트레스 받는다. 비중 적은 홉킨스가 팰트로&질렌할보다 확 눈에 띄네. 존 매든은 '셰익스피어 인 러브'를 넘어설 작품을 내놓지 못했다.",
+			"먼 영화가 짜증만 내다 끝나네"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdjEloO",
+		"poster_palette": [
+			[
+				252,
+				252,
+				252,
+				0.66064453125
+			],
+			[
+				167,
+				124,
+				31,
+				0.111602783203125
+			],
+			[
+				214,
+				185,
+				22,
+				0.08026123046875
+			],
+			[
+				46,
+				37,
+				24,
+				0.0755767822265625
+			],
+			[
+				110,
+				79,
+				37,
+				0.0719146728515625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			10749
+		],
+		"original_language": "en",
+		"original_title": "Malcolm & Marie",
+		"overview": "영화 개봉은 성공적이었다. 모두가 감독을 칭찬했다. 그런데 그의 여자 친구는 왜 못마땅한 걸까. 화려한 파티가 끝나고 집에 돌아온 후, 둘 사이에서 긴장이 끓어오른다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/bdidDnAZwchN5vTenoNuhGPJTri.jpg",
+		"release_date": "2021-01-29",
+		"title": "맬컴과 마리",
+		"tmdb_vote_average": 7.034,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 722913,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/OuONOZQuvDoQTs4w0lMNJQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1UQXhPVEkyTWpnek5ESXdOems1T1RZaWZRLjU1WGF2R1pHTmZLQWFHZFNnVUJDMEo1c2pZS2ZCQWZxU1dGWHlYbXNnYmc",
+			"https://an2-img.amz.wtchn.net/image/v2/Pz47CJWPB0HHuc7qYEIPDQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1UQXhPVEkyTWpZME9ERTVOekkzTkRnaWZRLm9kYXN1MU15UFhmOTk3dmR6cmhkTkdTcjctc0FxU1dnUU5YSWFaRGpPVnc",
+			"https://an2-img.amz.wtchn.net/image/v2/NEi3O_DIWFTa5pDoD3xFiA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMkU1ZG1KbGRtRm5lVGx5YzNoM09HRmxhekZoSW4wLjZXR3NnNnJVRWJJMlJrMThNdl9FN0M3TjkwTlE3MHhnNVBTRUJpYnFDVEE"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/n84lXiJjZFs"
+		],
+		"reviews": [
+			"괜찮아, 당신은 문제없겠지. 내 눈앞에 있는 남자는 이게 최선이니까. 욕조에 있는 나를 잔가지처럼 부러뜨리겠다고 소리치는 사람은 이 관계에서 당신이 도달할 최고이자 최악의 남자야.",
+			"둘은 상대의 속으로 서슴없이 걸어 들어갔다. 남자 안의 자의식에서 여자는 악취를 맡았고, 여자 안의 불빛 없는 갱도에서 남자는 캐내어 썼다. 각자가 가진 텅빈 터널을 어떻게 견뎌내고 있던 건지. 서로가 해주어야 할 연민들을, 그 둘은 지니고 나왔을까",
+			"삶은 비집고 침범하는 일 같다고 생각했다. 내가 없다가 있게 되고, 그걸로 내 어머니 신체를 강제로 점거하고, 그 몸을 찢고 여는 폭력으로 내가 태어나고,  부모님의 노력과 마음과 시간에서 내 지분을 점점 늘려가며, 방 안의 공간을 차지하고 다음은 학교에서 준 자리에 앉아 성적의 위계에서 내 자리를 올리고 채우며 어떻게든 버티다가, 어렵사리 수많은 회사 안에서 하나의 회사 한 자리까지 내 자리를 마련해가며, \"내가 여기 있고, 나는 정당하고, 나는 더 해낼 수 있다\"고 계속 영역을 넓히고 넓혀가는 행위 같다고, 그래서 오히려 천식 기운이 돋아 답답하고 숨이 잘 안쉬어질 때가 있었다. 친구들과의 한바탕 즐거운 놀이 안에서도 내 역할과 입장을 찾아가며 그것에 알맞게 나를 주장하는 것 같았다.\n연애도 그렇게 느낄 때가 많았다. 이 사람의 일상에서의 나의 순위와 지분을 확인하고, 상대방에게 있어 나의 필요와 기여를 되새기고, 나와 그의 즐거움을 통해 내 자리를 마련해가는 강박들에 충실했다. 그렇게 몇번의 연애를 했다. 그러다 결국 그제서야 결국, 불안한 사람은 연애를 하면 안된다는 것을 깨달았다. 어쩌면 다른 사람들의 건전하고 성숙한 관계에 비추어 나는 대체로 파괴적인 방식으로 사람을 사랑했다. 이제는 왜 연애를 안하느냐는 물음에 그냥 으쓱하고 마땅히 사람이 없어서, 라고 답하지만 나는 그 이유를 분명하게 알고 있었다. 내가 누군가의 마음에 들어가 깃발 꽂고 땅 바닥에 지익지익 선을 긋고 몇차례나 정답 없는 질문을 던지며 멋대로 실망하고 멋대로 기대하느라 상처 주고 받고 싶지 않아서, 라고. 웬만해선 난 상처 주지 않는 대화며 관계는 자신이 없다고.\n그리고, 그리고 최근의 나는 누구든 조금이라도 나와 닮은 방식으로 사랑을 하려거든 바로 칼 같이 잘라내느라 아무도 곁에 둘 일이 없었다고. 일종의 웃기는 쇄국 정책 같은 것이다.\n말콤과 마리는 제작사에서 빌려준 거대하고 깔끔한 저택으로 돌아가서, 말콤의 영화와 그의 감사인사, 마리의 과거와 미래와 가능성과, 말콤의 극단적인 성격과, 마리의 강박적인 불행에 대해서 대화하며 싸운다. 이 대화가 너무나 강렬하고 날카로워서, 서로의 치부와 단점을 낱낱히 가장 효율적으로 끊임 없이 찔러대니, 내겐 어떤 고어 영화의 장면보다도 더욱 사람 얼굴을 찌푸리게 하는 장면이 이 영화에 있었다.\n그리고 생각했다. \"왜 첫번째 싸움에서 헤어지지 않는거지?\" \"왜 두번째 대화까지 하고 있는 거지\" \"와, 이젠 볼 장은 다 본 거 같은데 왜 짐을 싸지 않는거지?\" \"왜 아직도 러닝타임이 남은거지?\" \"왜 그럼에도 다시 옆에 앉아 대화를 시도하지?\" \"서로 정은 떨어질대로 떨어지지 않았나?\" \"이해가 되지 않아\" \"영화는 앞서 둘이 어떤 추억이 있었고 어떤 끈끈한 계기로 만났는지도 특별히 알려주지 않으면서 저 둘 사이의 접착성에 이토록 지속적이고 강렬한 효능을 설정해두는거지?\" 내가 무언가 놓친가 싶어 몇번을 앞으로 되감아 한단어씩 주억거리며 다시 봤다. 그리고 마지막에 말콤이 잠에서 깨 마리를 찾을 때, 집 안 어디에서도 보이지 않을때 나는 이상한 안도를 했다. 그래, 결국 이 영화는 마리를 떠나게 했구나. 그렇구나, 둘은 이렇게 강렬한 허무를 통해 나름의 자아성찰과 성장을 했을테니 모든게 무의미한 것은 아니지. 그래도 삶은 계속 이어지는 것이고.\n하지만 마지막 장면, 말콤은 마리를 뒤뜰에서 만난다. 그렇게 크레딧이 올라가고. 드라마의 결말은 성숙했다. 엔딩을 마주하고 스스로를 비웃느라 한참을 웃었다. 항상 이별을 상정하고 관계를 맺는건 미숙한 나에 불과하구나. 저 두 사람이며 보통 세상 사람들은 저렇게 본인이 빌린 집도 아닌 제작사가 빌려준 집에서도 자기 방이며 자기 침대인양 자고 눕고, 저렇게 당연히 자기 자리인양 파트너의 옆자리에 앉고, 자기 것인양 파트너를 찾는구나. 저게 보통 사람의 관계에 대한 공간 감각이구나. 저렇게 서로 옆구석을 비집어대며 엉덩이를 우겨넣어 살아가는, 저런 당연함이 사람을 사람으로 만드는구나.\n비집어가며 사는거구나. 스스로의 가치를 의심하면서도, 타인의 의도를 곡해하고 미워하면서도, 단지 좋으니까. 그게 되는거구나. 자아성찰이며 성장이라는걸 함께며 같이 할 수도 있구나. 상처를 주고 받는다는 일이 무슨 기묘한 격투게임도 아니고 HP 다 떨어졌다고 한쪽이 나가떨어지는 그런 규칙 같은 건 없구나. 스토커나 미친 전애인이 되고 싶지 않다고 스스로의 고삐를 거의 쇄골 위로 바짝 쥐고 살아왔는데, 의외로 떠나라고 말하기 전에 눈치 빠르게 떠나겠다고 말하지 않고 함부로 앉아있어도 되는구나. 좋으면. 그만큼 좋아하면. 그게 되는구나.\n정말 잔인하다고 느낀게... 힐과 드레스를 벗고 화장도 지운채 완전히 자신을 노출시킨 상태로 욕조에 몸을 담그고 있는 마리에게, 말콤이 다짜고짜 앉아서 나는 너 같은 것 쫄몹보스처럼 한번에 꺾어버릴 수 있어, 라고 말하는 그 장면이었다. 나는 머리가 쭈뼛쭈뼛 솟는 것 같은 수치심과 공포를 느꼈는데, 누군가 내가 그렇게 연약하게 도망칠 수 없는 순간을 잡아두고 협박하듯 내 생각과 마음을 조롱하듯 말한다면 생애 가장 나쁘고 무서운 기억으로 남을 것이라는 걸 알았기 때문이다. 심지어 그런 폭력적인 대화를 하고도 그럼에도 나는 너를 사랑한다고 울며 자기연민에 젖는 말콤을 보면서, 나는 그의 인물에게서 거의 모든 연민을 다 덜어내는 쪽을 택했다.\n쟤 싫다. 사라졌으면 좋겠어. 라고.\n하지만 내 어림짐작과 다르게 마리는 남는다. 그리고 그의 곁 테라스 벤치에 앉아 담배를 뺏어 핀다. 화제를 전환하고 어떻게든 대화를 이어보고, 그가 자신의 영화에 대한 평론으로 열과 화를 내뿜을때 곁에서 지켜보며 반응하고 맞장구를 쳐준다. 어렴풋이 그 장면에서 내 저울과 영화 속 인물의 저울은 다른 추를 쓰고 있다는 것을 깨달았다. 그들의 저울에서 자존심은 애정보다 가볍다. 구축해온 시간과 쌓아갈 나날들의 의미가 생동하는 것이다. 그 미지의 영역까지 함께의 범위이자 자신들의 구역이라고, 둘이서 암묵적인 정의를 내리고 있는 것이다. 기분 더러운 오늘이라는 물건의 반복에 불과할, 뻔하고 강렬한 내일일지라도 그걸 택하는 사람들이 있구나.\n넓다. 저런 이야기를 연기하는 사람들도 쓰는 사람들도 제작하는 사람들도, 저런 이야기에 공감할 수 있는 사람들도. 생애와 사고의 범위가, 상상과 희망의 범위가 넓구나.\nA가 B고 B가 C면 A는 C라고 생각하면서 계속 직선으로 삶을 기획하는 습관을 들이던, 그게 상처 없이 무해하게 살아가는 것이라 차츰 학습해가던 나는, 점선으로 곡선으로 불투명한 선으로 세상을 그어가며, A가 B이면서도 B가 C면서도 A는 C가 아닌 그런 식으로 살아가는 사람들에게 못당해내겠구나. 그런 걸 이해했다.\n살면서 불합리에 선을 긋지 않고 되는대로 뇌까리고 들이받는 사람들에 섞어 살았다. 주식에 빚까지 내어가며 투자하는 사람들도 있고, 질게 뻔한 싸움에서 화를 내는 사람들도 있고,  취미라는 것에 벌이보다 더 많은 노력과 금전을 들이는 사람도, 다른 사람 도와주느라 제 사정을 뒷전으로 하는 사람, 먹고 살기 힘들게 당연한 직업을 굳이 택하면서 할 줄 아는게 이것밖에 없다는 사람들도 있었다. 나 같이 용돈만 투자하고, 질 것 같으면 목소리도 안 높이고, 취미도 가성비를 생각하고, 일단 내 생활부터 챙기면서 남는 돈만 기부하고, 예술을 하는 삶은 근사할지도 모른다고 막연히 상상하면서도, 스스로의 멱살을 회사원 데스크 자리까지 끌고와 눌러앉혀버린 나.\n그런 내가 이해하지 못할 그 반투명한 합리성의 벽 너머의 세계. 객관성의 만류에도 불구하고 나아갔던 주관성의 총체들.\n사람들이 서로 엉켜붙어 진상을 부리며 그럼에도 껴안으려 드는 그 정글의 영역. 그곳을 향해, 이 팽팽한 비닐 같은 이성이라는 벽을 뚫고 비집고 나갈 생각을 못하는, 내가 침범할 수 있고 오염할 수 있는 건 여기까지만일 것이라고 주억거리는 나.\n말콤. 마리. 저 둘이 사는 진흙탕의 세계. 서로에게 지독하게 빠져서 어떤 메스보다 예리한 말들로 서로를 헤집고 봉합하는 치열한 서로의 세상. 저 둘의 생애 가장 지리멸렬하고 서툴면서도 아팠을 2시간.\n그런 것들을 느꼈다.\n그래서 생각했다. 삶은 비집고 침범하는 일 같다고. 그리고 어디까지 비집느냐, 어디까지 침범하느냐가 그 사람을 결정하는지도 모른다고.",
+			"격한 감정의 세밀한 이야기들이 하룻밤에 몇번이나 오가는지..\n연인들의 이야기에 귀를 기울이다 보면 정말 세세한 부분들까지 이야기하는걸 보곤 한다.\n말컴과 마리는 그 공방을 정말 많이 하더라...ㅎㅎ\n자막 번역하시는 분의 노고가 다시한번 드러나는 부분이다. 정말.. 말많이했어. ㅋㅋ\n굳이 꼽자면 '해밀턴', 그리고'맬컴과 마리' ㅎㅎㅎㅎ\n그렇게 싸우더라도 그들이...부럽다 ...ㅎㅎㅎㅎㅎㅎㅎㅎ\n말컴이 욕조에서 눈물을 글썽거리며 하는 이야기는 기억에 오래 남을 것 같다...ㅎ\n#21.2.5 (228)",
+			"서로의 밑바닥을 들춰보는 것도 중요. 내가 담을 수 있다면 Go, 없다면 Stop",
+			"jazz의 선율이 흐르는 와중에 두 개의 토네이도 hip+(합)이 마주한다.",
+			"사람의 마음 속에서 격렬한 사랑과 격렬한 미움은 동시에 발견되는 경우가 많다 - 프로이트",
+			"'내게 넌 이래.' 시작은 그랬을 것이다. 감당 못할 마음을 내보였겠지. 그러니 차라리 그들이 몰랐길 바란 내 기대는 헛되다. 그 큰 걸 벼려서 찌르는데 모를 리가. 결국 끝을 인정한 목격자로서의 첫 진술. '그래. 이제 네게 난 이래. 사실, 나도 알아.'",
+			"난 잘 모르겠다. 사랑을 해 본적도 없고, 어느 누군가가 없으면 내 모든 걸 포기할 만큼 그 사람만을 갈구한 적이 없다. 그래서 이런 대화, 사랑에 관한 자기들만의 싸움을 볼 때마다 나는 부모님이 싸우는 데 밥 먹는 기분이 든다.\n\n어느 누구나라는 말로 하기엔 이 둘의 대화는 너무나도 예리하다. 너무 사랑해서 너무 증오한다. 서로의 모든 걸 아는 둘은 서로를 떠날 수 없을 거다. 밑바닥을 아는데, 다른 사람의 밑바닥은 어느 정도인지 감조차 잡지 못할 거 아닌가."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mW9pPVK",
+		"poster_palette": [
+			[
+				5,
+				5,
+				4,
+				0.493927001953125
+			],
+			[
+				41,
+				37,
+				37,
+				0.206298828125
+			],
+			[
+				98,
+				92,
+				92,
+				0.1201171875
+			],
+			[
+				165,
+				154,
+				157,
+				0.1132659912109375
+			],
+			[
+				242,
+				240,
+				241,
+				0.0663909912109375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			36,
+			10752
+		],
+		"original_language": "en",
+		"original_title": "Glory",
+		"overview": "군복을 입은 흑인포로는 무조건 총살당해야만 했던 미국의 남북전쟁 당시 전사한 70만명의 병사들 중 흑인 병사들 또한 많은 수를 차지한다.  최초로 흑인들로만 구성된 부대와 그 부대의 지휘를 맡은 백인 훈련관 쇼(매튜 브로데릭)는 미 국회의 승인도 얻지 못한 채 전투에 참가한다. 이들은 무지와 인종차별의 장벽을 헤치고 싸우는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/4rjar4tjS1N0IFpYnaGBNCyjcn8.jpg",
+		"release_date": "1989-12-15",
+		"title": "영광의 깃발",
+		"tmdb_vote_average": 7.5,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 9665,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/kmHxW6LME6uygptKrxi78g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjAyZFhSblp5MHlORGt6SW4wLkRRcnZERUdvcWtZNkNQV1RsZWpyaGtaU0djNWFVX2U2cTNzajdnZk5fX3M",
+			"https://an2-img.amz.wtchn.net/image/v2/ZkiOPhPbJnJastRsyqFswA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjAyZFhSblp5MHlORGt5SW4wLk1DSlZYbkh2dXpSTVBRdTdXNFIzc21FVmV2RHA5alhhNnR2TTM3QmV5QUk",
+			"https://an2-img.amz.wtchn.net/image/v2/7JGURlSu7Q24NH26tM9cQg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjAyZFhSblp5MHlORGt4SW4wLjR3Ull6SFVWeDh5c2gwSkhUV2tkQUpGb0RQVDJ3ZnVRMndfNDU5aTRac2s"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/8XuUGD7aa3E"
+		],
+		"reviews": [
+			"전투에선 옳고 그름보단 신념이 먼저 작동하는 듯..  그러나 의롭지 못한 것들에 대한 분노가 배제된다면, 학살에 불과하다. 남북전쟁에서 북쪽의 군대라도 흑인에 대한 차별이 존재했는데...  영광의 깃발들 사건으로 보여지는 흑인들에 대한 존중의 마음, \n게티스버그 이후로 잊지 못할 전쟁영화가 또 나타났다.",
+			"양면전선을 펼쳤던 그때 그 사람들.",
+			"통제하기 힘든 거친 야생마일수록\n일단 한번 다듬어지고 난 다음부터는\n이전과는 점점 더 비교할 수 없는 명마로 재탄생한다.",
+			"전쟁이란 멍청한 장교들의 병정놀이에 지나지 않는다는 생각이 왜 드는지 모르겠다.\n남북전쟁 영화들을 보면 늘 일렬로 줄서서 서로의 죽음을 도와주듯 총을 쏘는데, 볼 때마다 정말 저렇게 멍청하게 싸웠을까란 궁금증이 늘 든다. \n영화도 맞지않는 장교복을 입은 메튜 브로데릭민큼이나 어색하고 지루하다. \n좋아하는 모건 프리먼이나 덴젤 워싱턴 횽아들이 나와도 그 지루함을 막지 못한다.\n다만 전쟁에 대한 그 시선만큼은 좋다.",
+			"함께 어울리는 사람들이 있었기에 이뤄낸\n그 시대의 큰 전진.",
+			"또 봐도 볼만함 220512(재)",
+			"한 걸음 한 걸음, 설령 죽을지라도 기꺼이 오를 자유의 언덕.",
+			"후대를 위해 장렬하게 싸운 아무도 거들떠 보지 않았던 영웅들",
+			"24시간 언제라도 툭치면 교훈적인 대사와 눈물 한방울 쏟아낼 준비가 되어있는듯한 지극히 평면적인 캐릭터들과 감동을 주기위한 작위적 씬들에 나열과 그를 뒷받침해주기위해 시도때도없이 울려퍼지는 누가들어도 제임스 호너 식 \"아아아~~아아\"의 웅장한 넘버링!!\n\n배우와 관객보다 더 질질짜는것같은 에드워드 즈윅이 탐탁치는 않지만 그래도 하이라이트에 무대포 닥돌격 전쟁에 스펙타클의 위엄은  폄하할수가 없음!!"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mO0gQRW",
+		"poster_palette": [
+			[
+				21,
+				11,
+				14,
+				0.39447021484375
+			],
+			[
+				58,
+				46,
+				53,
+				0.2006378173828125
+			],
+			[
+				197,
+				65,
+				54,
+				0.187896728515625
+			],
+			[
+				90,
+				101,
+				122,
+				0.1192169189453125
+			],
+			[
+				207,
+				175,
+				178,
+				0.0977783203125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			80,
+			18,
+			35
+		],
+		"original_language": "en",
+		"original_title": "Filth",
+		"overview": "브루스 로버트슨은 오직 돈과 진급에만 관심이 있다. 그는 예의 없고 거칠고 악랄하며 술과 여자에 빠져 인생을 허비하는 한마디로 쓰레기지만 사건 해결에 탁월한 경찰이기도 하다. 어느 날, 동양인 유학생이 길거리에서 살해당하는 사건이 발생하자 브루스는 이 사건을 해결하고 승진을 하려는 야심찬 계획을 세운다. 자신의 계획대로 사건을 맡게 된 브루스는 자신만의 비열한 방식대로 사건을 해결해 가던 중 아만다라는 신참형사가 등장하면서 순조로워 보였던 수사는 꼬여만 가기 시작하는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/zBXroWMz2sgmDWBYcrZWcTOSKbV.jpg",
+		"release_date": "2013-09-23",
+		"title": "필스",
+		"tmdb_vote_average": 6.9,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 85889,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/ZGHRsiOYekjMjQsMc4-l7w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpVd056azFNREkwTkRraWZRLk5fMDBUb1FDY3RRYzZ0eGk3aFNMeDBNWERldFh6X0txa3lZYU5NbV81Y0E",
+			"https://an2-img.amz.wtchn.net/image/v2/su5P8zv8gQTZza6F_5XbsQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpVd016QTNOelUyTnpraWZRLmM2WHdCME1PNl9LNkdGZDc5VWpuS21yX21RVWlGV3hjYU9BUnljblBBTGc",
+			"https://an2-img.amz.wtchn.net/image/v2/zlcrWAPBAmMGFUMjX7Ug5A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpVd05EUXdNRFk0T1RNaWZRLm5mc0ZHZGtKMGlDMTIwU0ZRX0ZVMF8wVjh5MGl4UTBZSlg1RHFYazhyQ1k",
+			"https://an2-img.amz.wtchn.net/image/v2/m2jtxF5lY-ieyshp3BBWTA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU9EVTRNVEkzTnpZaWZRLjdNUVBFdWlTV3hPWlZKWXNPLVJnTlljT0xnR2U4Mlk2NDNzcENYZjM0QTQ",
+			"https://an2-img.amz.wtchn.net/image/v2/7dyZNRNABgaMFYhvWXVP9Q.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpVd01UUTFNems1TkRFaWZRLjJPVjZjOXZrLVpfZ1MyYmNqdFhGcE14SXNoUTkyOUJHY2Y2aU4yRmZWejQ",
+			"https://an2-img.amz.wtchn.net/image/v2/FcSDilD0UnqetXcaHHCUnQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpVd01EUTRPVEUxTkRRaWZRLkpKNmRNWHRzbmVyR2FVakFIcUNCeXF0NDFFTnUtdVZSb1M4bkVJS2t0dzA",
+			"https://an2-img.amz.wtchn.net/image/v2/ero5aH0h56VZNnzXEHbIZg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU56QTNNak13TkRFaWZRLjJ2UnBCMVVVM3NDLVFoYTVEMlI4RTVodkd4ZnpUUkRNdk5RWloyamRrVzA",
+			"https://an2-img.amz.wtchn.net/image/v2/OEs6RoSCf4DBcfVJeUerEg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU16TTVNVEF3TWpNaWZRLnYzZWh1VHN2U195VDRwWkxSaDdreUktVXJwcmNIR3ZmQVJaQWV5dW1RSmc",
+			"https://an2-img.amz.wtchn.net/image/v2/XwcIJ4hxyvCSPISw3PdFNg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU9UY3pOVE15TnpVaWZRLjRuZzhLdGN4R19vM1V1OEZpaEh4S21yU0hYUmd5T3FVQ1JMYm9oQm52Z00",
+			"https://an2-img.amz.wtchn.net/image/v2/lXvKSogzAgJwfFqPvYRvDA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU5qazBNVFF4T1RnaWZRLlZiNjA3VHZybTBob3RObTN4Y1ppZmdGbS01V1diVXVJdmI1NGFWaVNwdFk",
+			"https://an2-img.amz.wtchn.net/image/v2/GWQ0Ap65dMjMbNpFxjESGA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU56QXlPRGN6TVRJaWZRLk51UUZnalBwOEtNUFVKLTNCWkNTZF9FNmN0OTFuRlhwX21mVDVrT3FDTGs",
+			"https://an2-img.amz.wtchn.net/image/v2/JKkVxrsvi2YHusaoZiiMOQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU1UYzRNamM1TkRjaWZRLi1lM1Atbjc0NzFGWjIzVHl2YklYdGdVMnpoTVRHUTdqMzBwakhNbjEyZ0E",
+			"https://an2-img.amz.wtchn.net/image/v2/dM4gzXCGTxH_nlTh9-TqHg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU1qYzFPVGcwT1RnaWZRLlU4dXROWThucXhpNW5hTDFmcU9XS0xVclBBWU1mSlJiU3pFZG0xMjBFS3c",
+			"https://an2-img.amz.wtchn.net/image/v2/DtXnr-XeMQ8RVMHpdCFEgQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU1EZzJPVEU0TXpRaWZRLkY2Q2ZlQXNGSDBOMEJoLXFBSnZmRzFYUUVIUTZ2dzA5bmlRdVFGRkVMYVE",
+			"https://an2-img.amz.wtchn.net/image/v2/oqrchJZBqXiyQ32m3LnUKQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU1EVTBORFUxTVRJaWZRLlRzMndyc0lmZjh4bG50ZTBIMllyMW9ZcDZMNVY2eVA0Q1h2VUxCMDNCbDA",
+			"https://an2-img.amz.wtchn.net/image/v2/-aClelnnkiFsJ0h3rzDp2w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU5ESTJORGt3TWpZaWZRLmtMa05rbzhkLUJKTGNCeTJjdk9qWWxJWHowUXVRaUxyWURyQ29TWFVRMzA",
+			"https://an2-img.amz.wtchn.net/image/v2/2m4nIMnnN744fcRpkJPY-w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5ETXlOalF5TnpRNU1URXdOVFE1TmpRaWZRLkhhM3Z1WkJWVmF6TkdOMmhXdG95MkxiSWhXREthanNpQmx4MUN0UUh4TU0"
+		],
+		"video_url": null,
+		"reviews": [
+			"패스벤더에게 '셰임'이 있다면 맥어보이에게는 '필스'가 있다.",
+			"벗어나려는 몸부림 어쩌면 룰을 지키려는 발악, 결국 그 지독한 룰은 여지없이 적용된다",
+			"나를 졸라메는 줄은\n아이러니하게도\n누군가가 내게 베푼 친절.",
+			"빠져나오려 발버둥 칠수록 \n더 깊은 나락으로..\n해결하려 할수록 \n깊은 미궁으로..\n사랑 하려 할수록 \n광적인 집착으로..\n\n이 모든걸 혼자 소화하는\n제임스 맥어보이!\nGood!",
+			"자신을 보호하기 위해 타인을 해치던 룰이 부메랑이 되어 날아올 때. 제임스 맥어보이의 눈물연기는 언제봐도 감탄스럽다.",
+			"filth인가 pills인가 중반부까진 이 생각. 이렇게 바닥까지 떨어진 인간 쓰레기 말종을 연기하면서도 매력적. 더러운씬들 속 눈빛은 고독함, 슬픔, 광기. 엔딩은 잊혀지지않는다",
+			"난잡한 스타일은 대중성을 얻지 못한다. 하지만 연기 끝내줬고, 작정하고 삽입한 OST는 앨범을 통으로 구매하고 싶을정도이다. Filth 제목 그대로.",
+			"스토리가 중구난방으로 전개되는게 영화의 몰입을 방해하였지만 제임스맥어보이의 연기+마지막 라디오헤드의 크립 이두가지가 영화를 살린듯",
+			"생각보단 느껴지는대로!\n하지만 충분했던 것들은 그 가치를 잃어버리고 '좀 더'라는 규칙을 몸에 새긴다.\n어제의 행복이 오늘 따분해지고 내일은 지루해진다.\n극복하는 방향을 건강하게 했으면 좋았을텐데.  어느새 모두가 우려하는 일을 저지르는 스스로에게 가하는 철퇴! 그럼에도 아직 모자르다. 필 가는대로~\n맥어보이의 광끼적 연기가 가득하다.\n#20.8.3 (1951)"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5xJlv3",
+		"poster_palette": [
+			[
+				5,
+				2,
+				2,
+				0.3234405517578125
+			],
+			[
+				238,
+				229,
+				221,
+				0.2473602294921875
+			],
+			[
+				199,
+				176,
+				159,
+				0.20098876953125
+			],
+			[
+				81,
+				48,
+				40,
+				0.1353607177734375
+			],
+			[
+				172,
+				101,
+				72,
+				0.0928497314453125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			16,
+			14,
+			12
+		],
+		"original_language": "ja",
+		"original_title": "雨を告げる漂流団地",
+		"overview": "주민들이 모두 떠난 아파트를 타고 돌연 망망대해 위를 표류하게 된 아이들. 집으로 돌아가기 위해선 서로에게 조금 더 솔직해질 필요가 있는데.",
+		"poster_path": "https://image.tmdb.org/t/p/original/3w0KOMiF7AHpLr9fnJnBLjFry0A.jpg",
+		"release_date": "2022-09-09",
+		"title": "표류단지",
+		"tmdb_vote_average": 7.427,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 877957,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/2nuO7nuqvRcp4EYA-FPc7g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5UY3hPRFEwTnpNME1UVXhOelExTnpNaWZRLlJQNnFEOExaLTRmdUM2UDZIMmhoRUdtRURFMnJaN2ZaYkY5LXNjbUkzV3c",
+			"https://an2-img.amz.wtchn.net/image/v2/jpZ-nhDnDyFbzF-o5348rw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5qTTBPVEUwTkRJeE1qUTBNekkwTmpJaWZRLkdMMnVCVk9PWEY2WENWckZ4cHhqa3RjV2dzRWJMLTZRcUZmVkdsVkxuRTA",
+			"https://an2-img.amz.wtchn.net/image/v2/Lb8OcIyfa5mVpzG8cDt0OA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5qTTBPVEUwTXpjNE16ZzBOVGc1TURJaWZRLno2Tnd5MlVEZ3U2LUZYNTc3SlhkTFVEdGhsTWwxQW9oRDNHN0w2SDZRRlE",
+			"https://an2-img.amz.wtchn.net/image/v2/NTOoFgjR1O0501fbVwRqPQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5UY3hPRFEwTnpNME1UUXlNVGc1TmpraWZRLlM3bmV4Mnpka1pGVlZob1lNbGpGeVlTc3Vkdi1VdHM5c0VQa3hBNUtKWlk"
+		],
+		"video_url": null,
+		"reviews": [
+			"빙봉 선에서 정리 가능\n-\n와 나 꼰대 다 됐네\n일본 잼민이들 징징대는 거 버틸 수가 없다 내가 원했던 건 ‘판타지 힐링 여름방학’이나 ‘미스터리향 생존 군상극’이었을 뿐인데",
+			"음악이 좋구~애들이 고생해요",
+			"추억과 애착에 대해 번잡하면서도 색다르게 고찰한.",
+			"과거의 영광에 매몰되어 현실을 직시 못하는 일본인들이여.. 이제 그만 그 표류단지에서 빠져 나오시길...",
+			"2시간 내내 '나 때문에..', '미안해..'\n\n피곤해죽겠다.",
+			"지나치게 무례한 여자애 하나랑 지나치게 저자세인 여자애 하나 때문에 보는 내내 괴로웠다",
+			"사랑해요 우리들의 주공아파트",
+			"초 중반부 이해할 수 없는 내용들..\n도대체 왜 나츠메는 왜? 뭘 잘못한거지?\n거기로 모이라고 한것도 아니고 지들끼리 모여놓고 상황이 그렇게 되니 갑자기 탓한다.. 그걸 또 그렇다며 암말도 안하는 나츠메는 뭐냐..\n알 수 없느 싸움과 짜증..\n그리고 목숨걸고 구해준 사람에게 니탓? 반복... 하...😩\n작가님이 혼자 상상한걸 설명도 뭣도 없이 그냥 다 지나가니 무슨내용인지 뭘 말하려는건지 알 수 없다.\n옛것에 대한 그리움인가?\n옛것을 기억하라는건가?\n아니면 오래 살던곳에 가서 제사라도 지내야하나...\n딱히 재미없다도 아니다.\n그냥 내가 이해를 못하겠다..\n마지막에가서 대충 내맘대로 그래서? 잊지말라고?그래... 라는 생각만할뿐..",
+			"나의 기억, 그리고 알지 못했던 너의 기억. 추억이 깃든 모든 것들에 대한 노스탤지어를 담아."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdEmljE",
+		"poster_palette": [
+			[
+				217,
+				226,
+				220,
+				0.2280426025390625
+			],
+			[
+				12,
+				79,
+				96,
+				0.2228240966796875
+			],
+			[
+				139,
+				179,
+				181,
+				0.2109375
+			],
+			[
+				17,
+				129,
+				168,
+				0.205841064453125
+			],
+			[
+				85,
+				136,
+				93,
+				0.132354736328125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			12,
+			35,
+			16,
+			10751
+		],
+		"original_language": "en",
+		"original_title": "The Secret Life of Pets",
+		"overview": "반려견 맥스 는 주인 케이티와 함께 뉴욕 아파트에서 전형적이고 안락한 도시 생활을 즐긴다. 어느 날 케이티가 남산만한 잡종견 듀크 를 입양한다. 맥스는 큰 덩치로 자신의 침대마저 빼앗은 듀크를 경계하지만, 겨우 입양된 처지인 듀크는 맥스 때문에 다시 주인을 잃고 싶지 않다. 결국 맥스를 어두운 골목에 버리고 도망치려던 듀크는 맥스와 함께 동물보호소 직원에게 붙잡히고, 토끼 스노볼 의 도움으로 트럭에서 도망친다. 맥스가 사라진 것을 알게 된 이웃의 동물들은 맥스를 흠모하는 포메라니안 기젯 을 중심으로 구조에 나선다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/sQZUkEZZLRExn75YBvReuo68i9f.jpg",
+		"release_date": "2016-06-18",
+		"title": "마이펫의 이중생활",
+		"tmdb_vote_average": 6.3,
+		"watch_providers": [
+			356,
+			119
+		],
+		"movie_id": 328111,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/mi4UEKbXq4Py2E5Qejv2QQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVNE5qa3lNVGM1TkRnaWZRLmpLZ2UxaDFVbTJCdS1vVzVQWjVyTVdpSTFiQ1RHMlBWTEhsckpNQ1g2Wlk",
+			"https://an2-img.amz.wtchn.net/image/v2/TlWSshpp59WniCfItwKVow.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVM09EQTVOVE0wT0RnaWZRLkwzYzJyVUdXOWRnVmQtWWZFWkcwekVabkRaMkRvWXctZnY1RDRoSlRlT0k",
+			"https://an2-img.amz.wtchn.net/image/v2/JRz2dZyVpXzBNB1CtEIi_Q.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVM09EZzJOemc1TWpVaWZRLkRybjRKbHFxUTRVa0ViU3diMXVSbzFjbVpkVThxSXJPYWNyakozUjBkWUE",
+			"https://an2-img.amz.wtchn.net/image/v2/ZZIB8K7SxYgQxWIugTeL8A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVNE1UazBNVEF6TURJaWZRLkM1QVR4MENBN3I3SXVBUzdwV2pRc1JIRWtGWVVDUmRTejJwckdfd3BIaE0",
+			"https://an2-img.amz.wtchn.net/image/v2/-dfIDuho9XAVh0jgd3YRGw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVM056azRNVE15TnpJaWZRLlA3MXN3SmoweDZDaWJVYUE0OFFpNkdwdlZzUkludWJqV0hlYjNERHk3eEk",
+			"https://an2-img.amz.wtchn.net/image/v2/vofOra0Qr7SnTzn3VVyP2A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVM056RTFPVGc1TlRjaWZRLl9fN0hnZXYzcERoRWM0TlZJSzRSRVJjY0FwQlVSYmFUc0ZjaUc5Sm5oeUU",
+			"https://an2-img.amz.wtchn.net/image/v2/TAMnnneXAb-2NcAAPJxj2g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVMk1qTXlNamN3TWpFaWZRLjNJREt4V0lSYWZIUWV0M0oxODNTRWNiQk10aFRzcGdJN0hvbEdvYm5PbEk",
+			"https://an2-img.amz.wtchn.net/image/v2/gg_7ILCblGnml1MAsq8mvw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVME5qSXdOamd3TmpnaWZRLjZOaFFxdTk1V09DREpPVjNmaV83YV9JdjE0bGU0aDZ4NUxNVDBabTgzb0k",
+			"https://an2-img.amz.wtchn.net/image/v2/Hbp967b_H3Z0caSVziYOtA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVME1EWTVPREEyTWpjaWZRLkROSzFqZm52UDg2bHFmd25qOXBkOVhVM0FtZWJhSVN4NFdCOGp0U1E4cGs",
+			"https://an2-img.amz.wtchn.net/image/v2/RZ48-XQ9s_ye9bXddk_xxw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVME5UZzFNakEzTlRFaWZRLnROMGxxVEdYbFNHNk52QVF1eFdXMXo3NGR2UHFHeTJwdm9zNFJMcVI5SU0",
+			"https://an2-img.amz.wtchn.net/image/v2/sxRaTaji8wuMPFxhHCSugA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVME5UQTROekl5TURraWZRLm53U21Dbk1sZHpQa3ZrQXE3cUZjb0MzejF6ZTdidWRoOE1DSENQalNZWjA",
+			"https://an2-img.amz.wtchn.net/image/v2/jg0EOzHETh9tNJtzrDV0xQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVek9EQXlORFEwT0RBaWZRLjgyVFQydVRuNFBDZW5oNWJvUVBIeDlDR3JXcEo1bHRiOXFHV1Ixa3lGZmc",
+			"https://an2-img.amz.wtchn.net/image/v2/wTwJnWhWcmDQyoo7mvqIsw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVek9EZ3lNVGczTnpRaWZRLkVGaXdwb1FjV3ZiQTlSNElKcGFFdTM3MUFJMW1NcVBYS21kWDllandiRGc",
+			"https://an2-img.amz.wtchn.net/image/v2/DhnV_mrE1z88cxQc1xrmaw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeU9EQTVNekEwTXpnaWZRLjFEb3hmTGNrcEVaQTV1Vzc5ZnpnYmtJaEFaRkdIa0dxdDg0bzdRYXQ2TnM",
+			"https://an2-img.amz.wtchn.net/image/v2/Jf0k8gw1tOn16RT3R05Lfw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeU9EZzNPVGcwTlRRaWZRLktyU3ZXV0RCaTlyaTVKYlM5S2h4LVZ6NXJPM1NaVlJQYURjZzFjM05feTg",
+			"https://an2-img.amz.wtchn.net/image/v2/4qSWzQ2Wmoce7QGIbLndoQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeU1qSXlNakl6TVRnaWZRLnRvN2pfLWFfR2oxLUJ0Vnc1Mmd2WUZTdDRnVDRWYUg5b0dVOGg1Z015OEU",
+			"https://an2-img.amz.wtchn.net/image/v2/HXWSRefMK2FPHeUEYR0w9w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeU1UVXdPREV6TkRNaWZRLjI5NW5VWXhabWdxR3J5anVXUm5RM2sxSWRCQTJMb0ROQzliSjE1Y3VTREE",
+			"https://an2-img.amz.wtchn.net/image/v2/wkaacEcv6pbIYdZ5cPQTVA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeU1EVTJOamt6TlRNaWZRLmRqOGhlaDFpRDdybG95X2FQNFVKLW9XQnFwSjlHanJ6dm4wU3VPSDhnbVU",
+			"https://an2-img.amz.wtchn.net/image/v2/rr7Std43EI8eGeI-8729Aw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeU1qTTVNakUzT0RNaWZRLnRnblZxcFA0VnRHRk9OMS1pNjdVUVA2TXQ2MlJjX3dPN0szck4yZl9JZHM",
+			"https://an2-img.amz.wtchn.net/image/v2/eVmcjLlzFOXZbJXsMcNAUA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeE16QXhOVGs0T0RJaWZRLkRVczZjLXcxU0ZMRkhieWFheXBlOTJRZXRIMzEza2xId18zVkpCeVUzQWs",
+			"https://an2-img.amz.wtchn.net/image/v2/IMBSs-V1OuSXGKACJu-EVw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVd056Y3pNVGswTkRNaWZRLnp0aEMtRjlwODVnWUYwOE9yS2dVa2V0ZTU0YzhaenFtU1pNWTZURWlWcEU",
+			"https://an2-img.amz.wtchn.net/image/v2/MT0KWixHzg0vL9ACRJO8Vw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVd09USXlNVGM0TnpjaWZRLjNrQnllUmRMSWRvbDduNXgwSEVpQTdNb2lCTUVjOEh1YWxJUnFVTXgwRGc",
+			"https://an2-img.amz.wtchn.net/image/v2/KS5cJqT4OhajfuBFuEedYg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVeE5ESTNPVEU0TURnaWZRLnQ3V1lyMUViWklfUFZ1V2h5YzVvWHBjdV9VUU1VSmNnaV9JQXlqYlhRdWc",
+			"https://an2-img.amz.wtchn.net/image/v2/Kjk32Qxg76GG9JMhRzPitg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVd09UTTVOelV5TmpjaWZRLnRwVzFZU2hwcjFHWjBlbHktR29DcWlNSk5iM2oyeF9YU1FFM0xrQzE3MWc",
+			"https://an2-img.amz.wtchn.net/image/v2/Afu5D_WaJcuBfiokuEEwRg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVd01qY3dNRFU1TVRFaWZRLkFwQmw2OTYwaXFReUFScXZXR21RYWVKb1FYYUNzMW1ETGtyZnZxYlpjM2c",
+			"https://an2-img.amz.wtchn.net/image/v2/81dGSyZGCG3mVMDmokyKaA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVd05ERXdOamd3TmpNaWZRLjVhTVN0MjA2RHVLcWNGUnNJaDNMZ29CYk1DV3dDaGN6Wk5NbF9BQTgyRUU",
+			"https://an2-img.amz.wtchn.net/image/v2/84kODLbnExbeh-I0SXhoVw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRVd01UQXdNREl6TXpJaWZRLklKMjR4QmFaUmR5Ulh3bElpdkNZbzNJQ3cwS1pHMmVuVldHaFo1R3ljTVE",
+			"https://an2-img.amz.wtchn.net/image/v2/lhyxdT1MQv0in4TTlOLL5A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRRNU56VTJNell5TXpRaWZRLkhYQXNKeVhXZVI1OU9hZTMzVExwQnNXWWxrRzJBUEhnRTRVb2NEZkFhdUE",
+			"https://an2-img.amz.wtchn.net/image/v2/IievHQb-IUgchSEr7NUJcQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16RTNOemsyTlRRMk16Y3pNelkzT1RraWZRLmVWM3RnYlhSaVpOcTkxNXhicU02UlhXNFkzR2NySU0yU1R3bEUtMlNYek0"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/-GDNKo820vs"
+		],
+		"reviews": [
+			"애완동물을 키워봤다면 처음과 끝은 참 좋고 한편으론 찡해지기도 한다. 일루미네이션 특유의 뉴욕 배경 묘사도 훌륭하다. 그러나 정작 제목의 secret life 에 대한 내용은 기존 동물주인공 애니메이션과 별반 다를게없고 상당히 유치했다.. 미니언즈때도 느낀거지만 디즈니가 성인도 감동할만한 요소가 있다면  일루미네이션의 작품들은 아이들의 즐거움에 더 초점을 둔 것 같다",
+			"정말 귀엽고 사랑스러운 한바탕 소동극",
+			"어쨌거나 결국 애완동물은 인간에게 귀속되어야 한다는 뻔한 인간중심적 사고로 끝나는게 아쉽다.",
+			"다른 것보다 맥스가 우리 집 애기랑 하는 짓도 생김새도 너무 똑같아서 귀여우면서도 안쓰러웠다 T.T....",
+			"구름아 이중생활좀 해바..",
+			"애완동물판 '토이스토리'를 꾀하지만 순간순간만 참신하고 전체적인 구성은 상당히 지루하다. 발상의 전환보단 슬랩스틱에 너무 의존하고 캐릭터들의 개성이나 케미가 여타 애니메이션들보단 상당히 약한 실망작.",
+			"오프닝 장면만 100번 정도 돌려보고 싶다ㅋㄱ\n디즈니, 픽사 못지않은 퀄리티라 깜짝 놀랐다. 반려동물 키우시는 분이라면 보셔도 후회없을 정도로 너무너무 귀엽다.. 버스에 붙은 깨알같은 '씽' 포스터 찾는 재미는 덤ㅎ\n쿠키영상 O",
+			"아이들만 즐기는 '아동영화'에서 전세대가 즐기는 '가족영화'로 가는 길이 이렇게 험난하다 -_-"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mO8KGMx",
+		"poster_palette": [
+			[
+				121,
+				136,
+				184,
+				0.3286590576171875
+			],
+			[
+				116,
+				88,
+				93,
+				0.228485107421875
+			],
+			[
+				42,
+				38,
+				42,
+				0.177825927734375
+			],
+			[
+				228,
+				181,
+				152,
+				0.135711669921875
+			],
+			[
+				217,
+				213,
+				216,
+				0.1293182373046875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			28,
+			18,
+			36
+		],
+		"original_language": "cn",
+		"original_title": "葉問4",
+		"overview": "아내와 사별한 영춘권 최고수 엽문은 아들의 미래를 위해 미국으로 향한다. 그곳에는 자신의 제자 이소룡이 점점 유명세를 이어가며 세상의 눈길을 사로잡고 있다. 학교 입학을 위해 추천서가 필요하지만 중화회관의 사부들과 대립하게 된다. 특히 엽문을 인정하지 않는 태극권의 고수 만종화와는 갈등 끝에 대결까지 벌이게 된다.​ 그러던 중 엽문은 학교에서 괴롭힘을 당하는 만종화의 딸을 돕게 되고, 중국인들을 탐탁지 않게 여기는 미국 이민국과 해병대 장교와의 충돌이 일자 약자를 보호하기 위해 다시 한번 대결에 나서는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/gWqwEIq4Rb1VN25JmbqEVUDDZvR.jpg",
+		"release_date": "2019-12-19",
+		"title": "엽문 4: 더 파이널",
+		"tmdb_vote_average": 7.3,
+		"watch_providers": [
+			8,
+			356
+		],
+		"movie_id": 449924,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/9N2LvM9pLRxDBunxNRspfA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMmx5TTJ4dWRUZHFhMlYyZVROaVlXOXFaM1pxSW4wLmZTUkR0dFhwRGQ2S3BCS3lIdFAtNEIzZWhqYUFjZU5zcEQxUFVMNFV4Qms",
+			"https://an2-img.amz.wtchn.net/image/v2/Q2CDoDUMukMjFwnZPCXAHw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1pyYW5Sd2NXaDJjR3QyWkdsdmJtZGxkSEI2SW4wLmhmdW5DMGNNcVI3M24wb3JWY0FfWVVXMzZfZ3RTOTZobXZDai01YTBNNk0",
+			"https://an2-img.amz.wtchn.net/image/v2/KxO9r4LBMXp7XTIQPf0kJw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1ZxYVd0dFluZHVkakZ1YkhCb09EZHViMk53SW4wLjF1eDkycVpaaE5yUFMyV05qZEZCSGFYcUF3RFRvS29ZLVJBV0VtVFd3bnc",
+			"https://an2-img.amz.wtchn.net/image/v2/JN5V7xszIwcluVmJXjz3HA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2huTjIxc2EyTnpjVFJ2YkhwamFuTndhV3hoSW4wLldMUWQwY1BINWtRUlhRZXU4VnQyT2xSUWJHU2c5S1lZanpPMlNMcmxFM2c"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/jas6hPAOH6A",
+			"https://www.youtube.com/embed/ULLvmU1Laqc",
+			"https://www.youtube.com/embed/7GwDpkxa74s"
+		],
+		"reviews": [
+			"견자단의 아름다운 마무리를 위한 장면도 반갑고\n액션도 볼만한데\n사상을 주입하기위한 억지성이 너무과해서\n특징을 전부 가려버린다\n타국의 부녀관계를 멀찍이 바라보며\n본인의 부자관계를 다시 일깨우는\n소소하지만 제법 보기좋은 구도를 만들어놓고\n전혀 활용할 생각이 없어보여 안타까웠다\n미국을 대결구도로 잡아놓고서 미국의 것이 아닌 일본무술을 전면에 세우는 이 잡탕같은 어색함보다는\n훨신 보기 좋았을텐데",
+			"엽위신 감독은, 엽문 시리즈를 만들며 단순, 엽문의 무위를 보여주고 하는 것을 넘어서 엽문의 일대기를 영화에 녹여넣고 싶었나보다. 너무 엄청난 사람이라 아주 오랜 후에 이 영상을 보더라도 어느 세대가 보더라도 뒤쳐지지 않을 영상을 만들어 헌정하고 싶었던 듯 하다.\n그의 죽음까지 나열하며 보여준 엽문의 의협심과 쿵푸에 대한 사랑, 그리고 후대 들에게 보여주고자 하는 정신까지... \n황비홍으로 시작해 엽문, 그리고 부르스리, 현재에 이르기까지! \n정말 좋은건 세대에 세대를 타고 멀리 멀리 뻗어나간다.\n#20.2.14 (356)",
+			"액션 씬을 제외하고는\n차라리 눈과 귀를 닫고 있는 것이 낫다.",
+			"마지막이라니. 아쉽고, 아쉽다.\n엽문 영화 치고도 과한 향의 메시지 전달법.\nA deft yet heavy-handed farewell.",
+			"지금 자단이 형 만나러 갑니다..\n자단이 형 나온 것치곤..퀄리티가 중국 사극 수목드라마 마지막회 보는줄 알았다.\n하지만,\n손가락 엄지를 말아쥐면서 오돌뼈 뽀드득 소리가 귓가를 울리며 아이언 주먹으로 다시 재정비될 때 예감한다.\n\"아..자단이형 1)야마 돌았구나\" 그때부터 시작되는\n단단 돌주먹 정권찌르기\n마구마구 죽빵18연타\n초필살 움마움마 개후려패기 28연타\n이글아이언 송곳 촉수 찌르기..\n \n이연걸의 황삐홍만큼 견자단에게 있어서는 엽문이 그의 전매특허 캐릭터였다. 초절정 무인의 마지막 모습과 주마등처럼 스쳐지나가는 그의 강인했던 일대기..\n뻔해져버린 단순한 결투 당위성이 그의 마지막을 더욱 더 초라하게 비추어 안타깝기 그지없고 아쉬움이 남는다.\n\"쉴푸! 짜이찌엔!\"\n \n 주석: 1)야마돌다:  [동사]\n1. 머리가 아플정도로 정신이 나가거나 화가 나 괴로워하다.\n2. 정신에 이상이 생긴 것처럼 말과 행동이 보통 사람과 다르게 되다.",
+			"엽문은 견자단이라는 배우에게 입문하게 한 작품이었다.\n실화인지는 몰라도 전시리즈 타이슨이랑 싸울때부터 왜저럴까 했지만. 4편은 너무했네... \n아쉽지만 박수는 쳐주고 싶다. 그리고 부르스리의 등장.\n이소령 시리즈가 나올것인가.",
+			"<엽문 원정기를 위한 마지막 4편 >\n.\n1950년대 6.25전쟁시절에 개봉한듯한 영화, \n또는 중화인민공화국 예비군 훈련 실내교육시간에  시청각자료로 보여줄듯한 최악의 반미영화,\n최악의 중화민족우월주의 영화.\n.\n이걸 한국인에게 돈받으려고 상영한 배급사와 영화관은 제정신인걸까? 중화 민족주의가 도를 넘어서서 중화우월주의로 전락해 인종차별을 호도한다.\n.\n중국뽕이 과한건 내수용으로 제작된 중국영화라 치더라도,\n시리즈 완결까지 11년의 대장정의 기간만큼 어른이 된 관객이 자신의 나이만큼 나이든 엽문에 어울리는 최후의 싸움을 기대했건만, 정작 영화속에서 보여주는 건 청소년지도사로 전직한 엽문과 죽창으로 미국인을 찌르게끔 유도하는 억지 인종차별주의 모습이 가득했다.\n(가라테와 쿵푸로 무슨...하도 황당해서 나는 이 영화가 인종차별을 당하는 중국인을 통해서 역으로 중국인이  중국외 유색인종을 차별하게끔 호도하는 나치즘식 영화라 느껴졌다. )\n.\n또한 어설픈 편집에,\n(치어리더 여자 어머니가 경찰관한테 다급하게 전화하는 씬 이후,  엽문을 중심으로 영화속 시간이 사나흘은 흘러버린후에 느닷없이 경찰관이 전화받고 곧바로 온 장면이 나온다. 시공간이 뒤틀어진 씬 구성이다.) \n.\n액션씬은 전작 1,2,3,외전에 비하면 매우 협소하며, (해외로케비용 때문인지 몰라도 일대일로  평이하게 투닥투닥 거리는 것만 짧고 반복적으로 보여준다.)\n.\n영화속에서 엽문이 듣보잡 취급당하는게 어이없었는데, \n( 1,2,3편을 생각하면 솔직히 국민영웅 대접받는다라는 설정으로 접근해도 되는데,  아무리 타향 타국이라 하더라도 이런 대접은 좀... 무슨 포켓몬도 아니고 매번 리셋인가. 개연성이 엉망이다. 무슨 추천서를 참...) \n.\n영화 밖에서는 반대로 엽문을 중화민족주의의 상징성으로 만들어 끝내버렸다. \n(위에서 말한것처럼 가족주의와 소박한 삶을 살던 엽문의 모습을 중심으로 보여줄거면 3편처럼 만들어야지...)\n.\n영화 겉과 영화 속에서 보여주는 엽문이 다르니 중화민족 우월주의에 해당하지 않는 사람들은 어리둥절 할 뿐이다. \n.\n마지막으로 이 영화는 기생충과 다른의미로 흑백버전으로 상영되길 바란다. 부디 중국내에서만.\n.\n.\n.\nps. cgv가 주는 서프라이즈 쿠폰 8천원 할인가가 사실은 정가가 아닌가 싶을정도로 계속 실망감이 남는 영화만  골라내는듯 싶다.",
+			"정말 오랜만에 본 망작\n엽문 시리즈 나름 좋아했는데 스토리 액션 인물 뭐 하나 제대로 잡지를 못하고, 미련 따위 남지도 않게 보내주네.\n시리즈의 작별을 손절로 끝낸다라.. 신박한 걸?",
+			"그냥 아쉬움만 남는 엽문의 초라한 퇴장."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWqw2Np",
+		"poster_palette": [
+			[
+				28,
+				34,
+				44,
+				0.3620758056640625
+			],
+			[
+				85,
+				91,
+				97,
+				0.24560546875
+			],
+			[
+				152,
+				149,
+				143,
+				0.2047882080078125
+			],
+			[
+				228,
+				218,
+				181,
+				0.149627685546875
+			],
+			[
+				167,
+				55,
+				44,
+				0.03790283203125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			9648,
+			18,
+			27
+		],
+		"original_language": "en",
+		"original_title": "Berlin Syndrome",
+		"overview": "영감을 얻기 위해 베를린으로 온 호주의 사진작가 클레어 (테레사 팔머). 그 곳에 살고 있는 매력적인 남자 앤디 (막스 리멜트)를 만나 열정적인 하룻밤을 보낸다. 하지만 다음 날 앤디가 출근한 뒤 빈집에 홀로 남은 클레어는 베를린의 외딴 아파트에 감금되었다는 사실을 알게 되는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/mEVf8v8X0F74SBtBIFrxPgwUBkZ.jpg",
+		"release_date": "2017-04-20",
+		"title": "베를린 신드롬",
+		"tmdb_vote_average": 6.0,
+		"watch_providers": [
+			356
+		],
+		"movie_id": 363126,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/6w1oFBNk0szuXgEXB1il4A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMkZwZDNkaGNtcGhibUo1YUdKdFpYUjNjM293SW4wLm11andXY3BMRE5HMzR4c0NRUzRuTm8wWmxpR0lJbVFIbEZsX3ZyaGFxRzA",
+			"https://an2-img.amz.wtchn.net/image/v2/xiccQvi4WlIQggd7i7WxAg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMk50YVdSc2JXaHBibXRrWVdwcGMzQndaR1J2SW4wLldnOEt5YTZEWjBER2xlY09PdWdkbUpVNkp3Qno1N01WZ2V6YTJhR2I3MUU",
+			"https://an2-img.amz.wtchn.net/image/v2/vulslmVx3mDDE0FLcL530A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1Z0WnpSbWMzSnhhV3d3Ym5RelpYQnZablZ4SW4wLjdpbzJHOUE1NWJhTzRCTzcyUmFzS3VoOFRuYVg1MTVtTVZYb0w3Wlplc1E"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/qWZUbl-881E",
+			"https://www.youtube.com/embed/VniB5kBFwMI",
+			"https://www.youtube.com/embed/JNan_nmAqV0",
+			"https://www.youtube.com/embed/eUwcHEBwnHQ",
+			"https://www.youtube.com/embed/BYeFPvZr_68"
+		],
+		"reviews": [
+			"허...참....이걸 왜 봤을까...허.....허....허.....\n테레사 팔머는 감금전문 배우가 돼려나....\n필모를 점점 이상하게 써가네...\n참...아깝네...팔머...",
+			"내가 뭘 기대했는지는 모르겠지만 테레사 팔머의 센슈얼 스릴러라길래... (험험)\n-\n올해 세 번째 대관인데다 아침부터 비가 주륵주륵 내리는,\n스릴러를 보기 위한 최적의 환경에서도 전~혀 긴장감 따윈 느낄 수 없었다.\n-\n그래도 두 주연배우의 몸 사리지 않은 연기는 좋았다.\n앤디의 광적이고 변태적인 집착만큼은 진짜 소름끼쳤음.\n-\n작품마다 매번 다른 사람처럼 느껴지는 테레사 팔머의 매력은 여전해서 아마도 다음 영화도 평가와는 상관없이 보러가긴 할 듯.\n-\n덧. 비포 선라이즈가 환상이라면 베를린 신드롬은 현실이랄까ㅋㅋㅋ",
+			"누구나 한 번쯤 꿈꿔봤을 법한, 낯선 여행지에서 만난 낯선 이와의 로맨스..\n\n그런 <비포 선라이즈>를 기대하지만, 현실은 <베를린 신드롬>이라는거..ㅠ\n\n#인물들 심리묘사에 디테일이 부족.\n#테레사 팔머 정말 매력적인 배운데..영화 선택하는 안목은 좀..별로인듯..ㅠ",
+			"\"사랑하니까 집착한다\"는 그 말은 참담의 마중물이 될때도 있다.",
+			"카메라 앵글은 예술영화 같지만 분위기를 얻기는 부족.\n줄거리는 스릴러지만 스릴감을 얻기는 부족.",
+			"9회말 2사 만루에 풀 카운트... 당신의 선택은?",
+			"한 평범한 남자의 광끼. 그게 어디까지 갈 수 있는지..\n같이 살고 있는 세상에서 어떤 사람이 어떤짓을 할수 있을지, 모르고 또 모른다.\n단지.. 안전할 거라는 착각만 가지고.. 살 뿐이다.",
+			"침묵으로 대신 할 수 없는 이야기의 공허함과 끝내 그것을 채우지 못하는 주연들의 연기.",
+			"배역의 매력이나, 배우의 미모가 \"감금\"을 못 넘는다"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdEwMXE",
+		"poster_palette": [
+			[
+				7,
+				12,
+				16,
+				0.42889404296875
+			],
+			[
+				191,
+				198,
+				204,
+				0.18310546875
+			],
+			[
+				165,
+				168,
+				170,
+				0.158111572265625
+			],
+			[
+				130,
+				119,
+				114,
+				0.1373748779296875
+			],
+			[
+				61,
+				66,
+				71,
+				0.0925140380859375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			10402
+		],
+		"original_language": "en",
+		"original_title": "tick, tick... BOOM!",
+		"overview": "뉴욕시에서 식당 웨이터로 일하는 한편, 명작을 쓰겠다는 희망으로 창작에 매진하는 뮤지컬 작곡가. 서른 살 생일과 중요 공연을 앞두고 심적 압박을 받는 상황에서도 사랑과 우정을 헤쳐나간다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/1Q8Dg67r1udbtWOV2pd3ic7zvH4.jpg",
+		"release_date": "2021-11-11",
+		"title": "틱, 틱... 붐!",
+		"tmdb_vote_average": 7.6,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 537116,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/yE659_ZzdUwjYkzEJcByLA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qTXpOemN3TURJNU56VXdOelV4TXpraWZRLkdVSGVBUDBkaW01WC1PMGRELUhkM2t5eW1iNGwyaFNodVpUMFhCVzJyNDA",
+			"https://an2-img.amz.wtchn.net/image/v2/0760dcGZSrQ62et77h1GFg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16VTNOakU0T0RjMk16TTVPVE16T0RnaWZRLkpOZkR6ejNJWHM2c3NxNFYyVEYtQUFLa19UVVFhVHVQMnJMZEQ1QXl4Xzg",
+			"https://an2-img.amz.wtchn.net/image/v2/CTfEm56OoS6eJBtgOlO-PA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16VTNOakU0T0RjMU5UTTBOVGMwTURRaWZRLldEeXdJMHJxcDQtRVB2bUlYWTdVU1FHRjBqUmxXb2RKVFpUU2F3OFNSTXM",
+			"https://an2-img.amz.wtchn.net/image/v2/oZndjhKV267EE9zyKGRCXw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16VTNOakU0T0RjMU5UWXlOemN6TVRZaWZRLnZRODFSZjJzOTVUMkVTMnZ6Y3RYVjZvdGUtZ2kxV1dRWTNQZndkY0JLRTQ",
+			"https://an2-img.amz.wtchn.net/image/v2/sXY98tLkIy_ceaKkzBmumA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16VTNOakU0T0RjMU5qUTJNRFF4TURnaWZRLlNGVXJkcmVSSS1WYkVFeHN2REdOd1pzeDlFaHZzcnRBeWlaN3BDNnQzMk0",
+			"https://an2-img.amz.wtchn.net/image/v2/jo1QIj9FD86WpA-Qu2iPnA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16VTNOakU0T0RjMU5UZzBOREF3TURBaWZRLk5Va2VqdVpMOU55ZHdHSFg5VWZRWW1HY25QNDRfRXBfdUFoOEhNdmFuUDQ",
+			"https://an2-img.amz.wtchn.net/image/v2/dXoyzY6AzQfWDv_DIh36Hg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1qTXpOemN3TURBek1qUTBPREV6TURraWZRLm14SGFmQmRrV2xFSzJPRkxzMGRoU08yQlFTWUNXOElyVVhWb2xzaHFXUzQ"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/eqn0Hj1e3jg"
+		],
+		"reviews": [
+			"집중해서 바라보지 않으면 잊혀질 순간의 반짝임을 발견하고, 들뜬 마음에 쿵쾅거리는 심장 소리를 내뱉지 않고는 견디지 못하는 사람들이 있다. 그들이 뱉어낸 피는 예술이라는 이름으로 이 땅에 흩뿌려지는데. 바쁜 걸음으로 지나치던 이들은 예술을 통해 일상의 기쁨을 상기하기도 하고, 가끔은 카페인보다 강하고 빠르게 지친 마음을 달래기도 한다. 그래서인지 뱉다 못해 끝내 자신을 태워버린 이들을 보면 찬사와 환호만큼이나 빚진 마음이 저절로 든다.\n\n예술가의 일이 결과뿐만 아니라 과정까지도 존중되기를. 그리하여 끊어지지 않기를. 받아먹기 좋아하는 게으른 관객의 작은 바람입니다.",
+			"돈은 인생의 도구지만 예술은 인생의 목적이기에.",
+			"어릴 적 나에게 서른 살은 그저 멀게만 느껴지는 막연한 미래였다. 큰 노력 없이도 자연히 올라가던 학교의 학년처럼 단계별로 나에게 맞게 준비되어있는 앞날이라고 생각하곤 했다. 그런 생각을 비웃기라도 하듯 학교라는 에스컬레이트가 멈춰서는 순간 남은 계단을 오를 수단은 오롯히 나의 두 다리 뿐이었음을 깨닫게 되었다. 꿈과 목표가 자리잡아야 할 머릿속엔 '난 뭘 해야 하지?', '내가 할 수 있을까?', '어떻게든 되겠지'란 생각만 가득한 채 제자리걸음만 반복할 뿐이었다. 시간조차도 아무것도 해결해주지 않았다. 시간은 삶의 계단을 움직여주지도, 등을 떠밀어주지도 않았다. 그저 언제나 그랬듯 무심하게 흐르며 멀게만 느껴지던 서른 살을 순식간에 가져왔을 뿐.\n\n공교롭게도 만으로 서른을 맞이한 해에 만나게 된, 만 서른 살을 목전에 두었던 조너선 라슨의 모습은 그저 영화 속 인물 그 이상으로 크게 다가왔다. 미친듯이 삶의 계단을 달려도 멀기만 한 목표와 현실 사이에 괴리, 그럼에도 끝내 잃지 않았던 당당한 포부. 오로지 자신의 두 다리로 당당히 걸었기에, 뚜렷한 목표를 향해 똑바로 걸었기에 그는 길을 잃지 않고 한 발짝 더 나아갈 수 있었구나. 그랬기에 두렵기만 했던 서른 번째 생일에 스스로에게 아마도 말할 수 있지 않았을까. 'Happy Birthday'라고.\n\n1990년 불안에 가득했던 '30/90'의 조너선 라슨이 당당히 자신의 길을 나아간 것처럼, 2021년 나의 '30/21'이 희망에 가득하길 바라본다.",
+			"쉽고 아픈 말은 참고, 붉어진 눈으로 다른 말을 준 이들이 있었다. 그 말로 나는 미운 날의 내게 초침 소리 덮을 음악도 틀어주고 뜨신 밥도 떠먹였다. 멀찍이 섰는데 내 수전이자 조니고 마이클이던 그들이 다가와 케이크를 내민다. '소원 빌어.'",
+			"날개없이 갇힐때까지, 포기하지 않은 실패.",
+			"다른 세계의 라라랜드.\n시간이 아무리 흘러도 꿋꿋하게 열정적으로 앞으로 나아가는 그들을 응원하며.",
+			"끝나지 않을 조너선의 30살 생일을 축복하며.",
+			"틱, 틱, 틱, 틱, ...\n'언젠간 터질거니까, 그치?'\n그 속마음 뮤지컬에 공감하지 않을 수 없었다.\nThe grand buildup(s) for art.",
+			"영화를 보고 별점을 누를 때마다, 영화에 들어간 사람들의 노력을 생각하게 된다. 물론 어떤 이들에겐 정말 일이고 직업일 수도 있지만, 조너선 라슨처럼 인생을 투자한 사람도 있지 않을까. 그렇게 되면 만점을 주고 싶다가도 또 아쉬운 점이 떠오르고, 이러한 점은 아닌 거 같다는 생각이 들기도 하고.. 뭘 이야기하고 싶은 거냐면 그런 걸 생각해도 높은 점수를 주고 싶을 만큼 그냥 이 영화가 너무 마음에 든다고."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOVPM78",
+		"poster_palette": [
+			[
+				25,
+				23,
+				36,
+				0.440185546875
+			],
+			[
+				45,
+				43,
+				58,
+				0.33636474609375
+			],
+			[
+				90,
+				78,
+				83,
+				0.1321868896484375
+			],
+			[
+				152,
+				126,
+				108,
+				0.067901611328125
+			],
+			[
+				219,
+				196,
+				162,
+				0.0233612060546875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			10749,
+			18,
+			35
+		],
+		"original_language": "fr",
+		"original_title": "Mr & Mme Adelman",
+		"overview": "Chapter 1: 사라, 전략적 기회  1971년, 파리의 낡은 클럽을 환히 밝히는 무명작가 빅터에게 한눈에 반해버렸다. 우연을 가장한 적극적인 전략으로 그의 주변을 맴돌며 나를 사랑하게 만들었다. 우리의 특별한 사랑으로 그는 '아델만'이라는 필명으로 성공적인 작가 데뷔를 했다. 그러나 그의 인기가 높아질수록 나는 외로웠고, 이제 우리의 관계를 다시 쓰려 한다.  Chapter 2: 빅터, 사랑의 반전 곡선  1995년, 사라는 나에게 영감을 불어넣는 인생의 뮤즈이자 1호 팬이 되었다. 이제는 내 소설의 전부인 사라의 미소 없이는 글을 쓸 수도 숨을 쉴 수도 없다. 마침내 공쿠르상을 수상한 성공적인 작가가 되었지만, 세월이 흐를수록 아름다워지는 사라가 영영 내 곁을 떠날 것만 같아 두렵다.  Chapter 3: 미스터 앤 미세스 아델만  2016년, 사라 아델만과 빅터 아델만의 45년간의 드라마틱한 러브 스토리 그리고 필명 '아델만'에 숨겨놓은 두 사람의 영원한 비밀 이야기",
+		"poster_path": "https://image.tmdb.org/t/p/original/zPfrH5XxP8uwlMHGcusA52Zp4DP.jpg",
+		"release_date": "2017-03-08",
+		"title": "미스터 앤 미세스 아델만",
+		"tmdb_vote_average": 7.479,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 431937,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/uAF35MUeuZFwkIEa1yTIJw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16ZzBNRGs1TmpNMU1qUTNORFV6TVRVaWZRLmdTS3NPWllEd2ZwR2JScGNTbk1vbTVSODlNS0RIVkRUX2p5a0I4c25TbW8",
+			"https://an2-img.amz.wtchn.net/image/v2/TsZwuq1Jzqkcv3t63pkLhw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16ZzBNRGs1TmpNMU1UWTJNelV6TWpBaWZRLjRJZnJDR3VjV3Vzb1ZEbGMzb1F1UDYzWU5xT0M0c2tVcXBGS0ZPc09yTk0",
+			"https://an2-img.amz.wtchn.net/image/v2/yZmQBKhEvjOJXPv1KxuaYQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16ZzBNRGs1TmpNMU1EWTVNak13TURBaWZRLjRHcFFfS091R01vZmFvYXBPdE5NT01HR2s5dkVmS3NHajlZSERQNDNGLVE",
+			"https://an2-img.amz.wtchn.net/image/v2/yRWO6oQ3l7RHHAYRvUBl5Q.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBME5UZzBNVGcxT1RZaWZRLkcyeFFDWlFoNDdtcG1KU1ROWUpWaUM4OGJBQUQwVlJSb0hEMzFDc01jQlU",
+			"https://an2-img.amz.wtchn.net/image/v2/z8ncJ10DElNZ_KLFJzgXUw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBME5UazRNVFkzTmpVaWZRLkZIZE0wd0Mtd0ViUzRyb2NqREYwMFpualZfNDFlOFpwdS14Sk5DLVF5SE0",
+			"https://an2-img.amz.wtchn.net/image/v2/GQnVVAtJYV8bdWTbIAdYZw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBek9ETTBOVFE1TWpVaWZRLkFsZGU1SXNtSXhSMlBLcFAwU1Q3dl9BZXFSR1lRLXZsVk80dUdkc2RzREE",
+			"https://an2-img.amz.wtchn.net/image/v2/R56kC8huBhYp8R1tOy7qMw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBek56QTNPVGd5TmpnaWZRLkgxaC0zc0sxb1FMc3ctWUtXcTVua0dBTFRuOUxOU2ViSzNaRjFhSmhVeEU",
+			"https://an2-img.amz.wtchn.net/image/v2/eDL1FDX2JwYT0zkEBuf5lA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBek56YzNNREl4TVRNaWZRLkIyOHFlOTh5V21vcWdNQlNHVEkxbkl5RWY2N2JHdjlOM2R2Wkt0RFJWZmM",
+			"https://an2-img.amz.wtchn.net/image/v2/Tn8d10YpfRQpRIhkJ10zHg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBek5qZ3hOemsxTmpNaWZRLmQ0VzdBTHdPNmFQSGY1SGZkd3gxTnZ4NXpsN3hNdC1YZmxxTHVYYkpXSWc",
+			"https://an2-img.amz.wtchn.net/image/v2/OX7N9pnpfEWvdu11cratWg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBek5USTRPVEEyTWpVaWZRLk15Y0V0dXQzUXJ6RTZsU09sTWg4NEFSNTdPR2hMcU5NZ1NnLU9WOUtKSjA",
+			"https://an2-img.amz.wtchn.net/image/v2/Hh3M0ejYd6nkHsByocucTw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16Y3lPVEEzTlRBek1ESXhOREF6T1RZaWZRLi1OS013UV83MmxTT1YxcVdMTGV1RlRFdlhSMEdqV0lxU1dJRmhwSVZ2TVk"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/YSpfYjV4n08",
+			"https://www.youtube.com/embed/Gtz5vh7bgBY"
+		],
+		"reviews": [
+			"사랑으로 흘러가는 '인생'이라는 방대한 소설.",
+			"'미스터 앤 미세스 아델만'은 한 작가에 첫 눈에 반한 여인이 자신의 러브 스토리를 전하는 구성의 로맨틱 코미디다. '카페 벨에포크'의 니콜라스 베도스의 연출 데뷔작인 이 영화는 두 주연의 훌륭한 연기를 중심으로 사랑의 진화를 유머와 묵직한 드라마로 담아낸다.\n\n'카페 벨에포크'와 이 영화를 생각해보면, 니콜라스 베도스는 두 영화에서 공통적으로 사랑과 인생의 여정에 집중하는 듯하다. 특히나 이 영화에서 또한 과거 회상 장면에서 그는 시대적인 요소들을 시각적으로 잘 녹여내면서, 사랑의 뜨겁고 황홀한 시작을 연출하고, 반대로 시간이 지나면서 더욱 더 빛이 바래지는 사랑과 부부 관계를 표현하기도 한다. 중심에는 도리아 틸리에와 감독 본인의 훌륭한 케미가 있으며, 이들이 보여주는 로맨틱 코미디적인 달달함과 유머 뿐만 아니라 어둡고 무거운 가족 드라마의 감정선이 영화의 가장 큰 장점이었다.\n\n하지만 아주 긴 세월의 러브 스토리를 그리기 때문에, 그만큼 이야기가 좀 허술해지거나 꽤 중요한 디테일들을 대충 얼버무리는 듯한 인상을 줬다. 이 때문에 주연 배우들이 열연하는 주인공들의 인생담은 뭔가 현실이 아니라 그들만이 존재하는 작은 버블 속에서 전개되는 듯한 괴리감을 준다. 영화의 여러 챕터들은 사실상 모두 각자 한 장편 영화의 분량을 뽑을 만한 정도의 이야기들이 있기 때문에 그만큼 영화는 뭔가 방대한 인상을 주면서도 결과적으로는 허전한 뒷맛을 남긴다.",
+			"평범하다고 생각된 내용에 막장 한스푼.",
+			"에필로그는 없는 게 더 좋았을 뻔.",
+			"그 긴긴 인생을 지루하지 않게 파트를 나눠가며\n희노애락을 보여주고, 에필로그 짜릿해 무슨 일이야...",
+			"누구에겐 뻔하고 누구에겐 특별한 45년간의 굴곡",
+			"챕터를 거듭하며 독자이자 관객으로 함께하는 아델만의 삶.\n\n서로가 서로에게\n수동적이었다가, 도발적이었다가.\n그렇게 둘이 아델만을 ‘사랑’하고 살아간 이야기.",
+			"우리의 삶이 길어지는 것이\n비밀을 늘리고 불행한 일임을 깨닫게 한다.",
+			"사랑에 유통기한이 있다면 과연 몇년일까? 요즘 보기 힘든 사랑의 일대기를 감각적인 편집과 배우들의 호연으로 수준 이상의 완성도로 만들어 냈다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mO0gyZL",
+		"poster_palette": [
+			[
+				237,
+				229,
+				219,
+				0.343414306640625
+			],
+			[
+				203,
+				142,
+				103,
+				0.245330810546875
+			],
+			[
+				214,
+				188,
+				161,
+				0.2034912109375
+			],
+			[
+				143,
+				99,
+				75,
+				0.137481689453125
+			],
+			[
+				60,
+				44,
+				35,
+				0.070281982421875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			10751,
+			12,
+			16,
+			14
+		],
+		"original_language": "ja",
+		"original_title": "劇場版ポケットモンスター アドバンスジェネレーション 裂空の訪問者 デオキシス",
+		"overview": "대빙원에 있던 과학자 「론도 박사」와 그의 아들 「하늘」.  그곳에 돌연 폭음과 함께 운석이 떨어진다.  주위를 감싸는 수증기. 그 안에서는 환상의 포켓몬 「테오키스」가 나타난다.  그곳에 천공포켓몬 「레쿠쟈」가 모습을 드러내며 격렬한 싸움이 시작된다.  그로부터 4년 후, 「랄스시티」에 도착한 지우 일행은 배틀타워에서 포켓몬 시합을 통해 이 마을에 사는 소년 하늘이와 만난다.  하늘이는 서서히 지우 일행에게 마음을 열고 포켓몬들과도 사이가 좋아지고 있었다.  그러던 중, 돌연 테오키스가 랄스시티에 나타난다. 테오키스의 목적은?  드디어 마을의 모든 기능이 정지되고 지우 일행은 마을에서 벗어나지 못하게 된다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/pVgPSsL38xNpazuXlj5eyRMZWs9.jpg",
+		"release_date": "2004-07-22",
+		"title": "극장판 포켓몬스터 AG: 열공의 방문자 테오키스",
+		"tmdb_vote_average": 6.6,
+		"watch_providers": [
+			356
+		],
+		"movie_id": 34065,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"존잼 이거 한 일곱번 본듯",
+			"군대에서 TV돌리다가 본 건데 군대여서 그런지 생각보다 재밌다.",
+			"#레쿠쟈 간지 작살.🫢",
+			"변치않는 내 원픽 테오키스\n존나 잘생김 …",
+			"레쿠쟈 대 데오키스...\n크으 간지작살!",
+			"문어와 드래곤",
+			"《7기》 22.10.26일 4번째주 막주\n6 지라치& 7 테오키스\n\n뭔가 지루했음ㅋㅋ\n루기아,앤테이와 함께 젤 재미없는편ㅎ\n\n그나마 미래도시가 재미살림\n\n좀비아포칼립스\n마블 생각남ㅋ\n\n레쿠자 승질더럽게\n한번쳤다고 뒤끝쩔다가ㅋㅋㅋ\n감동하고 사라짐\n뭔가 좀 설득력없엉ㅋㅋ",
+			"화려한 전투씬과 특색있는 설정을 가진 7번째 극장판. 미래 도시라는 설정과 고립된 도시의 생존기는 꽤나 매력적이며, 다양한 전투씬과 포켓몬을 등장시키며 흥행몰이에도 성공한다.",
+			"포켓 몬스터 극장판중 제일 볼만함"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWybbYO",
+		"poster_palette": [
+			[
+				30,
+				25,
+				24,
+				0.2723236083984375
+			],
+			[
+				241,
+				243,
+				243,
+				0.2555999755859375
+			],
+			[
+				146,
+				71,
+				46,
+				0.1946258544921875
+			],
+			[
+				181,
+				168,
+				150,
+				0.150299072265625
+			],
+			[
+				28,
+				132,
+				155,
+				0.1271514892578125
+			]
+		]
+	}
+]
