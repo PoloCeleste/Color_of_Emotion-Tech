@@ -1474,8 +1474,15 @@
 		"movie_id": 447362,
 		"picture_url": null,
 		"video_url": null,
-		"reviews": null,
-		"watchapedia": null,
+		"reviews": [
+			"6.2점",
+			"옛날에 많이 보던 일본 멜로물의 미국판 같다",
+			"뻔하면서 뻔하지 않아",
+			"제이든 스미스는 현실이든 영화든 아빠를 떨쳐버러야 잘되겠당",
+			"IMDb   6.1   평균   7.2   알바?          로튼 토마토   0%   2명   4   -          알로시네   ---          2021.06.09   ???   씨네프",
+			"이들의 마지막 1년 만큼이나 여러분의 두시간도 소중합니다..."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWyJaMY",
 		"poster_palette": [
 			[
 				250,

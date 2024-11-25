@@ -297,7 +297,7 @@ def file_out(dataname, data):
     with open(f'movies_data/{dataname}.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent="\t", cls=NpEncoder)
     f.close
-    print(f'\nmovies_data/{dataname}.json에 {len(data)}개 데이터 저장 완료.')
+    print(f'\nmovies_data/{dataname}.json에 {len(data)}개 데이터 저장 완료.\n')
 
 
 
@@ -345,6 +345,8 @@ def try_selenium(start_page, end_page):
 
 # 프로그램 사용법 출력
 def help():
+    print("\n** 주의 : tmdb.py 파일과 같은 경로상에 .env 파일이 필요합니다. **")
+    print("** tmdb=<TMDB API Access Token Auth> 형식으로 저장, utf-8로 인코딩. **\n")
     print("\n인자 사용법")
     print("\nmovie <시작페이지> <종료페이지> (구분자 공백)")
     print('\t: TMDB 상 인기 순 <시작페이지>부터 <종료페이지>까지 가져오기')
