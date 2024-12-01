@@ -86,8 +86,8 @@
   ![alt text](movie_erd_crow.png)
 
 기술
+- 웹 소켓 (web socket)
 
-- 데이터 수집
 - 데이터 수집
 
   - TMDB API
