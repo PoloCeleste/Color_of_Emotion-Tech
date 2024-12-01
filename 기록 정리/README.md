@@ -90,6 +90,12 @@
 기술
 
 - 데이터 수집
+  - TMDB API
+    - discover에서 popularity 순으로 정렬.
+    - 한국에서 볼 수 있고, 국내 스트리밍 사업자에서 제공하는 영화로 한정.
+    - tmdb상 평점 6점 이상, 투표수 200표 이상인 영화로 필터링.
+    - 1페이지 당 20개의 영화가 있으며, 총 250페이지 가져왔고, 그 중 100페이지만 사용. -> 그 이후는 유의미하지 않다고 판단.
+      2000개의 데이터를 넣었고, 중복 제외하고 1693개가 DB로 생성됨
   - 셀레니움( 김주찬씨가 작성하십시오. )
 - 감정분석 ( 딥러닝 + 알고리즘 )
 
@@ -119,6 +125,7 @@
   - 포스터에서 주로 사용된 색상, 색상별 지배도 추출
 
 - 색상유사도 ( 알고리즘 )
+
   - CIE(국제조명위원회)에서 개발한 색상 차이를 측정하는 표준 방법을 활용함.
   - ![alt text](image-3.png)
   - CIELAB 기준 유사도를 판별
@@ -132,6 +139,7 @@
   - 색상의 유사도를 파악하기 위해 비선형적으로 공간을 휘어 실제로 보았을 때 더욱 유사한 색감을 뽑아낼 수 있도록 함.
 
 - 영화추천 ( 알고리즘 )
+
   - 감정 기준으로 장르 선별, 포스터 색상 기준 색상으로 유사도, 지배도를 고려하여 색감이 유사한 영화를 선별.
 
 - 적용
@@ -262,6 +270,7 @@ Citations:
 색상 처리 방식
 
 RGB에서 LAB 색공간으로 변환
+
 ```py
 def rgb_to_lab(rgb):
     rgb_normalized = np.array(rgb) / 255.0
@@ -274,34 +283,41 @@ RGB 값을 0-1 사이로 정규화
 LAB 색공간으로 변환하여 인간의 시각적 인식과 유사한 방식으로 색상 표현
 
 CIEDE2000 알고리즘 사용
+
 ```py
 def delta_e_2000(lab1, lab2, kL=1, kC=1, kH=1):
     # L: 명도(Lightness)
     # a: 빨강-초록 축
     # b: 노랑-파랑 축
 ```
+
 두 색상 간의 차이를 계산하는 가장 정확한 방식 중 하나
 명도, 채도, 색상의 차이를 각각 고려하여 종합적인 색상 차이 계산
 
 영화 추천 프로세스
 감정 색상 세트 찾기
+
 ```py
 color_set = EmotionColor.objects.filter(
     emotion_id__in=current_emotions
 ).first()
 ```
+
 입력된 감정 ID들에 맞는 색상 세트 검색
 가장 많은 감정을 포함하는 세트부터 검색
 
 장르 기반 필터링
+
 ```py
 matching_movies = Movie.objects.filter(
     genre_ids__name__in=[genre.name for genre in color_set.genres_id.all()]
 ).distinct()
 ```
+
 색상 세트와 연관된 장르의 영화들만 선택
 
 색상 유사도 계산
+
 ```py
 similarities = []
 for emotion_color in color_set.emotions_color:
@@ -309,10 +325,12 @@ for emotion_color in color_set.emotions_color:
         similarity = calculate_color_similarity(emotion_color, poster_color[:3])
         similarities.append((similarity, poster_color[3]))
 ```
+
 감정 색상과 영화 포스터의 색상 팔레트를 비교
 각 색상의 지배도(dominance)를 가중치로 사용
 
 최종 점수 계산
+
 ```py
 avg_similarity = np.mean([s[0] for s in similarities])
 weighted_dominance = np.average(
@@ -320,14 +338,17 @@ weighted_dominance = np.average(
     weights=[1/s[0] if s[0] != 0 else 1 for s in similarities]
 )
 ```
+
 색상 유사도의 평균과 지배도를 결합하여 최종 점수 계산
 유사도가 높을수록 가중치가 높아지는 방식 사용
 
 영화 정렬 및 선택
+
 ```py
 sorted_movies = [movie for movie, _ in sorted(movie_scores, key=lambda x: x[1])][:51]
 sorted_movies.reverse()
 ```
+
 계산된 점수를 기준으로 영화 정렬
 상위 51개 영화 선택 후 역순 정렬
 
