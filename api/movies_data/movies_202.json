@@ -1,0 +1,1393 @@
+[
+	{
+		"genre_ids": [
+			16,
+			18,
+			9648,
+			36
+		],
+		"original_language": "en",
+		"original_title": "Loving Vincent",
+		"overview": "1890년 7월 27일. 한 남자가 황혼이 지는 프랑스의 작은 시골마을 오베르의 중심가에서 쓰러졌다. 수척한 남자는 총상으로 피가 흐르는 배를 움켜쥐고 있었다. 그는 당시에 잘 알려지지 않았으나 현재에는 세계적으로 유명한 예술가 빈센트 반 고흐였다. 고흐의 비극적인 죽음은 널리 알려져 있으나, 왜 그가 총상을 입었는지는 미스터리로 남아 있다. 살아생전 단 한 점의 그림만을 팔았던 화가 빈센트의 죽음 후 1년, 아르망은 그의 그림을 사랑했던 아버지의 부탁을 받고, 빈센트가 마지막으로 살았던 장소로 찾아가 미스터리한 죽음을 추적해 나간다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/nARhbiv3N2W0E0iAHpoqFSNJokz.jpg",
+		"release_date": "2017-06-22",
+		"title": "러빙 빈센트",
+		"tmdb_vote_average": 8.0,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 339877,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/L0c_FB-qZKDnxQZiGJLmrg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpJMU56QTVOalUwTURNM09URTJOU0o5Llc1aW1vWmE1ZGxBMXpZbEJOWmxRcFFXMXQ1Z05kOXVIeks3RWhYcFU5M28",
+			"https://an2-img.amz.wtchn.net/image/v2/C_i8beCps56GkeUGxm6g6w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpnd01UVXhOekF4TURjMk5EY3pJbjAuZ1VaYVhaUERVMDJlWEVVNFB6M2M2YXJJdGVpV3FBM1NnelljTE1PcXAzaw",
+			"https://an2-img.amz.wtchn.net/image/v2/-wjpxFHKw4326kA7y6yIgg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFeE16azRPVFk1T0RVeE9EY3dPREV4SW4wLklMUW43empFSVk4eUJyUzJ3eXBDRElJUTdrREpTaWZMcXNiRnlJVkdOV28",
+			"https://an2-img.amz.wtchn.net/image/v2/72o9nEdwKsTS9PRlWeWPOQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFNU1qazBPRGcwTlRFMU56STROU0o5LjJRcWJLTW0ycm54T2FMbG40SHlxRS1idE4wVFJXN0VmRE1TRzh1Z2J5X0U",
+			"https://an2-img.amz.wtchn.net/image/v2/qU_-Sqj-fwctlsyqiKfPcg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpJM09EQTVOamszTVRVMU5qQTNOaUo5Lm0yMmdaaXg3Q1YyVWRjUWdZUWRabWt5SFQ4TGRnaVAxRHlxM3AyNWt4N0E",
+			"https://an2-img.amz.wtchn.net/image/v2/r_lSzDzt-KpsFj5Wjg_Qlw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFM01qWTVOVGswTXpBek55SjkuOUU3dFFXOG9fYWpmOXJMZWlILUdObV9kcVQwR1JhVjB5Q2tLUktxMjVPQQ",
+			"https://an2-img.amz.wtchn.net/image/v2/BWancwyrKaWICbqlNcNjzw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1V6YnpCdWVIbDBOemx1WlhrMGMyVXlOMjgxSW4wLmlJcEF0SWhLRzJJTXU1a0ZialFNR3p0aXdMX3VaWjJVVFM1ajJHVE9KTUE",
+			"https://an2-img.amz.wtchn.net/image/v2/YlMekjUtY53flPl4FfHgww.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFqTTNWcE5IUnhhR3B4YWpaeU1IaHVaV1ZySW4wLlVENmZpMjZ0M0h1Z1QtTDFnRVFwVVd2YjBUbGd1T09CWmR0a3c3OTFlRHc",
+			"https://an2-img.amz.wtchn.net/image/v2/0Ew-Dmz88ostTrLJu_ttsA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMlEzWW5OeVpEUnNNM1pqYlhWbmNUWnRaR0U1SW4wLmZHOXlKRThyMWk2V2lKZkEtNXFTMG5sYlo2bmN4SlhUV212UmFFcmF3Q1E"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/zkE9CBmZwU4",
+			"https://www.youtube.com/embed/LLD2Qt691Rg",
+			"https://www.youtube.com/embed/2Ncg4S169uk",
+			"https://www.youtube.com/embed/petMXXt5keo",
+			"https://www.youtube.com/embed/jU6ypba1Fm4",
+			"https://www.youtube.com/embed/mXCJZN8wfMI",
+			"https://www.youtube.com/embed/aDaUv05ZWcU",
+			"https://www.youtube.com/embed/9cwMqtDlUOY",
+			"https://www.youtube.com/embed/uiGLwamZa8A",
+			"https://www.youtube.com/embed/XwE6wW0uFvw",
+			"https://www.youtube.com/embed/lcv7QGpjZJM",
+			"https://www.youtube.com/embed/pwkxUeVZxV0"
+		],
+		"reviews": [
+			"'내 작품을 선보이고 싶다.\n이 보잘 것 없고 별 볼일 없는 내가 마음에 품은 것들을.'",
+			"물감 냄새와 땀 냄새가 물씬 풍기는 듯한 노작.",
+			"'나는 그림을 그리는 꿈을 꾸었고 \n그러자 나는 나의 꿈을 그리게 되었다' \n- 빈센트 반 고흐 -\n \n# 그림을 정말 모르는 사람이라 영화를 보러 가기전 걱정이 많았다. 소문으로 영화가 괜찮다는 말을 여러번 들었기에 겁은 나지만 조그만 용기를 내서 도전해 봤다. 결론부터 얘기하자면 난 이 영화가 마음에 든다. 반고흐라 하면 자화상 등 아주 유명한 작품 몇 정도만 알았고 그의 삶 또한 귀자른 사람 이상의 정보를 알지도 못했다. 물론 미술지식 또한 정규과정에서 배운정도가 다였고 이마저도 다 잊어버렸을테다. 이렇게 쓸데없는 이야기를 길게 쓴 이유는 나처럼 이렇게 아무것도 모르는 사람도 영화를 보고서 충분히 감동받고 즐길수 있다는 생각이 들어서이다. 이 영화는 한 남자의 마지막 발자취를 거슬러 올라가며 그의 삶과 예술을 다시금 돌아보게 만들어 주는데, 이 과정에서 도입한 미스터리 형식은 영화의 몰입을 배가시켜준다. 중간중간 나오는 반고흐의 명화를 찾아보는 재미도 있을거고 음악 역시 그림에 감칠맛을 더해준다. 이렇든 명화나 그림 예술을 잘모르는 이들도 쉽게 접근하고 즐길수 있는영화라는 생각이 든다. \n이 영화도 오늘 개봉일인데 관도 적고 상영 횟수도 적은걸 보니 금방 내릴것 같다. 아마도 다음주 저스티스 리그가 개봉하면 정도가 더 심해지겠지 싶다. 조금은 독특하고 다른 방식의 영화를 즐기고 싶다면 걱정없이 관람해도 좋을거 같다는 생각이 든다. 마지막으로 엔딩곡으로 나온 Starry, starry night를 들을 수 있어서 너무 좋았다. 사실 이 노래가 빈센트를 위한 노래였는지도 몰랐었다. 덕분에 돌아오는 길에 가사도 찾아보고 노래도 다시 들어보고 여러모로 만족스러운 관람이었다.",
+			"Loving Vincent(사랑하는 빈센트가)로 시작해서\nLoving Vincent(사랑하는 빈센트에게)로 끝나는 헌정영화",
+			"만약 가슴안에서 ‘나는 그림에 재능이 없는걸’ 이라는\n음성이 들려온다면 반드시 그림을 그려보아야 한다. 그 소리는 당신이 그림을 그릴때 비로소 잠잠해진다.\n-빈센트 반 고흐\n\n전세계 최초 62,450점의 유화 애니메이션, 이 영화를 제작한 107명 화가들의 10년동안의 정성과 빈센트를 향한 사랑으로 60,000점이 넘는 그림들로 만들어진 의미있는 영화. 시작은 퀄리티에 감탄하다 후엔 내용에 감동하게되는 영화. 예술인으로서 명작을 남긴 가슴아픈 화가에게 다시한번 감동과 교훈을 얻게되는 영화.",
+			"이를 테면 이런 시도가 아닐까. 잉마르 베리만의 삶을 잉마르 베리만 스타일로 영화화하는 것이거나 히치콕이 걸어온 길을 히치콕의 방식으로 그려내는 것. 영화 '러빙 빈센트'(감독 도로타 코비엘라·휴 웰치먼)가 그렇다. 세계 최초 유화 애니메이션이라는 상업적 설명보다는 화가 빈센트 반 고흐를 빈센트 반 고흐의 방식으로 그려냈다는 표현이 더 정확하다. 짧은 시간 거대한 불꽃처럼 타올랐다가 거짓말처럼 사그라진 어느 화가의 삶이 그가 보여줬던 거칠면서도 섬세한 붓터치로 되살아날 때 우리는 그 순간 무엇을 볼 수 있을까.\n 1891년, 빈센트 반 고흐가 세상을 떠난 지 1년이 흘렀다. 빈센트와 그의 동생 테오 반 고흐 사이에 오가던 편지를 배달하던 우체부 조셉 룰랭은 빈센트가 남긴 마지막 편지가 배달 불가로 반송되자 그의 아들 아르망을 시켜 테오에게 직접 전달케 한다. 하지만 테오도 이미 숨을 거둔 뒤다. 아르망은 테오를 만나러 간 곳에서 형제에 관한 흥미로운 이야기를 듣고, 빈센트의 마지막 작업 장소이자 그가 숨을 거둔 곳인 오베르로 향한다. 아르망은 그곳에서 다양한 사람들을 만나며 빈센트가 죽은 이유를 추적해 간다.\n 단도직입적으로 말해 영화 '러빙 빈센트'는 꼭 봐야할 이유가 있는 작품이다. 기획부터 완성까지 10년이 걸렸다는 건 그리 특별하지도 않다. 유화 작업을 위해 4000명의 화가를 오디션해 107명을 선발, 이들이 2년 동안 6만2450점의 유화 그림을 직접 그려 완성한 게 바로 이 영화다. 고흐의 걸작 '별이 빛나는 밤' '즈아브 병사의 반신상' '아를의 노란 집'으로 이어지는 오프닝 시퀀스를 만드는 데만 1년이 걸렸고, 작품 내에는 고흐의 명화 130점이 다시 그려져 담겼다. 고흐를 향한 경외와 사랑, 정성이 가득 담긴 작품이기에 그의 그림에 조금이라도 관심이 있는 관객이라면 러닝타임 95분은 내내 황홀할 수 있다.\n 이런 시도는 관객이 고흐의 세계로 직행할 수 있게 한다. '러빙 빈센트'는 고흐의 생애 전체를 설명하는 데 큰 관심이 없다. 도로타 코비엘라·휴 웰치먼 감독은 그 어떤 설명도 그의 작품이 보여주고 있는 것 너머를 보여줄 수 없다고 믿는 듯하다. 간편하게 판단하기보다는 그저 고흐의 그림에 취해 따라가다가 관객 각자가 생각하는 고흐를 보게 되면 그만이다(영화가 가로 67㎝ 세로 49㎝ 캔버스와 같은 비율로 제작된 것도 같은 맥락이다). 메시지도, 결론도 중요하지 않다. 매순간 힘겨웠지만, 누구보다 뜨겁게 살다간 한 인간을 제목 그대로 사랑할 수 있다면 그걸로 충분하다.\n 영화는 일종의 수사물이다. 자살하기 위해 총을 쐈다지만, 머리가 아닌 복부에 상처를 입은 게 의심스럽고, 더군다나 총도 발견되지 않았다. 아르망은 오베르에서 고흐를 만났던 사람들을 찾아다니며 그에 관한 정보를 수집해가며 진실에 접근해간다. 평범한 방식인데다가 정교한 구조를 갖췄다고도 할 수 없다, 하지만 새로운 인물이 등장할 때마다 고흐에 관한 또 다른 시각의 정보를 차례로 제공하며 러닝타임 내내 적절한 긴장감을 유지하는 연출 덕분에 지루하지 않게 즐길 수 있다.\n 중요한 건 역시 고흐의 죽음에 얽힌 사건의 실체가 아니라 고흐라는 사람의 실체다. '러빙 빈센트'의 고흐는 위대한 예술가도, 자신의 귀를 자른 광인(狂人)도, 정신병원을 들락거린 환자도 아니다. 그는 삶을 사랑하고, 사람을 사랑하고, 이 세계를 사랑했던 '사람'이다. 바로 그 시선이 \"빈센트는 무너졌던 거야. 누구든 그럴 수 있다. 삶은 강한 사람도 무너뜨리곤 해\"라고 말하는 조셉의 대사에, \"빈센트는 캔버스마다 빛나는 별을 그렸어. 하지만 그 별들은 깊고 텅 빈 외로움에 둘러싸여 있었지. 그는 미래를 매우 두려워하고 있었어\"라는 토로에 담겨있다.\n '고흐는 28살이 돼서야 그림을 그리기 시작했고, 10년 간 작품 활동을 하고 37살에 세상을 떠났으며, 생전에 딱 한 점의 그림을 팔았다. 지독하게 가난했고, 늘 외로움에 몸부림쳤다.' 이게 우리가 흔히 아는 고흐의 삶이다. 하지만 화구상 탕기 영감은 이렇게 말한다. \"난 생각했어. 그의 이야기가 행복하게 끝나겠구나. 마침내 별이 떠오르고, 그가 선택한 길이 맞았다고.\" 영화가 끝나고 나면 돈 맥클린이 고흐에게 바친 노래 '스태리 나이트'(Starry Night)가 흐른다.\n손정빈 기자 jb@newsis.com",
+			"바라볼순있지만, 이해할순없는 저 별.",
+			"62,450점의 유화 프레임. 영화는 시작부터 이질감을 빠르게 사그라뜨리며 동화되고, 몰입을 부른다. 캐릭터의 대사 시 특히 입의 움직임(혀의 움직임까지도)에 대한 정확한 묘사는 놀라운 수준이며, 또한 플래시백에 사용된 몇 흑백 유화들은 매우 훌륭한 실재감을 구현한다. 이는 실제 배우의 연기를 촬영한 후 그림으로 옮긴다는 방식이 크게 한몫한 듯하다.\n \n짧은 러닝, 그리고 스토리텔링은 간결하고 깔끔하다. 하지만 서사가 꽤나 직선적이고(여러 번의 플래시백에도 불구), 특히 이전의 사건이나 대사가 계속해서 다음 장면으로 맞물리며 이어지는 전개 구성은 아쉬움을 남긴다. 그럼에도, 이 최초의 유화 애니메이션을 사랑하게 되는 것은 어렵지 않다. 익숙한 이름의 한 예술가의 삶과 내면을 그의 작품들로 미장센을 이룬 영화를 통해 조금이나마 들여다본다는 것은 분명 좋은 경험일 테니 말이다.\n \n온전히 고흐의 편인 사람과 온전히 고흐의 편이 아닌 사람들 사이에 있는 룰랭이 고흐의 발자취를 역행하는 와중 그와 가까워지는 듯 가까워지지 않는 거리감을 유지하는 태도와 심리는 흥미로운 내러티브였다. 그렇듯 고흐가 생전에 느꼈을 법한 이방인의 고립감 혹은 타인과의 거리감 때문인지 영화의 마지막, 사람들이 자신을 깊고 상냥한 사람으로 여겼으면 한다는 그의 말에 가슴이 저려 온다.\n \n그가 사망하기 몇 주 전 자신의 상태를 ‘완벽하게 차분하다’라고 표현했음은 어쩌면 앞으로의 행복이 아닌, ‘죽음’을 받아들일 준비가 됐다는 뜻은 아니었을까? 사실 영화를 통해서는 고흐의 삶에 대해 아주 조금밖에 알 수 없기에 그와 동생 테오의 편지들로 엮은 「영혼의 편지」 를 한번 찾아 보려 한다.",
+			"빈센트를 가장 빈센트스럽게 표현해준 영화. \n이 경이로운 발상에 존경을 표한다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m533xMj",
+		"poster_palette": [
+			[
+				126,
+				156,
+				167,
+				0.227935791015625
+			],
+			[
+				70,
+				105,
+				137,
+				0.2147216796875
+			],
+			[
+				197,
+				210,
+				196,
+				0.1929779052734375
+			],
+			[
+				175,
+				147,
+				76,
+				0.1825408935546875
+			],
+			[
+				42,
+				61,
+				80,
+				0.18182373046875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			878,
+			18
+		],
+		"original_language": "en",
+		"original_title": "Ad Astra",
+		"overview": "희망과 갈등이 공존하는 가까운 미래, 미 육군 소령 로이 맥브라이드는 우주의 지적생명체를 찾기 위한 '리마 프로젝트'를 수행하다 실종된 아버지를 영웅이라 믿으며 우주 비행사의 꿈을 키웠다. 어느 날 로이는 이상 현상으로 인해 우주 안테나에서 지구로 추락하는 사고를 당하고, 인류를 위협할 전류 급증 현상인 '서지'가 자신의 아버지 클리프 맥브라이드가 벌인 위험한 실험에서 시작되었다는 이야기를 듣게된다. 아버지가 살아 있다는 충격적인 진실과 함께 그를 막아야 한다는 임무를 맡은 로이는 우주로 향하게 되는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/37M8j1nwMs8wu2H2tMtDjqhTSnd.jpg",
+		"release_date": "2019-09-17",
+		"title": "애드 아스트라",
+		"tmdb_vote_average": 6.111,
+		"watch_providers": [
+			8,
+			337,
+			356,
+			97
+		],
+		"movie_id": 419704,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/3eNBmg5IhPloENU8_avzsQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMlYzWnpWbmNIbzJkbWxsY25KemN6TnBlamxqSW4wLk1nSjNWU3RGeTlLTXhCNHFFY1QyNVlLdW04U3Uwb2NSRGpjZ0hKQlVTeUk",
+			"https://an2-img.amz.wtchn.net/image/v2/P5-7AzTW9htoxzCwDDarHw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2hyZHpkd2EyczRjVzF4ZG1OdWVYSmhZbUp0SW4wLmg3U242bi1nZndEbm0zYi1walJrZE1zX1dwSjBHOTlsekNzU0hJUFNVZDA",
+			"https://an2-img.amz.wtchn.net/image/v2/D8B05mmDOeUcTqdJrhzT4g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMk5zYVRGc2REZHRjV05uYVhobGJHNXFhbnA1SW4wLkFZNnMxN0ZBbHJLUktIS1NGWWVBdzA3SVZWenR0WlF5Mi1kaWh0Nm9SX1U"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/XNSNti8q_UQ",
+			"https://www.youtube.com/embed/i-9RNQkvcOk",
+			"https://www.youtube.com/embed/GH7W28aI2TQ"
+		],
+		"reviews": [
+			"이 망망한 우주와 이 막막한 인생에서 무(無)를 어떻게 견딜 것인가.",
+			"광활함에 눈이 멀어 눈앞의 빛을 놓치지 않길.\nPer aspera.\n \n\"가능성은 두 가지다. 우주에 우리만 존재하거나 그렇지 않거나. 어떤 경우든 공포스럽기는 매한가지다.\" - 아서 C. 클라크\n하지만 우리는 충분히 그런 공포도 넘어설 수 있음을.",
+			"지금 저는 아주 평온해요. 이 영화 볼 때 심박수가 80을 넘어본 적이 없거든요",
+			"우주적 공간과 개인의 자아라는 공간의 크기가 다르지 않아 보인다.\n@메가박스천안",
+			"이과는 흥분을 가라앉혀주세요\n \n+분노의 흥분이고, 아버지처럼 살기 싫었어요는 문과의 전통 장르란 거 안다. 배경이 우주일 뿐이지. 아니 이 닳고 닳은 장르에 별다른 변주도 없는 자의식의 옹알이에 짜친거뿐. show, don’t tell 이렇게 나불댈 필요가 있나. 말로 할거면 예전에 서정주 행님은 이 장르 두 문장으로도 찢었다.\n \n애비는 종이었다. 밤이 깊어도 오지 않았다",
+			"살아서 의미있는걸까\n의미있음에 사는걸까\n.\n우주 끝자락에서 비로소 깨달은\n내 우주 깊은곳에서의 외침\n.\n라이브톡)",
+			"원망인지 그리움인지는 그 대상을 마주해야\n명확히 알 수 있고, 지겨웠는지 아늑했는지는\n그곳을 떠나봐야 비로소 분명해진다는 사실.\n내면의 혼란을 파헤친 끝에 마침내 제 진심을\n직시하게 된 그가 한편으론 조금 부럽기도 하다.\n-\n영화는 다소 잔잔한 편이었지만, 브래드 피트의\n세밀한 감정 연기 덕에 무사히 몰입할 수 있었다.\n복합적인 감정들이 고스란히 담아내는 명연.\n정말이지 찬사 받아 마땅한 수준이었다.",
+			"훼손된 가치를 목도했을때 걷잡을 수 없는 심리적 저항의 발돋움."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5DGr06",
+		"poster_palette": [
+			[
+				48,
+				119,
+				88,
+				0.2892608642578125
+			],
+			[
+				23,
+				52,
+				32,
+				0.2582550048828125
+			],
+			[
+				56,
+				197,
+				164,
+				0.21331787109375
+			],
+			[
+				95,
+				153,
+				125,
+				0.1584930419921875
+			],
+			[
+				166,
+				234,
+				212,
+				0.0806732177734375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			28,
+			53
+		],
+		"original_language": "en",
+		"original_title": "Ladder 49",
+		"overview": "몸을 사리지않고 소중한 생명들을 구해낸 잭(호아킨 피닉스)과 그의 인생 선배이자 소방서장인 마이크 케네디(존 트라볼타 분)... 일상에서의 그들은 한 여자의 남편이자 아이들의 아빠, 좋은 친구, 따뜻한 이웃이지만 출동 사이렌이 울리는 순간, 그들은 타인의 운명을 바꾸는 막대한 힘을 지닌 존재가 된다.  하지만... 아침에 출근하는 남편이 저녁에 무사히 살아돌아오기를 기도하며 매일 같이 맘조려야하는 아내, 아버지가 죽음의 현장에서 사투를 벌이는 모습을 지켜보며 두려움과 싸워야하는 가족들... 엄청난 불길 속으로 사라져버린 절친한 동료들... 마냥 자랑스럽기만 했던 일은 어느덧 감당하기 벅찬 슬픔을 불러온다.  그러던 어느날... 여느때처럼 생존자를 구출하려던 잭은 뜻하지 않은 사고로 불길속에 갇히게 되고, 마이크는 그를 구출하기위해 수단과 방법을 가리지 않는다. 폭발 직전의 건물... 불길 속에서 사투를 벌이는 잭과 그를 구하기 위해 건물 밖에서 또 다른 사투를 벌이는 마이크... 과연 그들의 운명은 어떻게 될 것인가...?",
+		"poster_path": "https://image.tmdb.org/t/p/original/oLjoDltXTaokkK4tMOEa8AgItiV.jpg",
+		"release_date": "2004-10-01",
+		"title": "래더 49",
+		"tmdb_vote_average": 6.4,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 11128,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/ZkVrMrk_rZ2A3DTXFGq-8g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFrY1RCdU5pMHlPVGsySW4wLjE4cUlkdUFSLXlfUDRqelQ3cWtuQ2tSX3dWck51eXVuRXp2a0dlQWJLQjg",
+			"https://an2-img.amz.wtchn.net/image/v2/U5PQxKOA5Zu0BOhyB8pakw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFrY1RCdU5pMHlPVGsxSW4wLkxJVDJLcFVpa0N5LXFtdlFSb3dhc2Q5MDhpRG9fNC16RjZKZmVNdVhvdXc",
+			"https://an2-img.amz.wtchn.net/image/v2/r6RYNL6uuUDlKm01WdvO_w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFrY1RCdU5pMHlPVGswSW4wLlVRNE9UemxBZVNXNEliV0g0c1dTdUFQaW5tYUdLQktyVlFBNDVPa3BnWUE"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/76Wgm28hUpg"
+		],
+		"reviews": [
+			"한 젊은 청년인 잭 모리슨이 입사하여 어리버리한 모습으로 현장에 나가고 점점성장하며 특급 소방관이 되고 가정을 이루며 아이가 자라고..\n하지만 화재는 늘 발생하고 생명을 구하며 많은 어려움에 닥치지만,...\n언젠가 다가올일을 마음속 한구석에 갖고 사는... 그런 위험한 삶.\n와야할 남편이 오지 않고 서장이 집에 올때... 아 그때구나...\n같이 눈물 흘릴 수 밖에 없는 상황, 그 어떤 말로도 위로가 될 수 없지만, 죽음마저도 사람을 살리는 일이란 모습이 안타갑지만 숭고하게 다가온다.\n환하게 웃는 잭의 모습을 통해 바라보는 최고의 사람들! 소방관!\n#20.10.28 (2569)",
+			"극적인 연출이나 우연 대신 담담한 일상과 현실을 담아낸 점이 오히려 영화의 감동을 높여주었다.",
+			"모범적인 미국 시민의 영웅상, 타인의 생명 연장을 위한 도구, 스스로 걷어찬 생존의 사다리, 소방관을 조명한 우직한 뚝심, 우정과 사랑으로 지켜준 용기, 보는 이의 마음 속에 불 지른 사나이의 일대기, 투철한 사명감으로 가득한 열기에 데이다.",
+			"그 어떤 삶보다 아름다웠던 그들의 삶에 애도이전에 축복을",
+			"Robbie richardson - Shine your light\n주제곡 꼭 들어 보세요",
+			"한국에서 리메이크 해달라!",
+			"41",
+			"비슷한 삶이지만 죽음이라는 화염이 도사린",
+			"47"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWLjNpd",
+		"poster_palette": [
+			[
+				14,
+				4,
+				6,
+				0.5208740234375
+			],
+			[
+				95,
+				44,
+				39,
+				0.1938018798828125
+			],
+			[
+				184,
+				66,
+				45,
+				0.1357421875
+			],
+			[
+				207,
+				154,
+				101,
+				0.118316650390625
+			],
+			[
+				250,
+				245,
+				229,
+				0.0312652587890625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			878,
+			18,
+			27
+		],
+		"original_language": "ru",
+		"original_title": "Спутник",
+		"overview": "1983년. 우주궤도를 돌던 오르비타-4호가 원인불명의 사고로 지구에 불시착한다. 국가는 사고의 원인을 규명하기 위해 유일한 생존자인 우주비행사를 조사한다. 이상하리만큼 빠른 회복 속도와 안정세, 모든 것이 의심스러운 가운데 보다 정밀한 조사를 위해 뇌전문의 클리모바가 연구소로 향하고 알 수 없는 새로운 현상들을 발견하게 되는데… 유일한 생존자, 그리고 함께 귀환한 그것, 예상치 못한 최악의 시나리오! 전쟁이 시작된다!",
+		"poster_path": "https://image.tmdb.org/t/p/original/vFxtfSPoVXD9KfmJLKnGj1EJjcz.jpg",
+		"release_date": "2020-09-08",
+		"title": "스푸트닉",
+		"tmdb_vote_average": 6.512,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 594718,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/TDij_lSqqeZ8udDtMEXsrQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1URXhNVFk0T1RJek5qSXdNakl6TXpnaWZRLkRuVVFTN21GR3Z6N2FLN2VLbnMteXo4RnFmZEE0Q3FmeW5wdUpVSTlldHM",
+			"https://an2-img.amz.wtchn.net/image/v2/0zSvYp8r_CRIu3ISwlCLKA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk1URXhNVFk0T1RJek5UZzNNalExTmpRaWZRLlpHdjYyd0hFOGljcXFDdzJSdXd5c1pBcjQ0TlN2ZHVuWnZXTUdaUDhHX2M",
+			"https://an2-img.amz.wtchn.net/image/v2/rZgJq0LfyptkwDfqAAOX6A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMlJ2ZFd4NGRIWmxZbmh4Y0dwaGMyZG5NWGxvSW4wLndjU2FGWlFrN0lhRzlMNHh3Sk9IbFJjZG9UaHQ5UmFJZzNqcUplYzFCeUE",
+			"https://an2-img.amz.wtchn.net/image/v2/fIfb-vBJGTiyYnvLpg4dDA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM3B2ZW1veGREWnVlSFJvY25ad2MyTnNkWEI0SW4wLnIwalppYWppWlZ0M1RheUpMZ2tsME1KcWxLeWJfTi1hYTAxRDloejJGcjQ",
+			"https://an2-img.amz.wtchn.net/image/v2/j_NnvPgTqYNivskDaJXJ0A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMngxYW5FMmVuQTBabTlrYkhSa2VYZzFhVGN3SW4wLmQ5UUlPZUk3ZE1tV3JzdXBXSW9YV21selp2RTJLM0s3M3p0OW1KWFR0MWM",
+			"https://an2-img.amz.wtchn.net/image/v2/ZZi_XaxvKfgyBZH4Vq7dXw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1p5ZG01eU0yVmlhV2x5WW05c2RISTVkbmRvSW4wLmlfVGt5SlNTMEdHUWpBWHYwNF8tT1RLS0t1d3lMVXRHN2g2dVhHeTRkMUU",
+			"https://an2-img.amz.wtchn.net/image/v2/w-g4LjYGHvSeX3yCmjBywA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjV1YW1OeWVHMTNhSEp3YVc1MVpYTnlZM1J1SW4wLmhKZnFEVHZIR01rb09fVkVDUDRHMUloaTQtMktzQmlmclBKX0tZcnFKd0E",
+			"https://an2-img.amz.wtchn.net/image/v2/TaDOQatoDKfKn_KZZ63iTg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1JoYW10eE5YUnhhbVp0Y21obmFETmtiRFYxSW4wLmlGbkpoRG5BU1FTNjkxV3BCVWZNUEE5QjlsYk8ySU1CZ1VZa3ZocXZNWms"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/MgmM3R50KGo",
+			"https://www.youtube.com/embed/k7ZIpdx1AXg",
+			"https://www.youtube.com/embed/pj0FroVUs8A"
+		],
+		"reviews": [
+			"뻔한 서사를 들고 이런 함축적 의미를 내포한 영화를 만들어낸 감독과 러시아 영화에 찬사를 보낸다.\n.\n.\n#영화의내용과제목또한완벽한\n#과학과자본의결탁의위험성과\n#인류와외계의공존의의구성을\n#그리고그모든것을아우르는건\n#끝내버릴수없는휴머니즘으로\n#이모든것의난제를제시하면서",
+			"특별한걸 소유하려하고 공로를 독차지 하려하고..\n이것 또한 욕심에 지나지 않는 씁쓸한 말로!\n#20.8.8 (1997)",
+			"다시는 불곰국을 무시하지마라\n마더 로시아!\n\n제이크 질렌할 주연의 대도안한 헐리우드sf용화 \"라이프\"(2017)보다 재밌솟따르크.",
+			"휴머니즘과 체제 비판을 주입한 에이리언/라이프.\n캐릭터와 전개도 더 매력적이었다면.\nNot quite Alien, or even Life.",
+			"(68)러시아산 포스트 라이프.\n👍:요즘 꾸준히 들어오는 러시아산 sf중 으뜸,\n👎:익숙하지 않은 러시아 영화에 대한 이질감,\n스토리 14/20 연기 14/20 연출 14/20 재미 26/40",
+			"앞뒤가 안맞는 공포 200828",
+			"주요 캐릭터들의 의아한 행동들이 몰입을 막는다.",
+			"sf ,지루한드라마, 공포x ,스릴러 후추만큼",
+			"비주얼적인 신선함은 리들리스콧의 에이리언에서 이미 소진되었고, 공생이냐 기생이냐 외계생명체와의 유기적 관계를 파고들지만 입체적인 인물이 거의 없다시피하여 작품의 아이덴티티가 모호한 상황.\n+) 빌라넬을 연상시키는 주인공 혼자서 극을 끌고가다시피 한다"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOgjPLn",
+		"poster_palette": [
+			[
+				5,
+				15,
+				17,
+				0.4734649658203125
+			],
+			[
+				27,
+				44,
+				51,
+				0.28765869140625
+			],
+			[
+				46,
+				74,
+				85,
+				0.1949615478515625
+			],
+			[
+				91,
+				118,
+				128,
+				0.031768798828125
+			],
+			[
+				223,
+				221,
+				222,
+				0.01214599609375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			27,
+			53,
+			9648
+		],
+		"original_language": "en",
+		"original_title": "Goodnight Mommy",
+		"overview": "엄마의 시골집으로 찾아온 쌍둥이 형제가 얼굴을 붕대로 감고 있는 엄마와 마주한다. 다름 아닌 최근 받은 성형 수술 때문이라고 하는데… 갈수록 변덕스럽고 특이해지는 엄마의 행동에 거즈로 가린 여자는 자신의 엄마가 아니라는 끔찍한 의심이 형제의 마음속에 자리 잡는다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/oHhD5jD4S5ElPNNFCDKXJAzMZ5h.jpg",
+		"release_date": "2022-09-16",
+		"title": "굿나잇 마미",
+		"tmdb_vote_average": 6.271,
+		"watch_providers": [
+			119
+		],
+		"movie_id": 814800,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/C6_9KE_2SgxAzVbvrlnIFg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5qRTRNalkxT1RnNU9UYzJNemszTlRnaWZRLnEwX25lZXU3aDNpOUhId0hIazRrX0VfVzMxcFdxWTFWYTY1bnZsRjdKYmM",
+			"https://an2-img.amz.wtchn.net/image/v2/MobMg5Bk4md4n_Fnw6-N_A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5qRTRNalkyTURZek5qYzFNRGc0TmpJaWZRLmI5SXhzRnJUR3RQY1cwbWdlaW1LTnp4S3ZoN3dmeHNLaW9KWEFjTkdJM0U",
+			"https://an2-img.amz.wtchn.net/image/v2/JWkj5E5pkfMzNMiRP3nFAA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk5qRTRNalkyTVRNNE5qWXpNalV5TlRNaWZRLkJSN0xXcDdBdnZuUEN3Szg2TkpfRHVSYnFHc2xWcDdYUEpvLUdscDVNM0E"
+		],
+		"video_url": null,
+		"reviews": [
+			"[22.09.16. 공개]\n+ 스트리밍: 아마존 프라임 비디오\n+ 동명 영화(2014) 리메이크작",
+			"야이 미국놈들아\n니들은 유럽 호러 영화들 팔다리 잘라 피 뽑고 포장지 씌워서 다시 내 놓는 게 재밌니? 그게 진짜 뭐 돈벌이가 돼? 도대체 왜 그러는 거야 한두번도 아니고.",
+			"중반 이후 느슨해지는 스릴감과 쉽게 유추되는 사연들.",
+			"원작보다 싱거워진 리메이크는 오히려 역효과만 난 것으로 판명. ('인사이드'나 '마터스'의 리메이크보다는 낫다만)",
+			"애기야 꿈 깨",
+			"지독한 회피충..",
+			"5.7점",
+			"# 관련 영화\nGoodnight Mommy (Ich seh, Ich seh, 2014) 베로니카 프란츠\nGoodnight Mommy (2022) 맷 소벨\n=============="
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mO07NKV",
+		"poster_palette": [
+			[
+				25,
+				19,
+				26,
+				0.727447509765625
+			],
+			[
+				35,
+				42,
+				43,
+				0.1388092041015625
+			],
+			[
+				55,
+				73,
+				67,
+				0.07598876953125
+			],
+			[
+				95,
+				118,
+				102,
+				0.03387451171875
+			],
+			[
+				143,
+				173,
+				152,
+				0.0238800048828125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			35,
+			18
+		],
+		"original_language": "en",
+		"original_title": "White Men Can't Jump",
+		"overview": "동명 원작을 현대적으로 리믹스한 작품으로, 부상 때문에 진로가 막힌 왕년의 스타 선수 제러미와 역시 미래를 놓친 한때 촉망받던 선수 카말이 내키지 않게 한 팀을 이룬다. 여자 친구, 아내와의 불화, 경제적 압박과 내적 갈등에 허덕이던 이 두 길거리 농구 선수는 겉보기엔 정반대지만, 꿈을 이룰 마지막 기회를 두고 의기투합한다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/i83Ykng2HVY5EF043zMmeQdLUQY.jpg",
+		"release_date": "2023-05-11",
+		"title": "덩크 슛",
+		"tmdb_vote_average": 6.4,
+		"watch_providers": [
+			337
+		],
+		"movie_id": 920125,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/9GP6DfvmXVpUM9YSgeI-rg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ESXdOakUxTVRJMk56STBORGd3TURFaWZRLkNtOU92R0ZqRHRMYl9sYTFPZG4taDZ3b1N3ZFhhYTZhU253RGdPa1ZnT1k",
+			"https://an2-img.amz.wtchn.net/image/v2/jWh00sT4AbFSQ3Eyxqz1Bg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ESXdOakUwT1RrM016WTJNakl4TkRNaWZRLlFfdHdCYk9OVGIzWGJ2a2hFWC04NWJjMS1nWnI3ek5pcDZZZ2F6blRRZWM",
+			"https://an2-img.amz.wtchn.net/image/v2/YBbCAjdbHeTrjbjhqEJGtw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9ESXdOakUwT1RJMk9EWXpNalExTmpnaWZRLmZwalg5dkZrbm90WEY1bzUzcFJVQjF3Z1JuRmFxS0dZSDFEcTdPcGhkQzQ"
+		],
+		"video_url": null,
+		"reviews": [
+			"마음의 상처는 마음 맞는 사람으로 치료한다.",
+			"추억 어린 그 슛을 생각하다가 추억마저 뭉개진.",
+			"나도 제러미와 카말처럼 생각이 많아질때면 어김없이 공을 들고 코트로 향한다\n혼자서 공을 던질 때면 내 우주는 농구공에 담긴다\n나는 농구에게 언제나 도움을 받는구나",
+			"리메이크 전 작품이 뭔가 메세지나 스토리나 훨씬 다가오는 이유는 뭘까",
+			"내 남자 영화 데뷔한다길래 봤는데 꽤 하네? ԅ( ˘ω˘ԅ)",
+			"오리지널이 얼마나 위대했는지 한번 더 보여주는 영화다… 😅",
+			"농구팬이라 그냥저냥 보긴 했는데, 시대변화에 따른 몇몇 변화 말고는 원작에 비해 농구영화의 핵심인 경기의 박진감이나,재미의 핵심인 말빨이 잘 안 사는 느낌. 배우들이 너무 순둥순둥해.",
+			"우디 해럴슨도 없고 웨슬리 스나입스도 없고 백인은 점프 못한다는 제목만 있다.",
+			"추억은 추억으로...\n\n2023. 6. 1."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5DPmbQ",
+		"poster_palette": [
+			[
+				34,
+				32,
+				29,
+				0.3675689697265625
+			],
+			[
+				103,
+				106,
+				82,
+				0.232635498046875
+			],
+			[
+				207,
+				205,
+				200,
+				0.1636505126953125
+			],
+			[
+				132,
+				167,
+				182,
+				0.1610565185546875
+			],
+			[
+				216,
+				126,
+				122,
+				0.0750885009765625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			878,
+			53,
+			27
+		],
+		"original_language": "fr",
+		"original_title": "Oxygène",
+		"overview": "한 젊은 여성이 냉동 수면 장치에서 눈을 뜬다. 사라진 기억과 폐쇄된 공간, 그리고 급속도로 고갈되어 가는 산소. 살아남으려면 자신이 누군지부터 기억해내야 한다. 누운 자리가 그대로 관이 되기 전에.",
+		"poster_path": "https://image.tmdb.org/t/p/original/viP8ctqBfDYKPnFCr1DWeoPehEb.jpg",
+		"release_date": "2021-05-12",
+		"title": "O2",
+		"tmdb_vote_average": 6.62,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 471498,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/tMOcjIAb8c318IWymDf3JA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16UXhPRGM1TnpneU56UXdORFl5TmpZaWZRLk80ZnB2UW9TQnN2elNwVXB6LThFbzZ3ZWQ0UGotZ1VkQVNjQUFEZ0JmVkk",
+			"https://an2-img.amz.wtchn.net/image/v2/7yjJTLc6ibiU_ozZt_4CxA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk16UXhPRGM1TmpFM016WTVORFkyTnpNaWZRLmlCR0hZMFFmMl8tUFM2cHBkMVNLWkFUUXZlTnkzOE1JbENfSFdjM3J2OVk"
+		],
+		"video_url": null,
+		"reviews": [
+			"바르샤바 대학교 미술 사학자 마리아 두브라브스카\n\n1939년 전운이 감돌 즈음\n에스토니아 정보 장교 폴 파리크가 백주대낮에\n계단 낙상 사고로 위장 살해 당한다\n\n정보 장교였다가 핀란드 헬싱키 대사관 한직으로 밀려났던 대위 펠릭스 캉구르는 폴의 부하 5명 중\n이중 첩자를 가려 내기 위해 캉구르 소령에 의해 에스토니아로 불려온다\n도우미 역할로 오칭 소위가 붙여진다\n\n그 5명은\n1. 폴의 동생 피터 파리크\n2. 폴의 아내 에디트에게 폴 사망 소식을 전한 요한 소베르\n3. 1937년 소련 정보 요원과 포로 교환됐던 안드레스 피리실드\n폴의 장례식장에서 안드레스는 펠릭스에게\n레닌그라드 1급 정보원으로부터의 전보를 보여준다\n볼케니모 나중에 알고 보니 이는 소련의 에스토니아 침공 작전명였다\n폴은 붉은 군대의 암호첩를 입수하려 했었다 한다\n4. 마티아스 카리츠\n5. 야콥 예고로프"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdEml1m",
+		"poster_palette": [
+			[
+				28,
+				48,
+				55,
+				0.2739715576171875
+			],
+			[
+				7,
+				13,
+				16,
+				0.271148681640625
+			],
+			[
+				59,
+				96,
+				105,
+				0.1900177001953125
+			],
+			[
+				85,
+				149,
+				162,
+				0.1367340087890625
+			],
+			[
+				142,
+				212,
+				223,
+				0.1281280517578125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			80,
+			9648,
+			53
+		],
+		"original_language": "ko",
+		"original_title": "살인자의 기억법",
+		"overview": "예전에는 연쇄살인범이었지만 지금은 알츠하이머에 걸린 병수. 우연히 접촉사고로 만나게 된 남자 태주에게서 자신과 같은 눈빛을 발견하고 그 역시 살인자임을 직감한다. 병수는 경찰에 그를 연쇄살인범으로 신고하지만 태주가 그 경찰이었고, 아무도 병수의 말을 믿지 않는다. 태주는 은희 곁을 맴돌며 계속 병수의 주변을 떠나지 않고, 병수는 혼자 태주를 잡기 위해 필사적으로 기록하고 쫓지만 기억은 자꾸 끊기고, 오히려 살인 습관들이 되살아나며 병수는 망상과 실제 사이에서 혼란스러워진다.  다시 시작된 연쇄 살인사건, 놈의 짓이 맞을까!",
+		"poster_path": "https://image.tmdb.org/t/p/original/wZsBxVlonVjztIBVbquw6uDgYHW.jpg",
+		"release_date": "2017-09-07",
+		"title": "살인자의 기억법",
+		"tmdb_vote_average": 7.411,
+		"watch_providers": [
+			8,
+			97,
+			356
+		],
+		"movie_id": 432836,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/M-IM_6BAFruU7KaTxTEVBA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMlo1WVdFeE0zZHlNelZ0Ym05dmJYVm9kbVk1SW4wLjdRcHlPTXV6a3NmaUdMTWd6SlNWNlRKbnJ2NnJZSXpnRVNnNUZLcXNyeFU",
+			"https://an2-img.amz.wtchn.net/image/v2/ke4e2IEXYclp3weoPsdgbA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1ZrYld3MFp6WXpOM3B5ZUdaNmJtTjRlV05qSW4wLlZORHcwYXJZMDlsTTdpNGZTdGl0cGNUaHRKYmtrUWRCR1NqLXdEaGN5bzQ",
+			"https://an2-img.amz.wtchn.net/image/v2/L2LNkA6ybFtpPFwv9Y4aXA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1J2WW5GME1qTjFaR1ZuT0c4MGVXaDRObXgwSW4wLkpXbkNnUW9zR1Y5cFBqRmZTeUZHREl0RmU5U1hCOWROVWhQY3BxVFRKQ28",
+			"https://an2-img.amz.wtchn.net/image/v2/hJUbQ8Im5TFGXELkSqGr6w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2N3YUdadk9YRjFkM1ZtZUhCb2VYQm5lSEpvSW4wLmt3WmxpTHdaYnZ5cldzNHI4b2UwY1FWdDMyNWVPQWJlU3pNbEVIbUFhU2c",
+			"https://an2-img.amz.wtchn.net/image/v2/cMIXepLUDCHBjzQ_FrgjPA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM0JyTm1aamJ6SnNlWGgwYjNocVlXSnhkV3N3SW4wLkY1YlkzNWZ4SjkyWFpHYUZ3NkpwZ0RVT3U2QmltLWZabllPaGlGVkpyQ0k",
+			"https://an2-img.amz.wtchn.net/image/v2/NlPBCrTjgYIwS-z0NWElJw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2huWkdKeWRtbGpkMkZqTTNkeVltZHpabUp1SW4wLm1PZDNrMDROaEZaejV2RXFVdFFsNzdBb0xDbmVoMTFXZzhjcExwZ3dDb3c",
+			"https://an2-img.amz.wtchn.net/image/v2/e5w4cztRHX4RXb4L0-j5wQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMlJtZW05cllYVnNaMmxwTjNGcmNYaDBPVzVrSW4wLmRQdFc4OVBZSTBNSzVXTmt3X00wZHVoelFHVnpQckJ3dTdSbU1FQ3F1ZVE",
+			"https://an2-img.amz.wtchn.net/image/v2/LHeRRhePv2TpqB0P_GtfxQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2syWXpoaGNtNTFNbkIxWm1sbGNtOXhZbmxtSW4wLjlYWVRzM1h4RzVqa3d3cVBhbHZLUm03RGN1S1R5OFA1b2g3S2NYWVJVb2M",
+			"https://an2-img.amz.wtchn.net/image/v2/Fzs--csVFzzyv0rM0ReFpg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM0J3YUdnMGFXeGhaSFJpYTNOM1kzSnhkbWsySW4wLlFiYUtTOHNfR3Rjd3k2VEFPT2VnQVRIYTJGZkl1WkpBVjFDOERMUXBwQlk"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/nNN4TUoXnzI",
+			"https://www.youtube.com/embed/j3XPxV2HmaA"
+		],
+		"reviews": [
+			"원작의 매력을 발라낸 각색. 배우들의 연기만 남는다.",
+			"윤경호의 기억법\n난 관람객이다. \n하지만 내머리는 설현이 발연기라고 기억한다.\n하지만 내눈은 기억한다 발연기가 아니라고\n아니다 못했다 아니다 잘했다.\n아니다 이 기억을 믿지마라 난 관람객이 아니였을 것이다. \n.- 김남길 셔츠 후드티 설경구 새하얀 운동화",
+			"이 영화 보면서 경구형이랑 눈싸움 하면 \n적어도 100판 이상 이길 수 있음.",
+			"메멘토처럼 망각의 규칙이 있는 것도 아니고 너무 망각을 편의적으로 사용했다. 그럼에도 나는 범인이 누구인지 혼란스러워하며 긴장되게 보고있다.",
+			"빨리 들어와!!! 빨리 앉아!!!! 빨리 일어나!!!!!!!",
+			"설경구의 명연기로도\n캐리가 안되는 \n너덜너덜한 각색",
+			"가장 두렵고 위대한것은 기억이다....\n기억이  축복인가 망각이 축복인가....\n맹시 란 또 어떠한가.\n다시보니 소름돋음\n댓글에강력스포",
+			"아놔 뒷자리에 앉은 여자 고등학생 광고 나올때부터 의자를 축구공마냥 차네.발로 차지좀 말라고 부탁해도 어린나이에 벌써 알츠하이머 걸려서 가까운 기억 부터 까드시는지 영화 내내 우리나라 국가대표들이 보고 배워야 할정도로 사람 미치게 만드는 세기와 정확도로 유효발길질을 영화 끝날때까지 기록. 게다가 내 옆자리 남자는 비오는날 맨발 슬리퍼로와서 젖은 발을 의자에 올리고 데쓰노트 L자세로 영화를 보는데 그럴 계획이였으면 발이라도 좀 깨끗히 씻고 오던가 한여름날 썩은 흰밥냄세를 풍기는데 본인은 모르나? 하긴 영화 내내 입으로 습습하하 숨쉬는거 보니 심한 비염이 있었겠지. 정말 옆뒤로 지랄 난리를 쳐서 영화를 보기힘들었다. 공공장소 에티켓좀 지킵시다.  이런 상황에서도 영화에 집중되긴했으니 좋은영화겠지 그러므로 별4개."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOk6ENg",
+		"poster_palette": [
+			[
+				31,
+				26,
+				24,
+				0.314361572265625
+			],
+			[
+				81,
+				65,
+				61,
+				0.2098236083984375
+			],
+			[
+				138,
+				107,
+				98,
+				0.1885833740234375
+			],
+			[
+				176,
+				152,
+				140,
+				0.173065185546875
+			],
+			[
+				212,
+				200,
+				194,
+				0.114166259765625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			10752
+		],
+		"original_language": "en",
+		"original_title": "Tigerland",
+		"overview": "1971년, 미국은 베트남전의 확대로 인해 혼란에 빠져있다. 수천명의 젊은이들은 타지에서 죽어가고, 포트폴크에서는 수천명이 그들과 함께 적진에 뛰어들기 위해 준비하고 있다. 전투의 무서운 그림자는 기본 훈련 마지막 단계인 2소대 A팀에게도 드리워져 그들은 이제 곧 전쟁터로 보내질 예정이다. 이들은 이제 각기 다른 방식으로 다가오는 미래에 대한 마음의 준비를 한다.  짐 팩트선 일병은 손에 노트를 들고 헤밍웨이와 제임스 존스의 전례처럼 전쟁이 자신의 글을 알리는 구실이 되길 기대하는 낭만적 사고에 빠져 있다. 미터는 남자로서의 자신을 증명하고 싶어하고, 캔트웰은 피할 수 없는 상황에 자포자기하고 있으며, 윌슨은 불온한 전투욕에 사로잡혀 있다. 그러나 한 사람의 도전 의식이 소대 전체를 자극한다. 롤랜드 보즈가 이 2소대 A팀에 합세한 후 국가의 양심을 갈라 놓고 있는 양분된 의견이 군의 직위를 넘나들게까지 된 것이다. 영창에서 나온 보즈는 군대를 떠나길 윈하여 작은 프로 테스트를 실행하게 되고 결과를 기다리며 툭하면 명령에 불복종하고 군대를 떠날 구실만 찾고 있다. 그러나 보즈의 이런 행동이 전혀 예상지 못했던 방향으로 사건을 끌고 간다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/pnFdCvxxL44sPLkKEIJCUaIZa7M.jpg",
+		"release_date": "2000-10-06",
+		"title": "타이거랜드",
+		"tmdb_vote_average": 6.6,
+		"watch_providers": [
+			337
+		],
+		"movie_id": 10687,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"문제 되는 병사는 징계해버리면 그만인데.. 미국은 저렇구나 ㅎ 훈련에 훈련. 베트남전을 앞두고 훈련병들을 다루는 솜씨! 자세는 되어가지만 뭔가 불안정해보이는 건 어쩔수 없나보다. 콜린의 아웃사이더 병사 역할. 캐릭터가 좀... 이상하다.\n#19.10.8 (1351)",
+			"스토리 속 인물에 대한 의문은 남지만 기존의 전쟁영화와는 다른 주제로 이야기하는 것은 인상적이다 저예산 임에도 나쁘진 않았다",
+			"월남전을 소재로 이렇게 지루하게 만들다니...\n(콜린 파렐의 발견!!)",
+			"누가 봐도 꼴통인 보즈, 그러나 포트 포크 돌아가는 꼴을 보면 그 보즈가 정상으로 보인다. 베트남 장면 없는 베트남 전쟁 소재 영화이기도 하다.",
+			"군대에서 봤는데도 군대영화가 이렇게 재미없는건 처음이었다.",
+			"그래도 마지막은 좋네.",
+			"특이한 시점의 전쟁 영화. 저평가 받으면서 동시에 고평가 받는 조엘 슈마허의 모호한 정체성을 확인하려면 꼭 봐야 하는 영화.",
+			"타이거랜드는 8주 훈련을 마치고\n베트남과 가장 흡사한 훈련장을 말한다\n\n타이거랜드에서 탈영을 하려던 보즈는\n그냥 가버리면 팩스턴은 윌슨에게 죽임을 당할거라\n존슨의 말에 결국 아침에 다시 복귀한다\n\n윌슨은 소총 총열 마개를 빼고 실탄을 장착\n두 번째 보즈외 팩스턴을 죽이려 하는데\n훈련 교관이 막고\n보즈는 팩스턴의 안전을 위해 일부러 총탄을 발사해\n눈을 다치게 한다\n\n결국 팩스턴은 의가사 제대를 하게 되고\n보즈는 전장으로 끌려가는데\n이후 실종자나 전사자 명단에 없고\n누군간 멕시코에서 아리따운 여인과 있더란 말을 전하기도 했다\n***\n훈련과 전쟁을 섞는 영화는 많지만\n오로지 훈련만 다루는 영화는 첨보는 듯하다\n\n물론 훈련 과정보단 그 소대 안에서의 갈등과 마찰\n전장에 끌려가길 두려워하는 젊은 군인들의 공포를 그리고 있다",
+			"굉장히 현실적이게 잘 다루고 있다!!\n시종일관 몰입하게 하는데...저예산치고는 역시 조엘 슈마허답다는 말이 나올 정도로 생동감 있다!"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOlQ6ed",
+		"poster_palette": [
+			[
+				23,
+				16,
+				8,
+				0.390960693359375
+			],
+			[
+				69,
+				59,
+				39,
+				0.2144775390625
+			],
+			[
+				127,
+				110,
+				75,
+				0.1504669189453125
+			],
+			[
+				189,
+				169,
+				126,
+				0.130462646484375
+			],
+			[
+				234,
+				224,
+				205,
+				0.1136322021484375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			10752
+		],
+		"original_language": "en",
+		"original_title": "Billy Lynn's Long Halftime Walk",
+		"overview": "미국 텍사스 출신 19살 보병 ‘빌리 린’과 그의 7명의 분대원들이 이라크전에서 참전 중 언론의 주목을 받아 영웅으로 떠오르자 미국정부가 그들을 고향으로 데려와 홍보투어를 시키게 되고 주인공들은 이라크 전쟁터로 복귀하기 전에 미국 텍사스주에서 열리는 추수감사절 미식축구 경기의 하프타임쇼에도 동원되게 되는데 바로 그 경기 중에 무언가가 벌어지는데..",
+		"poster_path": "https://image.tmdb.org/t/p/original/xCEnFXeiwJz0aKoeq2f3vzykRQw.jpg",
+		"release_date": "2016-11-10",
+		"title": "빌리 린의 롱 하프타임 워크",
+		"tmdb_vote_average": 6.0,
+		"watch_providers": [
+			8,
+			356
+		],
+		"movie_id": 293767,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/g2diPixNY-dycNokI0nTDg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM28xYkRWd2FXMTZkWGxrYVdaeWIyaHRjSFUxSW4wLnR4Q0dib1JLNUVCWTJCVEE0elBET2tRVkVMVzZDT1lzekNOcUE3S0JyRTg"
+		],
+		"video_url": null,
+		"reviews": [
+			"영웅이라는 칭호를 받은 군인들이 복무중 군 홍보를 위해 잠깐 국내에 들어와 여러 행사를 참여하는 내용인데.. 그들은 항상 최전방의 마음으로 현실에 서있지만, 세상은 그들을 동물원 원숭이보듯 한다. 그 현실과의 괴리감을 표현, 충분히 와닿았다..\n#19.4.23 (503)",
+			"그래서 '빌리 린'은 어디로 갔는가.\nWhere has Billy Lynn gone?",
+			"어느 순간부터 미국 영화는 전쟁의 부조리는 말하지만 일개 개인의 이야기는 용납하지 않는 것처럼 느껴졌는데. 이 영화의 결과가 그를 보여주는 것 같다.",
+			"앞에서는 영웅이라 칭호하고\n언론플레이 대상으로 활용하는 저런 모습.\n진지하게 많은 생각을 준 전쟁영화.\n당사자들 입장도 잘 보여주고,\n현실이 참. 인간이 참.",
+			"\"내 인생 최악의 날을 존경한다는게 이상해\"",
+			"동료의 목숨과 바꾼 휴가에서 얻는 깨달음의 시간. 견디기 힘든 전쟁의 고통과 위선적인 존중으로 가득찬 조국의 기만 사이에서 그들이 진정으로 원하는 것.",
+			"누구를 위한 희생이고.\n무엇을 위한 의무인가.\n영화는 무엇을 이야기 하고 싶은건가???",
+			"영웅의 칭호는 쟁취하지 못하고 부여받는 순간 국가란 위선적 집단의 꼭두각시.",
+			"전쟁영웅을 보는 다른 개인의 관점.\n이안이라 많이 기대했지만 \n영상으론 아쉽다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5Y69Q3",
+		"poster_palette": [
+			[
+				11,
+				8,
+				6,
+				0.345489501953125
+			],
+			[
+				57,
+				45,
+				36,
+				0.242828369140625
+			],
+			[
+				118,
+				95,
+				76,
+				0.2001800537109375
+			],
+			[
+				182,
+				152,
+				126,
+				0.125030517578125
+			],
+			[
+				232,
+				224,
+				204,
+				0.0864715576171875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			99,
+			10402,
+			36
+		],
+		"original_language": "it",
+		"original_title": "Ennio",
+		"overview": "수많은 작품을 쓰고 엄청난 인기를 누린 20세기의 음악가 엔니오 모리꼬네에 대한 완전무결한 초상이다. 그는 500곡이 넘는 잊을 수 없는 영화 음악을 작곡했으며, 오스카상을 두 차례 수상하고, 전 세계 관객의 가장 큰 사랑을 받았다. 거장과의 긴 인터뷰에 더해 베르나르도 베르톨루치, 줄리아노 몬탈도, 마르코 벨로치오, 다리오 아르젠토, 타비아니 형제, 카를로 베르도네, 배리 레빈슨, 롤랑 조페, 올리버 스톤, 쿠엔틴 타란티노 같은 여러 아티스트 및 감독들의 증언을 통해 이를 보여 주는 다큐멘터리다. 픽션 장면들과 음악, 아카이브 이미지들을 모았다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/tBWkpa4atSLeHiCt079QmGYdL0m.jpg",
+		"release_date": "2022-02-17",
+		"title": "엔니오: 더 마에스트로",
+		"tmdb_vote_average": 8.347,
+		"watch_providers": [
+			356
+		],
+		"movie_id": 396194,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/2xHyNMkxEarLISWw-_WJ8w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9EVTVOVEV5TnpVME1UZzNORFF6TlRVaWZRLjdKRGNGdG01ZkRjOTFYNV9aOHpLeGNlZTRwbklnS3JtXzB5cnpWQmNUVUU",
+			"https://an2-img.amz.wtchn.net/image/v2/V360JhfA0LL1h65gb4IueA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9EVTVOVEV5TnpVME1qWXhOelkwT0RjaWZRLkxSamp6b0o2Ui1uUC0xSWpOelJnU2czYXNDcmtQRFRIeldrZmFLME1FamM",
+			"https://an2-img.amz.wtchn.net/image/v2/A2EMdm_xsDd7MaRcZKRx9A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9EUTBOelV6TVRVeE1UY3hNall6TlRnaWZRLjJ4UDFrNzZqZFVjUlhtLW15VFZuM0NpY1gwTGRDSUNZMGFpeUcyWHV6NlE",
+			"https://an2-img.amz.wtchn.net/image/v2/Ueg0nnGBmyRhdFKUFypLSw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9EY3lNemt4TVRjME5qQXhNRFF6TURFaWZRLnF4VUhSRTRfRzQwN0pTNzlkTTdSSVVyYUVYancyWDhxODZHLW1UMUdnRzQ",
+			"https://an2-img.amz.wtchn.net/image/v2/0dg2RxeVCokvzClX8Y5MLQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9EY3lNemt4T0RBd056ZzROamMzTURZaWZRLlNiaDl6bWpfc2prVG0xT29Wekx0VTlLeU15N0pYa21OYmJzOC1VeTJIRzg",
+			"https://an2-img.amz.wtchn.net/image/v2/yrWrPE4ZgvdmsXc244D3Eg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9EWTNNamswT1RJM05qSTJORFEzTXpraWZRLmpxc01YajJBYl9YaDNmVWE5bGpLemlPZkw0YlBXbFNYWUxkeG5GV2hob00"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/-wq77eOFYlI",
+			"https://www.youtube.com/embed/OBFwr47-QFs",
+			"https://www.youtube.com/embed/LwkMQPDsZ9s",
+			"https://www.youtube.com/embed/7EFeCSJzKLw"
+		],
+		"reviews": [
+			"영화에 영혼이 깃들어 영원이 된 순간들.",
+			"그의 아버지가 모리꼬네에게 트럼펫을 불게 한 이유는 본인이 악기로 한 가족을 부양한 까닭도 있겠지만 평화적인 직업 기술로 그를 보호하려는 목적도 있었을 것이다. 전후 혼란스럽고 엄혹한 시대에도 아들은 군악대로 입대할 수 있었으니까. 다큐멘터리에서 이러한 정치적 입장은 배제된다. 굳이 말하지 않은 것이 맞을 것이다. 이탈리아 자국 영화계의 흥망성쇠를 토로하지도. 아카데미가 그를 버렸던 이유에 대해서도 따로 질타하지 않는다. 다만 마카로니 웨스턴 풍의 음악을 원했던 타란티노에게 진중한 고향곡을 작곡해 주고 노년에 아카데미 음악상을 처음으로 거머쥐며 울먹이는 엔니오의 모습을 보여준다. 그의 존엄이 봉준호가 4개의 트로피를 거머쥐며 환하게 웃을 수 있었던 밑바탕이기도 할 것이다.\n\n그가 그려낸 겸허 존엄 사랑의 관념어들은 상상된 가치이기에 파괴되기도 쉽다. 그래서 더더욱 정치와 시대의 색채로 설명하지 않은 것으로 보인다. 시대의 맥락이 모두 제거된 후에도 엔니오는 오래도록 호명될 이름이고 음악이니까. 그 관념어가 가진 시끄러운 정쟁이 표현되지 않은 것은 우리 삶의 결정적 순간이 모두 무음인 것과 마찬가지이고, 우리가 사랑에 빠지는 순간 종이 울리지 않는 까닭이기도 하다. 대신 우리는 그의 음악으로 상상된 가치가 얼마나 아름다운 것인지 귀를 통해 감각할 수 있었다. 평화적인 직업 기술을 오래도록 연마한 숙련된 장인으로부터. 그의 아버지가 맨처음 원했던 대로.",
+			"“그는 과거를 되돌아보고 미래를 내다봤죠. 음악의 ‘어제’와 ‘내일’을 생각한 거예요.”\n\n문득 엔니오 모리꼬네라는 사람을 그저 ‘천재’라고 정의하는 건 그의 음악에 대한 열정과 사랑, 그리고 모든 노력들에 실례가 될 수도 있다는 생각이 들었다. ‘처음부터 천재’ 같았던 게 아니라, ‘음악을 너무 사랑해서’ 지금 엔니오가 된, 마치 연인을 사랑하듯 자연스럽게 악보를 바라보고 선율을 떠올리며 우리들의 마음을 행복하게 만들어주고 있었다.\n\n“음악은 음으로 쌓는 건축이에요. 벽돌은 어디나 똑같지만 건물은 전부 다르잖아요.”\n\n“그렇담 엔니오는 대성당을 지었네요.”\n\n내 앞에 앉으신 어르신은 영화가 끝날 때까지 끊임없이 눈물을 훔치셨다. 그 눈물이 부러웠다. 이 시대를 살아가며 수많은 ‘좋은 영화’를 볼 수 있다는 것에 기뻐하며 살았었는데, 이 영화를 온전히 느끼지 못 하고 난 ‘엔니오 모레꼬네가 이렇게 대단한 음악가였구나’ 생각할 뿐이었다. 어르신은 이 영화를 보며 ‘극장을 가던 청춘 시절’이며, ‘엔니오처럼 무언가를 간절히 노력했던 기억’은 물론, ‘가슴으로 품었던 수많은 영화, 그리고 수많은 음악’까지 많은 것들을 떠올리며 영화를 200%로 감상하셨을 게 분명하다.\n\n“다들 대단한 것 같은데 난 아닌 것 같아서 내 자신이 수치스러웠죠.”\n\n‘위대한 음악가’였던 그도 수치심을 느꼈었다. 엔니오처럼 되고 싶어 하는 수많은 현대인들은 ‘나까짓 게 뭘 할 수 있겠어’ 계속해서 낙담하고 위축된다. 엔니오의 ‘성공’은 그들을 위한 최고의 위로였다. 엔니오는 태어났을 때부터 빛난 게 아니었다. 영재들이 넘치는 곳에선 평범했고 실패도 겪었으며 수많은 음악을 작곡하기까지 어떠한 상도 받지 못 했었다. 중요한 건 ‘그곳에서 주저앉지 않았다는 것’이었다. ‘어떻게 하면 더 좋은 음악을 만들 수 있을까에 대한 영원한 고찰’이 지금의 그를 만들었다. 그리고 그 ‘고찰’이라는 건, 결코 어려운 게 아니라고 용기를 주고 있었다. 그의 그런 음악을 작곡했다.\n\n“내 곡에는 객관적이기 힘들었어요. 그래서 아내에게 모든 곡을 들려줬죠. 아내가 승인한 곡만 감독에게 보여줬죠.”\n\n아무도 강압적으로 엔니오의 노래를 듣게 한 적 없었다. ‘찾아와줘’라며 그가 부탁한 적 없었고, 좋은 노래를 영원히 찾아 헤매는 우리들의 발걸음을 멈추게 한, 우리 스스로 ‘찾아간 것’이었다. 인기 많은 자 주변에 항상 사람들이 둘러싸이는 것처럼, 그의 음악도 마찬가지였다. 세상에 음악을 듣지 않는 사람은 없었으니까. 마음에 영원히 남는 음악을 찾으려고 하지 않는 사람도 없었으니까.\n\n“모두가 그의 음악을 좋아해요. 그게 누가 가르쳐서일까요?”\n\n[이 영화의 명장면 📽️]\n\n1. 지휘\n\n머릿속으로 그린다. 자신이 떠올리는 선율을 완벽하게 연주해주는 오케스트라를. 그리고 그들이 그럴 수 있게 지휘하는 자신의 모습을. ‘떠올려야 해서’ 떠올리는 게 아니었다. ‘떠올리고 싶으니까’, ‘떠올리지 않으면 미치겠으니까’ 그런 것이다. 엔니오가 얼마나 음악을 사랑하는지, 너저분한 방안에서 홀로 지휘를 하고 저 모습에서 다 티가 난다. 무언가를 저렇게 간절히 좋아할 수 있다는 게 너무나도 멋졌고 부러웠다.\n\n“정말 매혹적인 곡이에요. 우리 마음을 안아주고 한참을 머릿속에 맴돌죠. 평생 이것만 들으면서 살 수 있을 정도니까요.”\n\n2. 은퇴를 앞두고\n\n<미션>이라는 작품을 의뢰받았지만 그는 ‘음악 없이도 최고인 작품’이라 판단하고 거절한다. 자신의 음악이 명작의 위대함을 깎아내릴까 봐 덜컥 겁을 낸 것이었다. 하지만 그는 떠오르는 악상을 견디지 못 하고 감독에게 전화를 건다. 그리고 그가 떠올렸던 아름다운 선율을 허밍으로 들려준다. 그 곡이 바로 ‘가브리엘의 오보에’였다. 누군가에게 편지를 쓰듯 자연스럽게 써내려갔던 악보. 엔니오의 머리는 ‘은퇴’를 생각했었지만, 그의 마음 속에는 아직 ‘영화음악을 향한 사랑’이 그 누구보다도 가득했다.\n\n“아내에게 1970년까지만 하고 그만두겠다고 말했어요. 1970년엔 1980년까지 하겠다고 했고, 1980년엔 1990년, 1990년엔 2000년까지. 더는 그런 말 안 해요.”\n\n그는 음악을 사랑했고\n영화를 사랑했고\n그것을 즐길 수 있는\n모든 사람들을 사랑했다\n\n그는 세상을 떠나며\n그를 추억하는 많은 사람들을 보고\n자신에게 추억되는 많은 곡들을 떠올리고\n분명히\n‘영화음악 하길 잘했다’고 생각했을 것이다\n\n“생각이 바로 곡이 되진 않아요. 작곡가는 빈 종이 위에 뭘 적을까요. 그것을 찾아야 해요. 뭘 찾을까요?”",
+			"가끔 영화의 최고 명대사는 음악이 아닐까",
+			"살면서 오랫동안 기억에 남을 영화는 장면과 음악이 대화하는 순간을 담은 영화가 아닐까.",
+			"영화 음악계의 위대한 건축가, 엔니오 모리코네.\n\n그의 음악은 범접할 수 없는 영원성과 불변성으로 언제 어디서나 관객을 설레게 만든다.",
+			"나의 거장은 내가 상상했던 것보다 더 성실했고 더 열정적이었으며 더 멋있는 사람이었다. 그래서 정말 기뻤다. 그의 음악을 사랑하는 내 마음이 진정 가치없지 않았음을 알게돼서.",
+			"’타란티노식 허풍‘으로 말해보자면\n2시간 36분이 23분 6초처럼 느껴진다.",
+			"이미, 영화음악의 대표가 아니라 지구의 지존심이 되어버린 그다.\n마에스트로 엔니오 모리꼬네..\n그 존재, 그 작품, 그 음악, 그 피아노, 그의 세계.\n그것만으로도 이미, 그는 모든 것이며 그는, '전설' 자체가 되어버렸다.\n잠시 그와 같은 세계를 살았다는게 가장 최고의 자랑이 아닐까 한다.\n단지, 시네마 천국에 대한 언급이 별로 없었다는게 조금 안타가웠다..\n그는, 최고고 최고였다.\n#23.9.1 (531)"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5ZlYlV",
+		"poster_palette": [
+			[
+				29,
+				19,
+				19,
+				0.3987579345703125
+			],
+			[
+				249,
+				246,
+				240,
+				0.226593017578125
+			],
+			[
+				87,
+				56,
+				41,
+				0.21234130859375
+			],
+			[
+				188,
+				119,
+				72,
+				0.08929443359375
+			],
+			[
+				215,
+				185,
+				157,
+				0.0730133056640625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			80,
+			53
+		],
+		"original_language": "en",
+		"original_title": "We Own the Night",
+		"overview": "디스코의 시대 80년대 말 뉴욕, 인기 절정의 나이트클럽에서 매니저로 일하는 ‘바비’ (호아킨 피닉스)에겐 매일 밤이 파티이다. 하지만 그에겐 여자친구 ‘아마다’(에바 멘데스) 외에 누구에게도 밝히지 않은 비밀이 있는데, 자유분방하고 화려한 밤의 세계를 사는 자신과 달리 아버지(로버트 듀발)는 뉴욕 경찰서장이고 형(마크 월버그)은 경찰 강력계의 떠오르는 스타인 것. 범죄가 기승을 부리던 당시 어느 날 뉴욕 경찰은 마약과의 전면 전쟁을 선포하고, 그 주축인 아버지와 형은 러시아 마피아의 표적이 된다. 게다가 러시아 마피아는 ‘바비’의 클럽을 거점으로 거대한 국제적 음모를 꾸미고 있었던 것. 자신이 그토록 사랑했던 생활의 터전에서 가족과 마피아가 맞섰을 때 과연 ‘바비’는 어떤 선택을 할 것인가, 뉴욕의 밤을 지배하는 자 누가 될 것인가?",
+		"poster_path": "https://image.tmdb.org/t/p/original/oviuw6dElsktDwfKNYX3pTL0Qh.jpg",
+		"release_date": "2007-10-12",
+		"title": "위 오운 더 나잇",
+		"tmdb_vote_average": 6.7,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 2001,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"태산처럼 고착하나 변화는 깃철처럼.",
+			"반목으로 점철된 세월의 감정들이 혈연의 그늘 아래 초연해진다.",
+			"스토리텔링이 기가막히게 뻔하고 친근해서 몰입감이 좋더구먼. 곰곰이 생각해보면 웃음끼 뺀 홍콩영화를 좀 닮은 것 같기도? 악의 소굴 고담시 생각도 났다.",
+			"장르영화 특유의 스피드와 오락적 요소를 살려가면서도 동시에 인물의 내면을 간과하지 않고 입체적으로 조형한다. 장르영화에서 관객이 기대하는 것을 그대로 충족시켜주는 몇개의 시퀀스가 증명하듯 전반적인 부분에서 연출이 물 셀 틈 하나 없이 탄탄하고, 메인플롯의 이면에 깔린 가족영화의 서브플롯을 전개하는 방식, 그리고 배우들의 연기까지 훌륭하다. 개봉당시 현지의 미지근한 반응이 심히 의아하다.\n.\nhttps://m.blog.naver.com/hc24851/221653217702 (단평)",
+			"스펙타클한 범죄스릴러 인듯하지만 거역할수 없는 운명의 굴레, 서로 상처주지만 의지할수 밖에 없는 가족이라는 끈.\n마지막 호아킨피닉스의 눈빛이 많은말을 한다.\nps. 매력적인 에바맨더스는 바비의 장식품같이 소모해버린것이 너무 아쉽다",
+			"깃털처럼 날아올라 묵직하게 내리꽂는 직격타.",
+			"느와르는 냉소와 불안심리에서 시작된다, 통쾌미가 아니라",
+			"장르적인 긴장감을 잃지 않으면서도 \"액션 자체를 심리적 과정으로 만든다\"(정성일)는 제임스 그레이 감독의 스타일도 잘 드러난다. 간결한 설정과 구조로 익숙한 이야기를 대신하고, 비극적 인물 안으로 보다 파고든다. 카 체이싱의 혼란과 폭력, 마약 소굴의 어둠과 불안, 갈대밭의 불길과 자욱한 연기. 자칫 도취적일 수 있는 슬로우 모션조차 바비의 심리를 비춘다. 결국 아버지의 길을 걷게 되는 탕아의 알 수 없는 마지막 눈빛까지. 이게 제임스 그레이의 공인지 호아킨 피닉스의 공인지 확실히 재단할 수는 없으나, 서로를 극대화 하는 두 조합이 언제나 옳다는 건 확실히 알겠다.",
+			"주어진 운명에 순응하는 자의 공허함"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWqxyp5",
+		"poster_palette": [
+			[
+				13,
+				10,
+				8,
+				0.4185028076171875
+			],
+			[
+				49,
+				37,
+				30,
+				0.3195648193359375
+			],
+			[
+				97,
+				69,
+				58,
+				0.13616943359375
+			],
+			[
+				155,
+				137,
+				117,
+				0.0715484619140625
+			],
+			[
+				229,
+				225,
+				218,
+				0.0542144775390625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			10751,
+			16,
+			35
+		],
+		"original_language": "fr",
+		"original_title": "Le Grand Méchant Renard et autres contes...",
+		"overview": "아무도 그를 무서워하지 않아 번번히 사냥에 실패하는 여우.  배고픈 여우는 급기야 암탉의 알을 몰래 훔치게 되고  알이 부화하면 잡아먹을 계획을 세운다.  하지만 예상과 달리 알에서 깨어난 병아리 삼총사가  여우를 엄마라고 부르며 졸졸 따라다니는데…!",
+		"poster_path": "https://image.tmdb.org/t/p/original/7LYOK6dF8uMAQBv6V4VQaKEun56.jpg",
+		"release_date": "2017-06-21",
+		"title": "빅 배드 폭스",
+		"tmdb_vote_average": 7.7,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 453191,
+		"picture_url": null,
+		"video_url": [
+			"https://www.youtube.com/embed/-a87RplkVHQ"
+		],
+		"reviews": [
+			"우리의 진심이 작은 것들에 전해지길. 또는 전해지지 않더라도.",
+			"유쾌하고 즐거운 그 집구석 이야기 ㅋㅋ\n여우가 젤 괜찮은거 같아 ㅋ",
+			"별 생각없이 봤는데 꽤 꿀잼ㅋㅋㅋ\n토끼와 오리 환장의 콤비, 돼지가 제일 불쌍ㅋㅋ",
+			"이 귀여운 걸 나만 봤다는 게 아쉬울 뿐!",
+			"ㅋㅋㅋ못말려\n\"중요한건 모두가 행복한거야!!\"\n행복 가득한 클쑤마스선물보따리 감사합니당\n조만간 새로운 작품으로 또 만날수있기를...\n\"다들 잘했다. 니들은 최고였어\"^^",
+			"<어네스트와 셀레스틴>에서 무게를 덜어낸 결과물. 주제적 측면에서 훨씬 가볍게 볼 수 있다. 때문에 보고나서 남는 것은 많지 않지만 유머와 귀염 터지는 포인트가 많아서 보는 동안만큼은 재밌게 즐길 수 있는 우화 모음집. 앞으로 이들에게서 더 많은 애니메이션이 나올 수 있길 기대해본다.\np.s 1) 더빙 퀄리티 좋은 편.\np.s 2) 거 상영관 너무 적은 거 아니오?\np.s 3) 토토로 형이 왜 거기서 나와?",
+			"유럽귀여움",
+			"농장에 사는 동물들의 소소한 소동극. 만화에서나 통할지 모르는 가정을 통해서 우리가 갖고 있는 동물들에 대한 고정관념에 대해 생각할 지점을 던져준다. 우화가 필요한 건 오히려 어른이다.",
+			"크리스마스 즈음 아침 9시 10시 정도에 아직 잠옷을 입은 채로 이불 속에서 tv로 보고 싶은 영화"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/m5eJ1jo",
+		"poster_palette": [
+			[
+				252,
+				245,
+				232,
+				0.510162353515625
+			],
+			[
+				243,
+				204,
+				160,
+				0.253448486328125
+			],
+			[
+				196,
+				148,
+				102,
+				0.1272735595703125
+			],
+			[
+				139,
+				99,
+				70,
+				0.0651397705078125
+			],
+			[
+				71,
+				25,
+				19,
+				0.043975830078125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18,
+			10752,
+			36
+		],
+		"original_language": "it",
+		"original_title": "La battaglia di Algeri",
+		"overview": "1957년 10월 어느 새벽, 알제리 민족 해방 전선(Font de Libration Nationale, FNL) 소속의 나이 든 반군 한 명이 프랑스 군인들의 고문을 견디다 못해 마지막 남은 지도자 알리의 은신처를 누설하고 만다. 은신처를 포위한 프랑스군은 당장이라도 폭파할 태세이다. 오직 해방을 목표로 투쟁해 온 지도자 알리는 생사의 갈림길에서 상념에 잠긴 채 치열했던 지난 3년을 회상한다...\r 1954년에서 1962년 사이, 9년간 프랑스의 식민 통치에 대항한 FNL의 무장 독립 투쟁과 프랑스군의 정치적 폭력 행위 등을 다큐멘터리 형식으로 재구성한 영화다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/erT5d2hSBXCxXwFrRIEY361tvYM.jpg",
+		"release_date": "1966-09-08",
+		"title": "알제리 전투",
+		"tmdb_vote_average": 7.9,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 17295,
+		"picture_url": null,
+		"video_url": [
+			"https://www.youtube.com/embed/2uodce2bN2c"
+		],
+		"reviews": [
+			"투쟁, 혼돈, 혁명의 대가와 편협하지 않은 리얼리즘.\nLike the suspense of pressurized champagne.",
+			"자유평등박애의 정신을 내세우는 프랑스는 자국민에게만 해당되는 기치",
+			"“흩어진 정의를 모아 자유라는 해방을 찾아”\n\n다큐멘터리도 아니면서 다큐멘터리처럼 느껴지는 건\n영화의 장치였던 것일까 아니면 남 일 같지 않아서 일까.\n\n그들의 처절한 목소리와 총소리는 오로지 ‘자유와 간절함’을 외치고 있다는 것이 들리는가?\n\n목적이 같은 이들끼리 서로가 누구인지는 정확히 몰라도\n어떠한 길을 함께 걸어줄 동지라는 것은 안다.\n\n발코니에서 쏘아진 삿대질의 총알의 근거 없는 ‘마녀사냥’이 이윽고 역사의 한 부분에 메울 수 없는 아픈 구멍을 내고야 만다.\n\n대한민국의 역사에도 참 가슴 아픈 시기가 많다.\n겪어보지 못했고 겪고 싶지도 않다.\n\n다만, 그때의 우리 독립운동가들 그리고 이름과 얼굴도\n모를 수많은 영웅들도 자신의 몸에 지워지지 않는\n총알구멍을 새겨가며,\n\n우리나라의 역사에 더 이상의 큰 구멍이 생기지 않도록\n얼마나 많은 피를 흘렸을까 하며\n함부로 예상할 수 없는 씁쓸함을 떠올렸다.",
+			"감상적인 시선이 자제된 가운데, 폭력의 순환고리에 갇힌 양측을 평등하게 건조한 시선에서 바라본다. 정치적 고양을 직설적으로 외치지 않고 참극의 이미지 자체를 보여줄 뿐이기에 관객은 힘의 충돌에 대한 더 큰 반성과 교훈을 스스로 느낄 수 있다.",
+			"냉정은 신빙을 얻는 제일의 덕목일테다. 사건·사실을 다루며 함부로 \"가슴이 뜨거워진다\"는 감독이나 배우는 거북스럽다.",
+			"기록물로서의 영화로 정점에 있는 듯하다. 독립 이후 3년만에 만들어졌다는 것도 놀라울 따름. 식민지와 폭력의 모습은 비슷한 핏빛이지만, 이에 대한 투쟁과 저항은 각기 다르게 치열하다.",
+			"나치한테 당해본 자들이 식민지를 지속하려는건 또 무슨 경우야?",
+			"극과 다큐멘터리 사이에서 줄타기를 잘 하는 영화입니다. 사건을 얘기하면서 어느 한 곳에 기대는 쉬운 선택을 하지 않습니다. 이야기의 구상과 구성 모두 뛰어나지만 촬영과 연출 역시 굉장합니다. 보여주려 하는 것과 하고자 하는 말의 힘이 상당히 강하게 느껴집니다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mWqxJB5",
+		"poster_palette": [
+			[
+				238,
+				218,
+				181,
+				0.392547607421875
+			],
+			[
+				43,
+				37,
+				34,
+				0.210296630859375
+			],
+			[
+				226,
+				183,
+				127,
+				0.2079925537109375
+			],
+			[
+				153,
+				107,
+				71,
+				0.116363525390625
+			],
+			[
+				109,
+				187,
+				136,
+				0.0727996826171875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			27,
+			9648,
+			53
+		],
+		"original_language": "en",
+		"original_title": "The Tall Man",
+		"overview": "산골 마을의 평범한 주부 줄리아는 마을 사람들로부터 아이들을 납치하는 의문의 사나이 톨 맨에 대해 듣게 된다. 그러나 톨 맨이 그녀의 아이를 납치하면서, 그녀는 톨 맨과의 사투를 시작하는데… (2012년 제16회 부천국제판타스틱영화제)",
+		"poster_path": "https://image.tmdb.org/t/p/original/alZmBCgel8EB4rrg5qHNEsMAGfM.jpg",
+		"release_date": "2012-03-19",
+		"title": "톨 맨",
+		"tmdb_vote_average": 6.004,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 86597,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/h3IDEwS7ifVaRUm2fYXp2g.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjA0WTJvNGVuQjBibkpsYWpKb2RIQnpZVGRxSW4wLkhOZ2FncWszRzlDQ012UlhSZURaZTFGWHlvMkkyNVR2aldYRnc5WkJnWVU",
+			"https://an2-img.amz.wtchn.net/image/v2/q739IN0uIfiWooWbw2cn6Q.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjB5Y1hkNmRDMDJOamN3TUNKOS5MT3dKaVFYNnQzX0dPdGgwZUxhTmZwVllvaXBCY19ZREpEeWFaaG16Mnlr",
+			"https://an2-img.amz.wtchn.net/image/v2/IBMPIGRQKfp6pZCOS5VNhQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjB5Y1hkNmRDMDJOalk1T0NKOS5pQjluNlF2aHpxanF5S1lHM1JLbmZBa2tUb0hlQ1RLcndwX3JJVldONmhv",
+			"https://an2-img.amz.wtchn.net/image/v2/I5bvyQoPF12ztrlkXbEKDQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjB5Y1hkNmRDMDJOalk1TnlKOS5neFgtQVp6TGFYUlhRdkNndERzWjNyNjd5SnhaZV8zNWFJZy1TQWd5czhr",
+			"https://an2-img.amz.wtchn.net/image/v2/MJHLGB5k6KoYdQN4QVIMuQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjB5Y1hkNmRDMDJOalk1TlNKOS44dkFDRFJXeWdYRjZLa242V3EzblZ5UWtHZXF1LVlTM2xub0RIU2o5X09B",
+			"https://an2-img.amz.wtchn.net/image/v2/M0qAtvKppiX2Plhlbm4chQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjB5Y1hkNmRDMDJOalk1TXlKOS5ReDVZbzJRdmpjaVB0dXpjX0hFMi10VnBFdXl0NGlEZmRLSEc2WVo5Q3Nn"
+		],
+		"video_url": null,
+		"reviews": [
+			"나름 메세지가 있는 작품인데 '마터스'감독의 작품이라기엔 너무 얌전해서 적응이 안된다.",
+			"그저 그런 공포영화가, 조델 퍼랜드가 자신을 톨맨에게 데려다 달라고 괴성을 지르는 순간 굉장한 문제의식을 던져주는 영화로 돌변한다.",
+			"포스터만 보고 판단하면 안 되는 영화.\n초중반만 보고 속단하면 안 되는 영화.",
+			"사라진 아이들이 살아있길 바라는 당연한 희망과 미스터리를 표방한 영화의 형식이 맞물리지 않는다.",
+			"혈연•지연을 끊게 만든 자본과 성장 시스템의 붕괴, 더 이상 방치할 수 없는 「잃어버린 아이들의 도시」, 이제 반전이라면, ‘M.나이트 샤말란’은 시들, ‘파스칼 로지에’는 산들.",
+			"처음에는 호러 스릴물인줄 알았으나 후반으로 갈수록 무엇이 올바른 것인지 생각하게 만드는 영화. 아이들의 성장배경에 있어 심리적 환경이 아님 물리적 환경이 중요한지. 과연 주인공의 헌신은 옳은 행동이었는지 등 고민하게 하는 좋은 영화였다. 그나저나 제시카비엘은 이런 영화류 자주 출현하네",
+			"납치범의 납치 이유가 납득이 안간다",
+			"영화의 첫장면부터 반전의 시작\n거듭되는 반전과 많은 복선이 깔려있으니 집중해야할 필요가 있음\n설정에서 몇 억지스러운 부분이 있지만 배우들의 연기력과 긴장감넘치는 연출, 진행호흡이 수준급의 완성도를 보임",
+			"착한 유괴에 관한 선명한 질문."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdKqD1W",
+		"poster_palette": [
+			[
+				8,
+				7,
+				7,
+				0.3889312744140625
+			],
+			[
+				51,
+				39,
+				41,
+				0.2711029052734375
+			],
+			[
+				77,
+				88,
+				92,
+				0.1458282470703125
+			],
+			[
+				141,
+				150,
+				152,
+				0.10870361328125
+			],
+			[
+				208,
+				210,
+				211,
+				0.0854339599609375
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			18
+		],
+		"original_language": "en",
+		"original_title": "Mudbound",
+		"overview": "제2차 세계대전 전후 미시시피, 세상이 흑과 백으로 나뉜 그곳. 흑인과 백인 두 가족은 잔혹한 현실을 마주한다. 편견과 농사일, 그리고 우정마저 고통이었던 아픔의 세월.",
+		"poster_path": "https://image.tmdb.org/t/p/original/tf21kSKepMOlnorszWaiFwksKU4.jpg",
+		"release_date": "2017-11-16",
+		"title": "치욕의 대지",
+		"tmdb_vote_average": 7.389,
+		"watch_providers": [
+			8
+		],
+		"movie_id": 414425,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/7ZZRmVD8GlhtG01BShTjwg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1JqYjIxd01uUmphamc0ZFc1MlpYZDNZbVIwSW4wLjV1UVQtRVBRa1RWODFtdUdjd0R1UnhXb2pqLWZsaHFFQ0hsMlRUa05vVjg",
+			"https://an2-img.amz.wtchn.net/image/v2/rhVIu-Q-QRo9SmJJCl69iw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMlZ5ZUdsb2JuQnJiWFZyWVROeGRuWnZiSEo2SW4wLlN5a0xxUjNqOVVIVHZ4b04zbUxfWW1jZDlYT003SDZvOEV2XzZJLU5kNWc",
+			"https://an2-img.amz.wtchn.net/image/v2/zkp8GI7O_ldqNN99eUYNKQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1p2ZVdKdmNHVndNM1ozYW5obGMyMHlibWhoSW4wLkFCTlEwUlAtQ2VTRTQ4ZVNIQVV1MFhudVA1dE5iLVE0c2FRNFc3WmRSZ1E"
+		],
+		"video_url": null,
+		"reviews": [
+			"로맨틱하진 않았지만 결혼하고 나서 그 남자가 그런 남자인 줄 몰랐다.\n매매에 무지하여 사기 당하고, 농장을 경영하며 흑인들을 무참히 무시하는 그런 남자. 그런 시아버지..\n 농장 속 그들의 태도는 너무 역겨웠다. 백인우월주의!  얼마나 미련하고 미련했던가. 조금의 친절에도 그렇게 감사해하는데.. 만약 그들과 이웃처럼 지냈떠라면 수확량이 훨씬더 많아지고, 그들 스스로도 더 행복했을 그런 삶이었는데...\n#20.3.29 (766)",
+			"치욕을 당했다면..사랑으로 되갚아준다는 사탕발린 개소리 겉치레 정답 집어치우고 we can do it too.\n속에서 끓어넘치는 분노를 원동력으로 방법은 정당하게 아래에서 위로 되갚아준다.",
+			"흙을 가꾸고 땅을 일군 손이 무색하게 대지에 뿌린 땀은 결국 이상한 열매가 되었다. 늙어 비틀어진 주인이 낄낄대며 웃는다. \"사내라면 제 손으로 몇 명이나 죽였는지 알고 있어야지. 난 한 명 이상이네. 이제 죽어도 여한이 없어.\" 인간이라면 기억할 테지. 치욕의 얼굴을. 얻어터져 튀어나온 눈과 불어 터진 입술이 아니라 자랑스레 웃던 늙은 노인의 그 얼굴을.",
+			"더럽혀진 백색의 민낯에도, 굳게 입을 다문 채 꿋꿋하게 지켜나가는 지조.",
+			"제목 그대로 침묵의 대지요 오욕의 땅이다.\n피부색으로 사람을 차별하는 백인들은\n신분으로 사람을 차별했던 우리나라 \n이른바 ‘양반’과도 같은 행태를 보인다.\n.\n백인들에게 흑인들은 정녕 사람이 아니다.\n어떤 피해를 준 것도 아니고, 그저 눈앞에서\n왔다갔다하는 것마저 불쾌해하며 개돼지\n쫓듯하는 백인우월주의가 참 어처구니가\n없다.\n.\n음으로 양으로 흑인들의 도움을 받으면서도\n곧죽어도 그들 위에 군림하려는 그들. \n하지만 세계 2차대전에 참전했던 햅의 아들\n론셀은 유럽에서는 그런 인종차별이 없음을\n경험했기에 그 상황을 받아들이기가 \n더욱 힘든 듯하다. \n.\n궁핍한 삶임에도 부부가 서로 의논하고 \n의지하며 가족사랑이 큰 흑인 햅네 집이지만,\n흑인을 경멸하고 혐오하고 증오하는 \n헨리네 집이 사실은 더 막장이다.\n헨리는 아내 로라도 복종시키려고만 하고\n헨리의 아버지는 극단적인 인종차별주의자로\n급기야는 론셀을 죽음의 경지에 이르게 만든다.\n그러니 작은아들에게 그런 몹쓸 짓을 당하지.\n.\n계급차별, 인종차별, 남녀차별 등 여러 \n문제를 짚고 있는 작품이다. \n만일 링컨 대통령이 노예해방선언을 하지\n않았더라면 그곳은 지금 어떤 악랄한 \n정글이 되어 있을까 하는 생각도 든다. \n노예해방선언을 하고도 꽤 오랫동안 \n억압에서 벗어나질 못했으니.\n.\n햅과 플로렌스는 아주 침착하고 지혜로운\n사람들로 나온다. 오히려 백인들보다 더\n기품마저 흐르는 그들이 단지 피부색이 \n다르다는 이유만으로 겪어야 했던 가혹한\n세월이 얼마나 원망스러웠을까.\n다행히 “우리 아이들은 내리지 않습니다”\n라는 말로 극심한 인종차별의 고리를 \n끊어내려는 의지가 햅에게서 엿보이긴 하지만.\n.\n백인들은 그 시절 자신들이 보였던 \n행태에 대해 조금이나마 수치심을 느낄까?\n미안한 마음은?",
+			"그린북이 판타지라면 치욕의 대지는 논픽션에 가까운 편.",
+			"진흙투성이의 그 곳.\n변함없는 인종차별의  시대.\n분노위에도 피어나는 희망",
+			"흑백 갈등사라는 묵직한 주제를 다루기 위해 모아 놓은 캐릭터들에 집중력만 흐트러진 산만한 연출.",
+			"보고나면 타란티노 장고 한대가 진하게 땡김..."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdEwryb",
+		"poster_palette": [
+			[
+				9,
+				12,
+				14,
+				0.3306121826171875
+			],
+			[
+				251,
+				251,
+				249,
+				0.197540283203125
+			],
+			[
+				58,
+				66,
+				60,
+				0.19134521484375
+			],
+			[
+				152,
+				186,
+				172,
+				0.143280029296875
+			],
+			[
+				118,
+				128,
+				115,
+				0.1372222900390625
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			16,
+			10402,
+			10751
+		],
+		"original_language": "en",
+		"original_title": "Melody Time",
+		"overview": "디즈니의 고전 뮤지컬 전통을 잇는 이 작품은 경쾌한 음악과 인상적인 캐릭터들로 가득한 7개의 이야기를 선보인다. 사랑받는 디즈니 캐릭터 도널드 덕은 ‘블레임 잇 온 더 삼바’에서 재즈풍의 익살스러운 노래를 부르고, ‘범블 부기’에서는 바쁜 호박벌이 음악에 도전하는 것을 보여준다. ‘리틀 투트’에서는 장난꾸러기 예인선이 등장하고, ‘조니 애플시드’와 ‘페코스 빌’에서는 전설과 신화에 나오는 영웅들이 등장한다. 눈과 귀가 호강하는 가운데 발을 구르고 손뼉을 치며 볼 수 있는 영화.",
+		"poster_path": "https://image.tmdb.org/t/p/original/pKR4iRyDdIX1T13z1Vs5jBERXni.jpg",
+		"release_date": "1948-05-27",
+		"title": "즐거운 음악시간",
+		"tmdb_vote_average": 6.2,
+		"watch_providers": [
+			337
+		],
+		"movie_id": 13757,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/-xlZQFMnJ3g1cVc53MgWkw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjB4WkRWMFlTMDFOREU0TVNKOS5Jc1Z5SkpIRThsRVFJUjJSS09qeU45WWFOdWVGZG5WXy1wZDdJZ0M4NnZr"
+		],
+		"video_url": null,
+		"reviews": [
+			"아주 어릴적 이걸 보았던 기억이 아직도 기억에 남는다.\n다시 보니 새롭게 새록새록..ㅎ 다시 기억에 새기며\n디즈니의 행복하고 예쁜 고전동화를 머릿속에 수놓는다.\n#20.4.27 (1031)",
+			"'디즈니' 하면 역시 음악.",
+			"수놓아진 아카펠라 위에 독창적인 음악의 시각화. 초창기 디즈니는 분명 제작자들이 마약을 한 게 아닐까 싶을 정도로 창의적이며 괴랄한 부분이 있다.",
+			"디즈니가 가장 순수했던 시대의 한 조각...",
+			"꿈처럼 빠져들고, 꿈처럼 휘발된다.\n\n페코스 빌 이야기가 가장 재밌고,\n조니 애플시드 이야기가 가장 맘에 든다.\n가장 매력적인 캐릭터는 <라틴 아메리카의 밤>에도 나왔던 브라질 앵무새, 조제 카리오카.\n\n+ 그래도 <환타지아>를 범접할 순 없을 것 같다.",
+			"40년대 중후반 디즈니에서 많이 냈던 단편 모음. 판타지아처럼 질이 높지도 3인의 기사처럼 막나가는 애니메이션에 눈이 돌아가지도 않고 오히려 40년대의 차별적 인식만 드러내는 무언가.",
+			"스토리가 약한 에피소드들이 상대적으로 많아졌다. 그래도 디즈니는 디즈니.",
+			"10개의 단편으로 구성된 2년 전 작품 '음악의 세계'보다는 7개의 단편으로 구성된 '멜로디 타임'이 집중하긴 더 낫다. 앵무새 조제 카리오카는 '라틴 아메리카의 밤'과 '3인의 기사'에 이어 여기서도 출연. 하지만 마지막 단편의 텍사스 카우보이 페코스 빌은 좀 그렇네."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mW97kBd",
+		"poster_palette": [
+			[
+				234,
+				233,
+				232,
+				0.4947967529296875
+			],
+			[
+				36,
+				97,
+				74,
+				0.1888275146484375
+			],
+			[
+				210,
+				87,
+				79,
+				0.130401611328125
+			],
+			[
+				242,
+				164,
+				20,
+				0.11077880859375
+			],
+			[
+				235,
+				212,
+				45,
+				0.0751953125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			35,
+			10749
+		],
+		"original_language": "en",
+		"original_title": "Fire Island",
+		"overview": "상징적인 파인스를 배경으로 하는 앤드루 안의 \"파이어 아일랜드\"는 현대적이자 다문화적인 시각으로 퀴어성과 로맨스를 다양하고 거침없이 표현했다. 제인 오스틴의 \"오만과 편견\"에 감화받아 제작된 이 시리즈는 절친 두 명(조엘 킴 부스터와 보언 양)이 값싼 와인과 다양한 지인들의 도움으로 끝내주는 여름 모험을 떠나는 이야기이다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/2vVUdYoqUX5rK8plxPGERGGjQLI.jpg",
+		"release_date": "2022-06-02",
+		"title": "파이어 아일랜드",
+		"tmdb_vote_average": 7.1,
+		"watch_providers": [
+			337
+		],
+		"movie_id": 846250,
+		"picture_url": null,
+		"video_url": null,
+		"reviews": [
+			"변주도 제대로 하면 장르가 된다.",
+			"감독님이 색깔을 많이 포기하시고 주류로 바꿔타기 하시려는 듯. 계속 스파나잇만 찍을 순 없는거니까…생각보다 재미있는데 대사가 좀 옛스럽다 한 20년쯤 전이라면 핫했을텐데. this close 만큼 날카롭지는 못하다.",
+			"수상택시 아저씨가 므훗하게 보고 있는 게 열라 웃기다고",
+			"'오만과 편견'의 현대식 변형 중에서는 '브리짓 존스의 일기' 이후 가장 잘 만든 작품이다. 파이어(Fyre 아니고 Fire) 아일랜드라는 공간부터 게이 커뮤니티의 휴양지인데, 노아와 윌의 주변인들은 모두 게이(에린도 레즈비언)이며, 이들 중 노아, 하위, 에린, 윌이 아시아계인 것도 색다르다. 콘래드 리카모라는 윌(다아시) 역에 딱 어울리네. 그리고 브리트니의 곡 Sometimes가 여기서 나오다니.",
+			"게이도 흥청망청하게 논다고!!",
+			"밀레니얼 게이 버전의 오만과 편견! 그것도 아주 충실한 어댑테이션으로 잘 녹여낸! 거기다 완벽하게 재현한 90년대 로맨틱코미디의 톤앤매너까지! 난 이런 영화를 평생 기다려왔던 것 같다. 작품성 어쩌고를 떠나서 나는 이 영화의 모든 요소를 즐길 수 있었고 그게 너무 행복해ㅠ\n고마워요, 조엘 킴 부스터! 고마워요, 앤드류 안!\n-\n게이 버전의 베스(하위)와 리지(노아)는 너무 거울을 보는 것 같았고ㅠㅠㅠㅠㅠ 게이 버전의 빙리 씨(찰리)는 너무 있을 법해서 드리미함이 떨어졌고ㅠㅠㅠ 게이 버전의 다아시 씨(윌)는ㅠㅠㅠㅠㅠ 눈물이 줄줄나게 핫했다ㅠㅠㅠ 사랑해, 콘래드 리카모라ㅠㅠㅠㅠ",
+			"로코 영화처럼 꿈 같은 이야기에 잘하고 싶은 것은 왜 항상 나쁘게만 흘러갈까 라는 현실적인 고민을 섞은 칵테일 같다. 달콤하면서 씁쓸한 게 꼭",
+			"청승맞은 이야기에 질릴 때쯤이면.\n\n나는 찰리가 하우위를 다정한 눈으로 바라볼 때부터 둘이 잘될 줄 알았다! 윌이 캐붕 아닌 캐붕을 일으킬 때부터는 재미가 좀 덜해졌지만 그래도 역시 뻔한 해피엔딩이 좋다. 사랑에 회의적이더라도 결국에는 환상을 먹고 사는 인간이니까.",
+			"숱한 퀴어 영화인들의 꿈이 실현된 기분\n- 2022 SPIFF"
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOopDpa",
+		"poster_palette": [
+			[
+				60,
+				34,
+				9,
+				0.27142333984375
+			],
+			[
+				184,
+				183,
+				152,
+				0.1893768310546875
+			],
+			[
+				176,
+				145,
+				96,
+				0.1867523193359375
+			],
+			[
+				150,
+				103,
+				57,
+				0.1826934814453125
+			],
+			[
+				107,
+				63,
+				26,
+				0.1697540283203125
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			37,
+			18,
+			53
+		],
+		"original_language": "en",
+		"original_title": "Slow West",
+		"overview": "19세기 서부개척시대의 현상금 사냥꾼 사일러스(마이클 패스벤더)는 숲에서 미국 원주민을 사냥하는 북부군으로부터 16살짜리 소년 제이(코디 스밋-맥피)를 구해준다. 제이는 아버지와 함께 서부로 떠난 여자친구 로즈(카렌 피스토리우스)를 만나기 위해 스코틀랜드에서부터 미 중서부인 콜로라도까지 머나먼 길을 혼자 찾아가던 중이다. 사일러스는 제이에게 돈을 좀 주면 여자친구에게 무사히 데려다 주겠다고 약속한다. 그러나 사실은 로즈와 그녀의 아버지에게 엄청난 현상금이 걸려 있고, 사일러스는 현상금을 차지하기 위해 제이를 이용하려고 하는데...",
+		"poster_path": "https://image.tmdb.org/t/p/original/gO3YM0aUcPQEc0Dd8UZEer8SHVV.jpg",
+		"release_date": "2015-05-15",
+		"title": "슬로우 웨스트",
+		"tmdb_vote_average": 6.692,
+		"watch_providers": [
+			97
+		],
+		"movie_id": 223485,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/roPooZF61P5cRz-wMRIUcA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnd4YTJ0cmJUVjRkR1JoWVhGbE5URnBjMkZ0SW4wLlhWbDc2WU1sWFJWeEtWY0dONHlmVTZXTUcwUGFvV2ZnaTdRUVJkN1R6cVE",
+			"https://an2-img.amz.wtchn.net/image/v2/UlEZJ73KM1Mda28Izadnog.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM040WVdOaVpXWmxkMkpoYURKNWVtVjZlSEkxSW4wLm93N1lfYlkxYl9fZkFld3BKNC10Z2dBQ3ZQUDVFUS1DUFRneHY4S1VPREU",
+			"https://an2-img.amz.wtchn.net/image/v2/R8AwNxv5F1UimpCErfmqug.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM0o0Ylc1a2RXbDRZMlY1Wld4d2RHaDFibVIxSW4wLjNXeDZXN2ZwR2ZhckstcGE3dmR0Qm92ay1NU3Y1bEN4TjhSRkM2bmFLZ2c",
+			"https://an2-img.amz.wtchn.net/image/v2/umpx8qOJu-b3x0esNd3vqg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnBvZW1kbGVIaHBNV05sTTI1cmVXbHROMjUwSW4wLmZqYm94LVFrMFlYMzB2dmN0S292OVVXRl9NMmpNSkZFUVBhdlNBTXJrOTQ",
+			"https://an2-img.amz.wtchn.net/image/v2/2GVzhyvbIhcMpcn2sEoMkQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjlqY0hsc2MycHplbU5wZURodU1XRjRhSE5tSW4wLlR2aXdkdnhVX3J3V3lUcmVLckVHMS1ZakN1YU84dlMxVVpqbzJiUU51MVk",
+			"https://an2-img.amz.wtchn.net/image/v2/xftA02wl4zsiXhl5vMjwqQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM1JoZDJwbloybHBkWFZyWVdka2JuTjJkbXB6SW4wLm9JRU01VWhpNkhqU1VKYkJDT0xfcWtQWmhMQW5YMmg4MXBoajUtSWlmMG8",
+			"https://an2-img.amz.wtchn.net/image/v2/O2Kx_qklz9k_6_hO1qKS2A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMjFsWlhwemQzQnVZM0ZqTVdSa2FEQmpiVEptSW4wLkR6Ym5NRjlNTk5JR1N2NzNYZWFTQjVnUWtvaE1RSGNyWnQ2ems4MjBMa2c",
+			"https://an2-img.amz.wtchn.net/image/v2/0dMKDfSHXoBUFkOxogY0qA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM2w2YVhGNmNHa3lkRFowTTNCM2JtSm5ibTl3SW4wLjFUX3JZbDBsWHVuR2IwNmRaSWFmTEg1Y1FDSnA4UklKOVNKOVY1elRueHc"
+		],
+		"video_url": [
+			"https://www.youtube.com/embed/fTYZEUBP5pg"
+		],
+		"reviews": [
+			"살의와 냉소로 가득한 서부를 선명하게 가로지르는 동화.",
+			"웨스턴판 <어린 왕자>. 올해 최고의 엔딩 후보",
+			"악인도 영웅도 없다 화려한 총솜씨도 없다. 느닷없이 날아오는 낯선 이의 은원없는 총탄처럼 엇갈리는 인생들만 있을 뿐",
+			"2천불로 저평가 된 명사수 로즈 너란 여자..",
+			"자신을 동생처럼 여겼던 여자를 사랑함은 갈겨진 살갗에 소금을 뿌리는 아픔이었으리라.",
+			"사랑은죽음처럼보편적인것이죠",
+			"하드보일드적 공간인 서부와 사랑을 찾아가는 소년, 동화같은 배경과 연속되는 죽음. 대비되는 장치들 속에서 유지되는 건조함. \n코엔형제의 더 브레이브와 이어보면 좋을 영화.",
+			"'낭만주의 웨스턴' 을 개척하다. 감독의 다음 행보가 기대된다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mdRLbKv",
+		"poster_palette": [
+			[
+				23,
+				77,
+				120,
+				0.3415374755859375
+			],
+			[
+				22,
+				36,
+				50,
+				0.255615234375
+			],
+			[
+				73,
+				125,
+				159,
+				0.224395751953125
+			],
+			[
+				131,
+				117,
+				84,
+				0.10870361328125
+			],
+			[
+				232,
+				234,
+				235,
+				0.0697479248046875
+			]
+		]
+	},
+	{
+		"genre_ids": [
+			80,
+			9648,
+			53
+		],
+		"original_language": "en",
+		"original_title": "The Killers",
+		"overview": "작은 마을의 주유소 직원인 피트가 살해를 당한다. 보험 회사 직원이 이 죽음을 파헤치면서 옛날 강도 사건의 진상이 드러난다는 내용이다. 보험 회사 직원인 리어든은 피트가 원래는 올리라는 권투 선수였다는 것을 알아내고, 그가 강도 사건의 일원이었다는 것도 밝혀낸다. 이 강도 사건에서 올리는 배신을 하고 돈을 다 가져왔는데, 거기엔 콜팩스라는 도둑이 연루되어있다. 그가 키티라는 여자를 조종해, 배신을 하게 만든 것이다. 그리고는 결국, 그 돈과 여자를 콜팩스 자신이 다가진 것이다. 그리고, 이것이 탄로 날까 두려워, 콜팩스가 킬러를 이용하여 올리를 죽였다는 사실을 마침내 리어든이 밝혀내게 된다.",
+		"poster_path": "https://image.tmdb.org/t/p/original/uXnuc6pW01s1MDwb6QwBWg2JQeX.jpg",
+		"release_date": "1946-08-30",
+		"title": "살인자들",
+		"tmdb_vote_average": 7.3,
+		"watch_providers": [
+			97,
+			356
+		],
+		"movie_id": 14638,
+		"picture_url": [
+			"https://an2-img.amz.wtchn.net/image/v2/onDOxeKuBkSISN9dM0Amlg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMmRvWWpOM09YcGpkV0ZrWnpWd1pHWjJkMjQxSW4wLk95OEppdDFxRUhCUVpNeTJ6Uzl0M2I5RENpWWZNa1hQbFhYQkpxWHBDRTQ",
+			"https://an2-img.amz.wtchn.net/image/v2/WG5HgXs7HIccyke_INuotw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMM0ZuYm5ObmIzaDNabkozWkhOeVl6ZHpkWGR4SW4wLmJENXFVcl8xdXNxbmhpUGFxVzR0TC1kcGRlTmFVRExRUE9JLXRib213LXc",
+			"https://an2-img.amz.wtchn.net/image/v2/pd3mNjqD7kINbRIPnbr_VQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk5qUXdlRE0yTUhFNE1DSmRMQ0p3SWpvaUwzWXhMMnN4TkdkMWVtaDVjMnB3Y0hCMWFYUmhjMngySW4wLjlHaXRldnRBdXJBckRHSHYxZ2p5NTdHVy1qN0h0NWJRVFA5Tk5hU0g4U1E"
+		],
+		"video_url": null,
+		"reviews": [
+			"돈에 얽힌 이중배반 필름 누아르\n#잃다",
+			"배신과 음모가 도사리는 필름누아르의 무대를 탐정이나 형사가 아니라 보험회사 직원에게 맡긴 게 흥미로웠다. 배신도, 죽음도, 해결도 모조리 돈 때문에 움직이는 셈. <이중 배상>의 영향인가 싶기도 한데, 아무튼 공허한 욕망의 장르(혹은 스타일)가 되곤 하는 필름누아르와 꽤 어울리는 자본적인 설정 같았다. 다만 (개인적으로 집중을 너무 못한 탓도 있지만) 이야기 자체는 그다지 흥미롭진 않았다. 한정된 공간에서 만드는 긴장감에서 미스터리한 죽음으로까지 이어지는 인상적인 오프닝에 비하면, 연이은 플래시백으로 진상에 다가서는 본론은 영 힘이 없어 보인다.",
+			"할리우드 황금기의 누아르 장르가 갖는 특징을 정석대로 선보인 점이 흠이지만, 그 요소들을 산만하지 않은 전개 아래 깔끔하게 정돈하는 데 성공한 점은 호평할 만하다. 정돈된 구성을 타협했다면 대단했을 뻔한 장면도 군데군데 위치하여 허투루 보기 어렵다.",
+			"범죄를 재구성한 이유와 살인의 동기가 같다는 지점이 흥미롭다.",
+			"헤밍웨이의 원작 그대로인 초반 15분이 하나의 단편영화라면 ★★★★★. 이후 <시민케인>식 탐문과 플래시백은 친절한 사족. 팜므파탈 에바 가드너, 매혹과 배신의 두 얼굴.",
+			"탄탄한 스토리와 연출이지만 내 흥미를 이끌어내진 못함",
+			"1. 식당 주인을 협박하는 킬러들. -노인을 위한 나라는 없다. 폭력의 역사에서 가게 주인을 협박하는 장면들의 기원이 아닐지.\n\n2. 회사 임금을 털어가는 장면에서의 원씬원컷 구성.",
+			"인간군상들에 화약냄새 진한 돈이 얽히고 얽혔을때 그 곳에 떨어진 눈부신 가시돋힌 장미꽃 한송이!! 초반부 식당씬으로 시선을 휘어잡고 이야기는 쌓이고 쌓여 후반부의 술집씬에서 누아르에 쾌감을 선사한다!!",
+			"높은 산이 깊은 계곡을 이루듯, 잔인한 배신은 고상한 품성을 전제한다."
+		],
+		"watchapedia": "https://pedia.watcha.com/ko-KR/contents/mOkKywO",
+		"poster_palette": [
+			[
+				4,
+				4,
+				4,
+				0.66815185546875
+			],
+			[
+				60,
+				44,
+				43,
+				0.100189208984375
+			],
+			[
+				240,
+				225,
+				224,
+				0.099090576171875
+			],
+			[
+				129,
+				93,
+				92,
+				0.0708770751953125
+			],
+			[
+				203,
+				158,
+				150,
+				0.0616912841796875
+			]
+		]
+	}
+]
