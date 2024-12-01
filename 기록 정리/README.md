@@ -39,13 +39,24 @@
 
     - BACK
         - Django
+        - Channel
+        - Web socket
+        - Daphne
 
     - FRONT
         - Vue 3
+        - Channel
+        - axios
+        - Web socket
+        - pinia
+        - router
 
     - API
+        - 자체제작 API ( TMDB + 왓챠피디아 크롤링 )
 
     - Data
+        - 감정사진 30만장
+        - 색채심리학 자료
 
     - Version Control
         - gitlab
@@ -55,7 +66,7 @@
         - Discord
         - MatterMost
 
-    - 배포
+    - 배포 ( 한다면 )
 
 - ERD
 
