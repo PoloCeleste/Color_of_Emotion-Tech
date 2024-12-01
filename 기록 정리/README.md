@@ -94,10 +94,15 @@
     - `라이브러리 링크`
 
 - 색상유사도
+    - `![alt text](image-3.png)`
     - CIELAB 기준 유사도를 판별
+    - [CIELAB 설명](https://ko.wikipedia.org/wiki/CIELAB_%EC%83%89_%EA%B3%B5%EA%B0%84#:~:text=Lab%20%EC%83%89%20%EA%B3%B5%EA%B0%84%EC%9D%80%20%EC%9D%B8%EA%B0%84,%ED%95%98%EB%8A%94%20%EC%98%81%EC%97%AD%EB%A7%8C%EC%9D%84%20%EB%B3%B4%EC%97%AC%EC%A3%BC%EB%8A%94%20%EA%B7%B8%EB%A6%BC)
     - CIE76으로 사용( 유클리드 거리를 기준으로 유사도 판별 )
     - 이후 정확도를 높이기 위해 CIE94( 가중치 )에서 CIEDE2000으로 변경
-    - `CIEDE2000 사진`
+
+    - `![alt text](image-2.png)`
+    - [Color Space](https://en.wikipedia.org/wiki/Color_space)
+    - [CIE dE 2000](https://techkonusa.com/demystifying-the-cie-%CE%B4e-2000-formula/)
     - 색상의 유사도를 파악하기 위해 비선형적으로 공간을 휘어 실제로 보았을 때 더욱 유사한 색감을 뽑아낼 수 있도록 함.
 
 
