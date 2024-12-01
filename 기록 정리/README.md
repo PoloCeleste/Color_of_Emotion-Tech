@@ -88,13 +88,24 @@
 기술
 
 - 데이터 수집
+- 데이터 수집
+
   - TMDB API
+
     - discover에서 popularity 순으로 정렬.
     - 한국에서 볼 수 있고, 국내 스트리밍 사업자에서 제공하는 영화로 한정.
     - tmdb상 평점 6점 이상, 투표수 200표 이상인 영화로 필터링.
     - 1페이지 당 20개의 영화가 있으며, 총 250페이지 가져왔고, 그 중 100페이지만 사용. -> 그 이후는 유의미하지 않다고 판단.
       2000개의 데이터를 넣었고, 중복 제외하고 1693개가 DB로 생성됨
-  - 셀레니움( 김주찬씨가 작성하십시오. )
+    - 이후 TMDB로 가져온 포스터로 색상 파레트 추출 실행 후 저장
+
+  - Selenium
+
+    - TMDB로 가져온 데이터에서 영화 제목과 상영 연도를 이용해 Watchapeida에서 검색 후 데이터 추출
+    - 리뷰 데이터와 스틸컷, 예고편 그리고 해당 영화 상세 페이지 주소를 추출 후 저장.
+    - TMDB가 제공한 영화 제목과 Watchapedia에 등록된 제목이 불일치 하거나 상영 연도 정보가 불일치 하는 경우 따로 데이터 저장하고 Watchapedia상의 올바른 정보로 수정하여 다시 추출
+    - 크롤링 중 에러 발생으로 몇 시간동안 수집한 데이터가 사라지는 불상사 발생 -> 각 페이지별로 정보 저장 후 추후에 모든 페이지를 합치는 방식으로 변경.
+
 - 감정분석 ( 딥러닝 + 알고리즘 )
 
   - AI 허브에서 가져온 사전 학습된 모델을 이용.
@@ -143,6 +154,7 @@
 - 적용
 
 감정 분석 방식
+
 # 실시간 감정 분석 시스템
 
 이 프로젝트는 실시간 영상에서 얼굴을 감지하고 감정을 분석하는 시스템입니다. WebSocket을 통해 클라이언트와 서버 간 실시간 통신을 구현하여 연속적인 감정 분석을 수행합니다.
@@ -176,7 +188,7 @@ class VideoStreamConsumer(AsyncWebsocketConsumer):
     async def receive(self, text_data):
         data = json.loads(text_data)
         message_type = data.get('type')
-        
+
         if message_type == 'start_analysis':
             # 분석 시작
         elif message_type == 'frame':
@@ -195,14 +207,14 @@ class VideoStreamConsumer(AsyncWebsocketConsumer):
 async def main(self, frame_data):
     # 이미지 디코딩
     frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-    
+
     # 얼굴 감지
     faces = face_classifier.detectMultiScale(gray, 1.3, 5)
-    
+
     for (x, y, w, h) in faces:
         # 얼굴 영역 추출 및 전처리
         roi_gray = cv2.resize(roi_gray, (48, 48), interpolation=cv2.INTER_AREA)
-        
+
         # 감정 분석
         tensor = self.emotion_model(roi)
         probs = F.softmax(tensor, dim=1).detach().numpy()[0] * 100
@@ -218,7 +230,7 @@ async def process_first_results(self, first_phase_data):
     df = pd.DataFrame(valid_data)
     df_filtered = remove_outliers_iqr(df)
     normalized_data = scaler.fit_transform(df_filtered)
-    
+
     # 평균 및 표준편차 계산
     normalized_means = df_normalized.mean()
     normalized_std = df_normalized.std()
@@ -235,13 +247,13 @@ async def process_final_results(self, first_analysis_result, second_analysis_res
     for emotion in class_labels:
         change = round(second_value - first_value, 2)
         emotion_changes[emotion] = change
-    
+
     # 통계적 유의성 검정
     t_statistic, p_value = stats.ttest_ind(
         first_analysis_result['raw_data'][emotion],
         second_analysis_result['raw_data'][emotion]
     )
-    
+
     # 주감정 및 부감정 선정
     sorted_emotions = sorted(emotion_scores.items(), key=lambda x: x[1], reverse=True)
     result['primary_emotion'] = {sorted_emotions[0][0]: sorted_emotions[0][1]}
