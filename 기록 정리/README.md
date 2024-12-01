@@ -49,14 +49,12 @@
   - BACK
 
     - Django
-    - Channel
-    - Web socket
+    - Channel ( Web socket )
     - Daphne
 
   - FRONT
 
     - Vue 3
-    - Channel
     - axios
     - Web socket
     - pinia
