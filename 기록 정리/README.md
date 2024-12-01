@@ -136,6 +136,129 @@
 
 - 적용
 
+감정 분석 방식
+# 실시간 감정 분석 시스템
+
+이 프로젝트는 실시간 영상에서 얼굴을 감지하고 감정을 분석하는 시스템입니다. WebSocket을 통해 클라이언트와 서버 간 실시간 통신을 구현하여 연속적인 감정 분석을 수행합니다.
+
+## 주요 기능
+
+### 1. 모델 및 분류기 로딩
+
+```python
+def load_model():
+    global model, face_classifier
+    face_classifier = cv2.CascadeClassifier(pth.join(getcwd(), assets,'face_classifier.xml'))
+    if torch.cuda.is_available():
+        device = 'cuda'
+    else:
+        device = 'cpu'
+    model_state = torch.load(pth.join(getcwd(), assets, 'model.pth'), map_location=torch.device(device), weights_only=True)
+    model = getModel('emotionnet', True)
+    model.load_state_dict(model_state['model'])
+```
+
+이 함수는 얼굴 감지를 위한 Haar Cascade 분류기와 감정 분석을 위한 딥러닝 모델을 로드합니다. GPU 사용 가능 여부를 확인하고 적절한 장치에 모델을 로드합니다.
+
+### 2. WebSocket 연결 및 메시지 처리
+
+```python
+class VideoStreamConsumer(AsyncWebsocketConsumer):
+    async def connect(self):
+        await self.accept()
+
+    async def receive(self, text_data):
+        data = json.loads(text_data)
+        message_type = data.get('type')
+        
+        if message_type == 'start_analysis':
+            # 분석 시작
+        elif message_type == 'frame':
+            # 프레임 처리
+        elif message_type == 'second_phase':
+            # 두 번째 단계 시작
+        elif message_type == 'stop_analysis':
+            # 분석 종료 및 결과 전송
+```
+
+이 클래스는 WebSocket 연결을 관리하고 클라이언트로부터 받은 메시지를 처리합니다. 분석 시작, 프레임 처리, 두 번째 단계 시작, 분석 종료 등 다양한 메시지 유형을 처리합니다.
+
+### 3. 실시간 얼굴 감지 및 감정 분석
+
+```python
+async def main(self, frame_data):
+    # 이미지 디코딩
+    frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+    
+    # 얼굴 감지
+    faces = face_classifier.detectMultiScale(gray, 1.3, 5)
+    
+    for (x, y, w, h) in faces:
+        # 얼굴 영역 추출 및 전처리
+        roi_gray = cv2.resize(roi_gray, (48, 48), interpolation=cv2.INTER_AREA)
+        
+        # 감정 분석
+        tensor = self.emotion_model(roi)
+        probs = F.softmax(tensor, dim=1).detach().numpy()[0] * 100
+```
+
+이 함수는 클라이언트로부터 받은 프레임에서 얼굴을 감지하고 감정을 분석합니다. 얼굴 영역을 추출하여 전처리한 후, 미리 로드된 감정 분석 모델을 사용하여 각 감정의 확률을 계산합니다.
+
+### 4. 데이터 정규화 및 통계 분석
+
+```python
+async def process_first_results(self, first_phase_data):
+    # 데이터 필터링 및 정규화
+    df = pd.DataFrame(valid_data)
+    df_filtered = remove_outliers_iqr(df)
+    normalized_data = scaler.fit_transform(df_filtered)
+    
+    # 평균 및 표준편차 계산
+    normalized_means = df_normalized.mean()
+    normalized_std = df_normalized.std()
+```
+
+이 함수는 첫 번째 분석 단계의 데이터를 처리합니다. 이상치를 제거하고 RobustScaler를 사용하여 데이터를 정규화한 후, 각 감정에 대한 평균과 표준편차를 계산합니다.
+
+### 5. 최종 결과 분석
+
+```python
+async def process_final_results(self, first_analysis_result, second_analysis_result):
+    # 감정 변화량 계산
+    emotion_changes = {}
+    for emotion in class_labels:
+        change = round(second_value - first_value, 2)
+        emotion_changes[emotion] = change
+    
+    # 통계적 유의성 검정
+    t_statistic, p_value = stats.ttest_ind(
+        first_analysis_result['raw_data'][emotion],
+        second_analysis_result['raw_data'][emotion]
+    )
+    
+    # 주감정 및 부감정 선정
+    sorted_emotions = sorted(emotion_scores.items(), key=lambda x: x[1], reverse=True)
+    result['primary_emotion'] = {sorted_emotions[0][0]: sorted_emotions[0][1]}
+```
+
+이 함수는 첫 번째와 두 번째 분석 단계의 결과를 비교하여 최종 분석 결과를 생성합니다. 각 감정의 변화량을 계산하고, 통계적 유의성을 검정하며, 주감정과 부감정을 선정합니다.
+
+## 작동 원리
+
+1. 클라이언트가 WebSocket 연결을 통해 서버에 연결합니다.
+2. 클라이언트가 영상 프레임을 서버로 전송합니다.
+3. 서버는 각 프레임에서 얼굴을 감지하고 감정을 분석합니다.
+4. 분석 결과는 두 단계로 나누어 처리됩니다:
+   - 첫 번째 단계: 기준 감정 상태를 설정합니다.
+   - 두 번째 단계: 감정 변화를 측정합니다.
+5. 각 단계의 데이터는 정규화되고 통계적으로 분석됩니다.
+6. 최종 결과에서는 감정 변화량, 통계적 유의성, 주감정 및 부감정을 판단합니다.
+
+이 시스템은 실시간으로 사용자의 감정 변화를 추적하고 분석할 수 있어, 다양한 응용 분야에서 활용될 수 있습니다.
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/39359080/122719dc-f260-4a46-8d6b-35257193f266/paste.txt
+
 색상 처리 방식
 
 RGB에서 LAB 색공간으로 변환
