@@ -3,6 +3,7 @@
 12기 1학기 최종 관통 프로젝트
 
 개발 배경
+
 1. 영화를 볼거야. 근데 뭘 볼지 모르겠어. OR
 2. 고르는데 한 세월이야. 빨리 정하고 봐야되는데? OR
 3. 당사자의 현재 감정이 영화를 고르는데 중요한 지표가 된다 `자료1` 이렇게 고른 영화는 만족도를 올려준다. -> 근거가 필요하다.
@@ -31,16 +32,9 @@
 
 개요
 
-- 수상 내역
-
-  - 시발.
-
 - 프로젝트 진행 기간
 
-  - 사전준비 기간은 뺄까? ( 빼는 게 좋긴 함 )
   - 24.11.18(월) - 24.11.26(화) / 9일간 진행.
-
-  - 배포 할거면 하는 기간 추가
 
 - 프로젝트 팀
 
@@ -56,20 +50,20 @@
   - BACK
 
     - Django
-    - Channel ( Web socket )
-    - Daphne
+      - Channel ( Web socket )
+      - Daphne
 
   - FRONT
 
     - Vue 3
-    - axios
-    - Web socket
-    - pinia
-    - router
+      - axios
+      - Web socket
+      - pinia
+      - router
 
   - API
 
-    - 자체제작 API ( TMDB + 왓챠피디아 크롤링 )
+    - 자체제작 API ( TMDB API + 왓챠피디아 크롤링 )
 
   - Data
 
@@ -93,6 +87,7 @@
   ![alt text](movie_erd_crow.png)
 
 기술
+
 - 웹 소켓 (web socket)
 
 - 데이터 수집
